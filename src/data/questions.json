@@ -1,0 +1,36 @@
+{
+  "ice-cream": {
+    "text": "What is your favorite ice cream flavor?",
+    "choices": {
+      "1": {
+        "text": "Chocolate",
+        "score": 10
+      },
+      "2": {
+        "text": "Vanilla",
+        "score": 5
+      },
+      "3": {
+        "text": "Strawberry",
+        "score": 0
+      }
+    }
+  },
+  "disney": {
+    "text": "What is your favorite Disney movie?",
+    "choices": {
+      "1": {
+        "text": "Aladdin",
+        "score": 10
+      },
+      "2": {
+        "text": "Lion King",
+        "score": 5
+      },
+      "3": {
+        "text": "Frozen",
+        "score": 0
+      }
+    }
+  }
+}
