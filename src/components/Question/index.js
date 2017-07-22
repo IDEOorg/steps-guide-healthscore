@@ -5,7 +5,7 @@ import './index.less';
 const Question = (props) => {
   let choices = props.choices.map((choice) => {
     return (
-      <div key={choice.id}>
+      <div key={choice.id} onClick={() => props.onAnswer(choice)}>
         {choice.text}
       </div>
     );
@@ -26,6 +26,7 @@ Question.propTypes = {
   text: PropTypes.string.isRequired,
   position: PropTypes.number.isRequired,
   total: PropTypes.number.isRequired,
+  onAnswer: PropTypes.func,
   choices: PropTypes.arrayOf(PropTypes.shape({
     id: PropTypes.string.isRequired,
     text: PropTypes.string.isRequired,

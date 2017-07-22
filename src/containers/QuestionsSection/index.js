@@ -4,6 +4,7 @@ import { connect } from 'react-redux';
 // import { push } from 'react-router-redux';
 import './index.less';
 import Question from '../../components/Question';
+import { selectAnswer } from '../../store/selectedAnswers/selectedAnswers';
 
 const QuestionsSection = (props) => {
   const questions = props.questions.map((question, index) => {
@@ -15,6 +16,7 @@ const QuestionsSection = (props) => {
         choices={question.choices}
         position={index + 1}
         total={props.questions.length}
+        onAnswer={answer => props.onSelect({question, answer})}
         />
     );
   });
@@ -34,14 +36,15 @@ function mapStateToProps(state) {
   };
 }
 
-function mapDispatchToProps(/* dispatch */) {
+function mapDispatchToProps(dispatch) {
   return {
     onSubmit: () => {
       console.log("Go to results");
       // validate form
       // dispatch(generateResults(url));
       // dispatch(push('/results'));
-    }
+    },
+    onSelect: ({question, answer}) => dispatch(selectAnswer({question, answer}))
   };
 }
 

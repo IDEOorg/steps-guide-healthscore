@@ -15,7 +15,8 @@ const initialState = {
         };
       })
     };
-  })
+  }),
+  selectedAnswers: []
 };
 
 export default initialState;
