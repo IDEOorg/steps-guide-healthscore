@@ -1,6 +1,7 @@
 import React from 'react';
 import './index.less';
 import QuestionsSection from '../QuestionsSection';
+import Score from '../Score';
 
 const introImg = require('../../assets/health-score.svg');
 
@@ -8,7 +9,10 @@ const QuestionsPage = () => {
   return (
     <div className="main_page">
       <div className="intro_main_section">
-        <img className="intro_image" src={introImg}/>
+        <div className="score_container">
+          <Score />
+          <img className="intro_image" src={introImg}/>
+        </div>
         <div className="intro_main_intro">
           <h1 className="intro_headline">
             How do I improve my financial health?

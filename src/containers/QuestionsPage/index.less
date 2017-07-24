@@ -28,20 +28,38 @@
   align-content: center;
 }
 
-.intro_image {
-  display: block;
+.score_container {
+  position: relative;
   margin: 0 auto;
+
   .desktop({
     height: auto;
     padding-top: 5em;
     padding-bottom: 1.75em;
   });
+
   .mobile({
     height: auto;
     padding-top: 2.375em;
     padding-bottom: 1.5625em;
     order: 1;
   });
+
+  .score {
+    display: block;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding-top: 38%;
+  }
+
+  .score__digit {
+    display: inline-block;
+    width: 47px;
+    line-height: 1;
+    font-size: 32px;
+  }
 }
 
 .intro_main_intro {
