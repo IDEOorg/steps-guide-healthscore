@@ -18,7 +18,7 @@ const QuestionsPage = () => {
             How do I improve my financial health?
           </h1>
           <p className="intro_tagline">
-            Lorem ipsum dolor sit amet...
+            The financial health calculator examines your money habits (spending, saving, borrowing, planning) to help you identify and prioritize the best steps to improve your financial well-being.
           </p>
         </div>
       </div>
