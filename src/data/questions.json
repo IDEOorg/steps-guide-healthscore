@@ -1,36 +1,87 @@
 {
-  "ice-cream": {
-    "text": "What is your favorite ice cream flavor?",
-    "choices": {
-      "1": {
-        "text": "Chocolate",
-        "score": 10
-      },
-      "2": {
-        "text": "Vanilla",
-        "score": 5
-      },
-      "3": {
-        "text": "Strawberry",
-        "score": 0
-      }
-    }
+  "expenses": {
+    "id": "expenses",
+    "text": "Does your monthly income cover your living expenses?",
+    "description": "Living expenses include essential day-to-day needs such as housing, food, transportation, insurance, utilities, child care, loan and credit card payments.",
+    "choices": [
+      "5ba48cea-f0dc-4cea-9dab-e1ae9b92f1fb",
+      "275a81b3-6d54-485e-8849-bf5fe1f078b2",
+      "27ca2711-bdf6-456d-b76b-61022ba6d35c"
+    ]
   },
-  "disney": {
-    "text": "What is your favorite Disney movie?",
-    "choices": {
-      "1": {
-        "text": "Aladdin",
-        "score": 10
-      },
-      "2": {
-        "text": "Lion King",
-        "score": 5
-      },
-      "3": {
-        "text": "Frozen",
-        "score": 0
-      }
-    }
+  "bills": {
+    "id": "bills",
+    "text": "How well do you keep up with your monthly bill payments?",
+    "description": "Bills are considered late once 30 days past the due date.",
+    "choices": [
+      "9f73a05a-0bb5-42cd-a87e-d381c2a7ce45",
+      "87782574-3915-46f2-81e3-28461bd2b471",
+      "c3b13ae9-6370-459d-acf2-40f26e2d941a"
+    ]
+  },
+  "credit-cards": {
+    "id": "credit-cards",
+    "text": "How frequently do you pay off your monthly credit card bill? ",
+    "choices": [
+      "51a5cfa4-7a9f-46d7-bae4-b8df60239da9",
+      "ea730daf-6ed0-4f1d-b84d-ad0fafd9b8bc",
+      "054eb73f-c36b-4665-9353-7d8319245046"
+    ]
+  },
+  "emergencies": {
+    "id": "emergencies",
+    "text": "How long will your emergency savings cover your living expenses?",
+    "choices": [
+      "b3e2468e-76c7-4195-9aa0-2cd4c17255b0",
+      "a3262523-6093-4d8b-9dbc-504110e1d293",
+      "9f6b37e0-a122-40ba-8b9a-68c6ec85026d",
+      "1302a88f-d91a-4ce2-94d7-200555a0b86b",
+      "125c5c3e-acbd-492e-ac1f-821240e77872",
+      "e8dd5793-5143-46a5-9535-3f1a0e44e254"
+    ]
+  },
+  "retirement": {
+    "id": "retirement",
+    "text": "Are you saving for retirement?",
+    "description": "A sufficient retirement fund is considered to be 70% of your income.",
+    "choices": [
+      "89403ab8-0b1d-448c-ae3a-c507247739b2",
+      "67917261-975b-41e6-9b85-9cd8bb5b24e6",
+      "819e05cf-fa44-484f-b9be-a21945480055",
+      "c7be7f18-7ecc-4af7-8b1d-d4686dc0edb2"
+    ]
+  },
+  "debt": {
+    "id": "debt",
+    "text": "What role does your debt play in making other financial decisions in your life?",
+    "description": "Financial decisions can range from choosing to dine out, shop, plan vacations, to renting an apartment or buying a house and searching for a job.",
+    "choices": [
+      "3d6bb1ee-a0f3-4af7-a7aa-cdfd1feaa897",
+      "f0c6236b-bafb-482c-afe6-ec7f8ba3cc27",
+      "608ca5f6-12a5-4373-9e15-9b738a31e8d3",
+      "89bf8275-3730-48fb-9f7f-d790e1853e2c"
+    ]
+  },
+  "credit-score": {
+    "id": "credit-score",
+    "text": "What is your credit score?",
+    "description": "Based on the 300 to 850 FICO or the VantageScore scale.",
+    "choices": [
+      "078f9171-0a16-46fa-9058-b7025bc04bee",
+      "539b01a0-1746-4ca5-b8c9-bb3a2917a95f",
+      "b88a04c1-eef5-4303-8086-6b42a544b055",
+      "5b8e85b8-81db-4e64-af6f-63803c54c608",
+      "5a9b66fb-1acd-44c9-80b3-e2f548e38e4b"
+    ]
+  },
+  "insurance": {
+    "id": "insurance",
+    "text": "Do you have insurance to protect you in case of emergencies?",
+    "description": "Insurance includes health, homeowners or renters, disability, automotive, etc.",
+    "choices": [
+      "7bf057bd-df04-45a0-a6ed-734029ee2ccb",
+      "fa28bbb3-8f68-44c6-a2e3-8115911b2eb2",
+      "90c5a987-d8e5-4c3c-a5b8-1e723be2058d"
+    ]
   }
 }

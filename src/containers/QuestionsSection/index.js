@@ -7,17 +7,19 @@ import Question from '../../components/Question';
 import { selectAnswer } from '../../store/selectedAnswers/selectedAnswers';
 
 const QuestionsSection = (props) => {
-  const questions = props.questions.map((question, index) => {
+  const questions = Object.keys(props.questions).map((id, index) => {
+    const question = props.questions[id];
+    const choices = question.choices.map(id => props.choices[id]);
     const answers = props.selectedAnswers.filter(answer => answer.questionId === question.id);
     return (
       <Question
         key={question.id}
         id={question.id}
         text={question.text}
-        choices={question.choices}
+        choices={choices}
         answers={answers}
         position={index + 1}
-        total={props.questions.length}
+        total={Object.keys(props.questions).length}
         onAnswer={choice => props.onSelect({question, choice})}
         />
     );
@@ -36,6 +38,7 @@ const QuestionsSection = (props) => {
 
 function mapStateToProps(state) {
   return {
+    choices: state.choices,
     questions: state.questions,
     selectedAnswers: state.selectedAnswers
   };
@@ -59,7 +62,8 @@ export default connect(
 )(QuestionsSection);
 
 QuestionsSection.propTypes = {
-  questions: PropTypes.array.isRequired,
+  choices: PropTypes.object.isRequired,
+  questions: PropTypes.object.isRequired,
   selectedAnswers: PropTypes.array.isRequired
 };
 

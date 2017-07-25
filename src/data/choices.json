@@ -1,0 +1,219 @@
+{
+  "5ba48cea-f0dc-4cea-9dab-e1ae9b92f1fb": {
+    "id": "5ba48cea-f0dc-4cea-9dab-e1ae9b92f1fb",
+    "questionId": "expenses",
+    "text": "Yes, with money remaining.",
+    "score": 20,
+    "rank": "good"
+  },
+  "275a81b3-6d54-485e-8849-bf5fe1f078b2": {
+    "id": "275a81b3-6d54-485e-8849-bf5fe1f078b2",
+    "questionId": "expenses",
+    "text": "Yes, but with no money remaining.",
+    "score": 10,
+    "rank": "ok"
+  },
+  "27ca2711-bdf6-456d-b76b-61022ba6d35c": {
+    "id": "27ca2711-bdf6-456d-b76b-61022ba6d35c",
+    "questionId": "expenses",
+    "text": "No, my income does not cover my living expenses.",
+    "score": 0,
+    "rank": "bad"
+  },
+  "9f73a05a-0bb5-42cd-a87e-d381c2a7ce45": {
+    "id": "9f73a05a-0bb5-42cd-a87e-d381c2a7ce45",
+    "questionId": "bills",
+    "text": "No bills or very few bills are paid on time",
+    "score": 0,
+    "rank": "bad"
+  },
+  "87782574-3915-46f2-81e3-28461bd2b471": {
+    "id": "87782574-3915-46f2-81e3-28461bd2b471",
+    "questionId": "bills",
+    "text": "Most bills are paid on time",
+    "score": 6,
+    "rank": "ok"
+  },
+  "c3b13ae9-6370-459d-acf2-40f26e2d941a": {
+    "id": "c3b13ae9-6370-459d-acf2-40f26e2d941a",
+    "questionId": "bills",
+    "text": "All bills are paid on time",
+    "score": 10,
+    "rank": "good"
+  },
+  "51a5cfa4-7a9f-46d7-bae4-b8df60239da9": {
+    "id": "51a5cfa4-7a9f-46d7-bae4-b8df60239da9",
+    "questionId": "credit-cards",
+    "text": "I always make my credit card payments in full",
+    "score": 10,
+    "rank": "good"
+  },
+  "ea730daf-6ed0-4f1d-b84d-ad0fafd9b8bc": {
+    "id": "ea730daf-6ed0-4f1d-b84d-ad0fafd9b8bc",
+    "questionId": "credit-cards",
+    "text": "I make most of my credit card payments in full",
+    "score": 6,
+    "rank": "ok"
+  },
+  "054eb73f-c36b-4665-9353-7d8319245046": {
+    "id": "054eb73f-c36b-4665-9353-7d8319245046",
+    "questionId": "credit-cards",
+    "text": "I am unable to make most my credit card payments in full",
+    "score": 0,
+    "rank": "bad"
+  },
+  "b3e2468e-76c7-4195-9aa0-2cd4c17255b0": {
+    "id": "b3e2468e-76c7-4195-9aa0-2cd4c17255b0",
+    "questionId": "emergencies",
+    "text": "Less than 1 week",
+    "score": 3,
+    "rank": "bad"
+  },
+  "a3262523-6093-4d8b-9dbc-504110e1d293": {
+    "id": "a3262523-6093-4d8b-9dbc-504110e1d293",
+    "questionId": "emergencies",
+    "text": "1 to 2 Weeks",
+    "score": 6,
+    "rank": "bad"
+  },
+  "9f6b37e0-a122-40ba-8b9a-68c6ec85026d": {
+    "id": "9f6b37e0-a122-40ba-8b9a-68c6ec85026d",
+    "questionId": "emergencies",
+    "text": "3 Weeks",
+    "score": 8,
+    "rank": "ok"
+  },
+  "1302a88f-d91a-4ce2-94d7-200555a0b86b": {
+    "id": "1302a88f-d91a-4ce2-94d7-200555a0b86b",
+    "questionId": "emergencies",
+    "text": "1 Month",
+    "score": 10,
+    "rank": "ok"
+  },
+  "125c5c3e-acbd-492e-ac1f-821240e77872": {
+    "id": "125c5c3e-acbd-492e-ac1f-821240e77872",
+    "questionId": "emergencies",
+    "text": "2 Months",
+    "score": 13,
+    "rank": "good"
+  },
+  "e8dd5793-5143-46a5-9535-3f1a0e44e254": {
+    "id": "e8dd5793-5143-46a5-9535-3f1a0e44e254",
+    "questionId": "emergencies",
+    "text": "3 Months or more",
+    "score": 15,
+    "rank": "good"
+  },
+  "89403ab8-0b1d-448c-ae3a-c507247739b2": {
+    "id": "89403ab8-0b1d-448c-ae3a-c507247739b2",
+    "questionId": "retirement",
+    "text": "Yes, I am saving enough to ensure a comfortable retirement.",
+    "score": 15,
+    "rank": "good"
+  },
+  "67917261-975b-41e6-9b85-9cd8bb5b24e6": {
+    "id": "67917261-975b-41e6-9b85-9cd8bb5b24e6",
+    "questionId": "retirement",
+    "text": "Yes, but I am not sure it is enough for a comfortable retirement.",
+    "score": 10,
+    "rank": "ok"
+  },
+  "819e05cf-fa44-484f-b9be-a21945480055": {
+    "id": "819e05cf-fa44-484f-b9be-a21945480055",
+    "questionId": "retirement",
+    "text": "No, I am not saving for retirement.",
+    "score": 0,
+    "rank": "bad"
+  },
+  "c7be7f18-7ecc-4af7-8b1d-d4686dc0edb2": {
+    "id": "c7be7f18-7ecc-4af7-8b1d-d4686dc0edb2",
+    "questionId": "retirement",
+    "text": "I am currently retired.",
+    "score": 15,
+    "rank": "good"
+  },
+  "3d6bb1ee-a0f3-4af7-a7aa-cdfd1feaa897": {
+    "id": "3d6bb1ee-a0f3-4af7-a7aa-cdfd1feaa897",
+    "questionId": "debt",
+    "text": "My debt does not affect my financial decisions.",
+    "score": 10,
+    "rank": "good"
+  },
+  "f0c6236b-bafb-482c-afe6-ec7f8ba3cc27": {
+    "id": "f0c6236b-bafb-482c-afe6-ec7f8ba3cc27",
+    "questionId": "debt",
+    "text": "My debt affects some of my financial decisions.",
+    "score": 7,
+    "rank": "ok"
+  },
+  "608ca5f6-12a5-4373-9e15-9b738a31e8d3": {
+    "id": "608ca5f6-12a5-4373-9e15-9b738a31e8d3",
+    "questionId": "debt",
+    "text": "My debt affects all or almost all of my financial decisions.",
+    "score": 0,
+    "rank": "bad"
+  },
+  "89bf8275-3730-48fb-9f7f-d790e1853e2c": {
+    "id": "89bf8275-3730-48fb-9f7f-d790e1853e2c",
+    "questionId": "debt",
+    "text": "I do not have any debt.",
+    "score": 10,
+    "rank": "good"
+  },
+  "078f9171-0a16-46fa-9058-b7025bc04bee": {
+    "id": "078f9171-0a16-46fa-9058-b7025bc04bee",
+    "questionId": "credit-score",
+    "text": "629 & Below (Below Average)",
+    "score": 0,
+    "rank": "bad"
+  },
+  "539b01a0-1746-4ca5-b8c9-bb3a2917a95f": {
+    "id": "539b01a0-1746-4ca5-b8c9-bb3a2917a95f",
+    "questionId": "credit-score",
+    "text": "630 to 689 (Average)",
+    "score": 7,
+    "rank": "ok"
+  },
+  "b88a04c1-eef5-4303-8086-6b42a544b055": {
+    "id": "b88a04c1-eef5-4303-8086-6b42a544b055",
+    "questionId": "credit-score",
+    "text": "690 & Above (Good)",
+    "score": 10,
+    "rank": "good"
+  },
+  "5b8e85b8-81db-4e64-af6f-63803c54c608": {
+    "id": "5b8e85b8-81db-4e64-af6f-63803c54c608",
+    "questionId": "credit-score",
+    "text": "I do not know my credit score",
+    "score": 0,
+    "rank": "bad"
+  },
+  "5a9b66fb-1acd-44c9-80b3-e2f548e38e4b": {
+    "id": "5a9b66fb-1acd-44c9-80b3-e2f548e38e4b",
+    "questionId": "credit-score",
+    "text": "I prefer not to share",
+    "score": 0,
+    "rank": "bad"
+  },
+  "7bf057bd-df04-45a0-a6ed-734029ee2ccb": {
+    "id": "7bf057bd-df04-45a0-a6ed-734029ee2ccb",
+    "questionId": "insurance",
+    "text": "Yes, I am fully protected.",
+    "score": 10,
+    "rank": "good"
+  },
+  "fa28bbb3-8f68-44c6-a2e3-8115911b2eb2": {
+    "id": "fa28bbb3-8f68-44c6-a2e3-8115911b2eb2",
+    "questionId": "insurance",
+    "text": "No, I am not protected.",
+    "score": 0,
+    "rank": "bad"
+  },
+  "90c5a987-d8e5-4c3c-a5b8-1e723be2058d": {
+    "id": "90c5a987-d8e5-4c3c-a5b8-1e723be2058d",
+    "questionId": "insurance",
+    "text": "I am protected against some financial emergencies.",
+    "score": 4,
+    "rank": "ok"
+  }
+}
