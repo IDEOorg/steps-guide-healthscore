@@ -8,22 +8,26 @@ import { selectAnswer } from '../../store/selectedAnswers/selectedAnswers';
 
 const QuestionsSection = (props) => {
   const questions = props.questions.map((question, index) => {
+    const answers = props.selectedAnswers.filter(answer => answer.questionId === question.id);
     return (
       <Question
         key={question.id}
         id={question.id}
         text={question.text}
         choices={question.choices}
+        answers={answers}
         position={index + 1}
         total={props.questions.length}
-        onAnswer={answer => props.onSelect({question, answer})}
+        onAnswer={choice => props.onSelect({question, choice})}
         />
     );
   });
   return (
     <div>
-      Answer these {props.questions.length} questions to figure out how to improve your financial health.
       <div className="questions_section">
+        <div className="prompt">
+          Answer these {props.questions.length} questions to figure out how to improve your financial health.
+        </div>
         {questions}
       </div>
     </div>
@@ -32,7 +36,8 @@ const QuestionsSection = (props) => {
 
 function mapStateToProps(state) {
   return {
-    questions: state.questions
+    questions: state.questions,
+    selectedAnswers: state.selectedAnswers
   };
 }
 
@@ -44,7 +49,7 @@ function mapDispatchToProps(dispatch) {
       // dispatch(generateResults(url));
       // dispatch(push('/results'));
     },
-    onSelect: ({question, answer}) => dispatch(selectAnswer({question, answer}))
+    onSelect: ({question, choice}) => dispatch(selectAnswer({question, choice}))
   };
 }
 
@@ -54,7 +59,8 @@ export default connect(
 )(QuestionsSection);
 
 QuestionsSection.propTypes = {
-  questions: PropTypes.array.isRequired
+  questions: PropTypes.array.isRequired,
+  selectedAnswers: PropTypes.array.isRequired
 };
 
 QuestionsSection.displayName = 'QuestionsSection';

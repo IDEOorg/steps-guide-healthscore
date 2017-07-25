@@ -1,11 +1,11 @@
 export const SELECT_ANSWER = 'SELECT_ANSWER';
 
-export function selectAnswer({question, answer}) {
+export function selectAnswer({question, choice}) {
   return {
     type: SELECT_ANSWER,
     payload: {
       question,
-      answer
+      choice
     }
   };
 }
@@ -20,8 +20,8 @@ const selectedAnswers = (state = [], action) => {
         ...filteredAnswers,
         {
           questionId: action.payload.question.id,
-          answerId: action.payload.answer.id,
-          score: action.payload.answer.score
+          choiceId: action.payload.choice.id,
+          score: action.payload.choice.score
         }
       ];
     }
