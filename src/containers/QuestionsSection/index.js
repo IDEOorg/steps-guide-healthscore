@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { push } from 'react-router-redux';
 import './index.less';
+import Button from '../../components/Button';
 import Question from '../../components/Question';
 import { selectAnswer } from '../../store/selectedAnswers/selectedAnswers';
 
@@ -34,7 +35,7 @@ const QuestionsSection = (props) => {
           Answer these {props.questions.length} questions to figure out how to improve your financial health.
         </div>
         {questions}
-        <a className="submit" onClick={props.onSubmit}>Show me my score</a>
+        <Button onClick={props.onSubmit} children="Show me my score" />
       </div>
     </div>
   );
