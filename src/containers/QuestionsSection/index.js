@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-// import { push } from 'react-router-redux';
+import { push } from 'react-router-redux';
 import './index.less';
 import Question from '../../components/Question';
 import { selectAnswer } from '../../store/selectedAnswers/selectedAnswers';
@@ -34,6 +34,7 @@ const QuestionsSection = (props) => {
           Answer these {props.questions.length} questions to figure out how to improve your financial health.
         </div>
         {questions}
+        <a className="submit" onClick={props.onSubmit}>Show me my score</a>
       </div>
     </div>
   );
@@ -50,10 +51,10 @@ function mapStateToProps(state) {
 function mapDispatchToProps(dispatch) {
   return {
     onSubmit: () => {
-      console.log("Go to results");
+      // console.log("Go to results");
       // validate form
       // dispatch(generateResults(url));
-      // dispatch(push('/results'));
+      dispatch(push('/results'));
     },
     onSelect: ({question, choice}) => dispatch(selectAnswer({question, choice}))
   };

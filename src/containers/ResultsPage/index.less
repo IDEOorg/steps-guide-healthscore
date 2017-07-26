@@ -1,0 +1,42 @@
+@import '../../globals/constants.less';
+@import '../../globals/responsive.less';
+
+.results_container {
+  width: 100%;
+  height: 100%;
+}
+
+.results_page {
+  width: 100%;
+  min-height: 100%;
+  .desktop({
+    display: flex;
+    height: 100%;
+    overflow-y: hidden;
+  });
+  .mobile({
+    background: #fcfdff;
+  });
+}
+
+.results_sidebar {
+  background: white;
+  width: 33.3333333333%;
+  height: 100%;
+  overflow-y: auto;
+  .desktop({
+    border-right: 1px solid @border-gray;
+  });
+}
+
+.results_section {
+  background: rgb(252,253,255);
+  width: 66.6666666667%;
+  height: 100%;
+  overflow-y: auto;
+
+  padding-bottom: 3%;
+  .desktop({
+    padding: 3%;
+  });
+}

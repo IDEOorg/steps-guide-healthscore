@@ -1,0 +1,42 @@
+@import '../../globals/constants.less';
+@import '../../globals/responsive.less';
+
+@result-bg: #f4f7fe;
+
+.result {
+  background-color: @result-bg;
+  border-radius: 4px;
+  overflow-y: hidden;
+  padding: 6%;
+  margin-bottom: 3%;
+  text-align: center;
+
+  &.result--bad {
+    background-color: #f9f1ef;
+    h2 {
+      color: #f65b23;
+    }
+  }
+
+  &.result--ok {
+    background-color: #faf7f0;
+    h2 {
+      color: #f6a623;
+    }
+  }
+
+  &.result--good {
+    background-color: #eef8f7;
+    h2 {
+      color: #18d789;
+    }
+  }
+
+
+  h2 {
+    font-size: 1.25em;
+    font-weight: 600;
+    line-height: 1.2;
+  }
+
+}
