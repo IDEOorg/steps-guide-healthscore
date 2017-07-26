@@ -27,10 +27,11 @@ const Result = (props) => {
 
   const references = (props.choice.result.references || []).map(ref => {
     return (
-      <div>
-        <div>{ref.title}</div>
+      <div key={ref.title}>
+        <div>
+          <a target="_blank" href={ref.link}><b>{ref.title}</b></a>
+        </div>
         <div>{ref.description}</div>
-        <div>{ref.link}</div>
       </div>
     );
   });
@@ -40,12 +41,10 @@ const Result = (props) => {
       <div className="result-meta">
         <p>{categorization}</p>
         <h2>{props.choice.result.title}</h2>
+        <p>Score: {props.choice.score}</p>
         <hr size="1" />
         <p>{props.choice.result.subtitle}</p>
         <hr size="1" />
-        <p>{props.question.position}</p>
-        <p>Result: {props.choice.rank}</p>
-        <p>Score: {props.choice.score}</p>
       </div>
       <div className="result-suggestions">
         {references}
