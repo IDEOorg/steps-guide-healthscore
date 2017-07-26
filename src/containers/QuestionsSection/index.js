@@ -7,23 +7,26 @@ import Question from '../../components/Question';
 import { selectAnswer } from '../../store/selectedAnswers/selectedAnswers';
 
 const QuestionsSection = (props) => {
-  const questions = Object.keys(props.questions).map((id, index) => {
-    const question = props.questions[id];
-    const choices = question.choices.map(id => props.choices[id]);
-    const answers = props.selectedAnswers.filter(answer => answer.questionId === question.id);
-    return (
-      <Question
-        key={question.id}
-        id={question.id}
-        text={question.text}
-        choices={choices}
-        answers={answers}
-        position={index + 1}
-        total={Object.keys(props.questions).length}
-        onAnswer={choice => props.onSelect({question, choice})}
-        />
-    );
-  });
+  const questions = Object.keys(props.questions)
+    .sort((a, b) => props.questions[a].position - props.questions[b].position)
+    .map((id) => {
+      const question = props.questions[id];
+      const choices = question.choices.map(id => props.choices[id]);
+      const answers = props.selectedAnswers.filter(answer => answer.questionId === question.id);
+      return (
+        <Question
+          key={question.id}
+          id={question.id}
+          text={question.text}
+          choices={choices}
+          answers={answers}
+          position={question.position}
+          total={Object.keys(props.questions).length}
+          onAnswer={choice => props.onSelect({question, choice})}
+          />
+      );
+    });
+
   return (
     <div>
       <div className="questions_section">
