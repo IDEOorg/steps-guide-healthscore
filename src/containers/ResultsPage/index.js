@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { push } from 'react-router-redux';
 import './index.less';
+import Link from '../../components/Link';
 import Result from '../../components/Result';
 import ScoreTicker from '../../components/ScoreTicker';
 
@@ -73,9 +74,7 @@ class ResultsPage extends Component {
             <h1 className="intro_headline" onClick={this.props.startOver}>
               What you should focus on
             </h1>
-            <p className="intro_tagline">
-              Back to questions
-            </p>
+            <Link onClick={this.props.startOver} children="Back to questions" />
           </div>
           <div className="results_section">
             <div className="result result--intro">
@@ -102,7 +101,6 @@ function mapStateToProps({choices, questions, selectedAnswers}) {
 function mapDispatchToProps(dispatch) {
   return {
     startOver: () => {
-      console.log("reset!");
       // TODO: dispatch(reset)
       dispatch(push('/'));
     }
