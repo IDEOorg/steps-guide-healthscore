@@ -32,7 +32,7 @@ const QuestionsSection = (props) => {
     <div>
       <div className="questions_section">
         <div className="prompt">
-          Answer these {props.questions.length} questions to figure out how to improve your financial health.
+          Answer these {props.questions.length} questions to get advice on how to improve your financial health.
         </div>
         {questions}
         <Button onClick={props.onSubmit} children="Show me my score" />

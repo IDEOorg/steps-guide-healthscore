@@ -25,7 +25,7 @@ const Question = (props) => {
     <div className="question">
       <div className="question-meta">
         <h2>{props.text}</h2>
-        <p>{props.position} of {props.total}</p>
+        <span className="question-position">{props.position} of {props.total}</span>
       </div>
       <div className="question-choices">
         {choices}
