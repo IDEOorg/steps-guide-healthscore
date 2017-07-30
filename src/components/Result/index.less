@@ -8,6 +8,7 @@
   padding: 6%;
   margin-bottom: 3%;
   text-align: center;
+  color: @text-color;
 
   &.result--bad {
     background-color: @result-bad-bg;
@@ -37,8 +38,72 @@
     line-height: 1.2;
   }
 
+  hr {
+    margin: 1.5em 0;
+    opacity: 0.3;
+  }
+
+}
+
+.result__meta {
+  p {
+    text-align: left;
+  }
 }
 
 .result-suggestions {
   text-align: left;
+}
+
+.suggestion {
+  .desktop({
+    display: flex;
+    });
+}
+
+.suggestion__icon {
+  .desktop({
+    width: 33.3333333%;
+  });
+  .mobile({
+    width: 100%;
+    margin-bottom: 2em;
+  });
+  img {
+    display: block;
+    margin: 0 auto;
+    .desktop({
+      transform: scale(0.8);
+    });
+  }
+}
+
+.suggestion-btn {
+  margin-top: 0.5em;
+}
+
+.suggestion-btn__text {
+  color: white;
+  font-size: 0.75em;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+}
+
+.suggestion__meta {
+  .desktop({
+    width: 66.6666667%;
+  });
+
+  h3 {
+    font-size: 1em;
+    font-weight: 600;
+    color: @text-color;
+    line-height: 1.25em;
+    margin-bottom: 0.1875em;
+  }
+
+}
+
+.result__subtext {
+  font-size: 12px;
 }

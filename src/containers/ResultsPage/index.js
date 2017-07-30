@@ -95,6 +95,21 @@ class ResultsPage extends Component {
     return 0;
   }
 
+  renderScoreResultItem () {
+    return (
+      <div className="result result--intro">
+        <ScoreTicker />
+        <h2>Your score</h2>
+        <div className="result__subtext">Out of 100</div>
+        <div className="result__meta">
+          <p>
+            <b>But it's what you do next that is more important.</b> Spending less than you earn and saving for emergencies and the future are the foundations of financial health. Good credit, less debt and financial security will follow.
+          </p>
+        </div>
+      </div>
+    );
+  }
+
   desktopResults (results) {
     // desktop
     let resultTabs = results.map((result, i) => {
@@ -114,7 +129,7 @@ class ResultsPage extends Component {
 
     resultTabs.unshift(<ResultTab
       selected={0 === this.state.selected}
-      title="Your Score"
+      title="Your score"
       rank="info"
       onSelect={() => {this.scrollOnSelect(0); this.toggleSelected(0);}}
     />);
@@ -143,9 +158,7 @@ class ResultsPage extends Component {
           ref={(resultsSection) => {this.resultsSection = resultsSection;}}
           onScroll={() => this.onScroll()}
         >
-          <div className="result result--intro">
-            <ScoreTicker />
-          </div>
+          {this.renderScoreResultItem()}
           {resultItems}
         </div>
       </div>
