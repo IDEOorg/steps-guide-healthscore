@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import './index.less';
+import classNames from 'classnames';
 
 import Button from '../Button';
 import UrlImage from '../UrlImage';
@@ -55,7 +56,12 @@ const Result = (props) => {
   });
 
   return (
-    <div className={`result result--${props.choice.rank}`}>
+    <div className={classNames( 'result',
+      `result--${props.choice.rank}`,
+      {
+        'result--unselected': !props.selected
+      }
+    )}>
       <div className="result__meta">
         <div className="result__subtext">{categorization}</div>
         <h2>{props.choice.result.title}</h2>
@@ -73,7 +79,8 @@ export default Result;
 
 Result.propTypes = {
   choice: PropTypes.object.isRequired,
-  question: PropTypes.object.isRequired
+  question: PropTypes.object.isRequired,
+  selected: PropTypes.bool
 };
 
 Result.displayName = 'Result';

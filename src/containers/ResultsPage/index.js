@@ -112,9 +112,12 @@ class ResultsPage extends Component {
 
   desktopResults (results) {
     // desktop
-    let resultTabs = results.map((result, i) => {
-      let id = i+1;
-      return (
+    let resultTabs = [];
+    let resultItems = [];
+    results.forEach((result, index) => {
+      let id = index+1;
+
+      resultTabs.push(
         <ResultTab
           key={result.choiceId}
           selected={id === this.state.selected}
@@ -125,6 +128,15 @@ class ResultsPage extends Component {
           onSelect={() => {this.scrollOnSelect(id); this.toggleSelected(id);}}
         />
       );
+
+      resultItems.push(
+        <Result
+          key={result.choiceId}
+          selected={id === this.state.selected}
+          choice={result.choice}
+          question={result.question}
+        />
+      );
     });
 
     resultTabs.unshift(<ResultTab
@@ -133,16 +145,6 @@ class ResultsPage extends Component {
       rank="info"
       onSelect={() => {this.scrollOnSelect(0); this.toggleSelected(0);}}
     />);
-
-    let resultItems = results.map(result => {
-      return (
-        <Result
-          key={result.choiceId}
-          choice={result.choice}
-          question={result.question}
-        />
-      );
-    });
 
     return (
       <div className="results_page">
