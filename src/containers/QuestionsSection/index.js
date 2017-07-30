@@ -19,6 +19,7 @@ const QuestionsSection = (props) => {
           key={question.id}
           id={question.id}
           text={question.text}
+          hint={question.description}
           choices={choices}
           answers={answers}
           position={question.position}

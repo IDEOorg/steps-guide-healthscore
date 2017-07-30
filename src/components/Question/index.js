@@ -24,7 +24,12 @@ const Question = (props) => {
   return (
     <div className="question">
       <div className="question-meta">
-        <h2>{props.text}</h2>
+        <div>
+          <h2>{props.text}</h2>
+          <div className="question-hint">
+            {props.hint}
+          </div>
+        </div>
         <span className="question-position">{props.position} of {props.total}</span>
       </div>
       <div className="question-choices">
@@ -39,6 +44,7 @@ export default Question;
 Question.propTypes = {
   id: PropTypes.string.isRequired,
   text: PropTypes.string.isRequired,
+  hint: PropTypes.string,
   position: PropTypes.number.isRequired,
   total: PropTypes.number.isRequired,
   onAnswer: PropTypes.func,
