@@ -20,7 +20,7 @@
   });
   .mobile({
     width: 100%;
-    padding-bottom: 1.5625em;
+    padding-bottom: 2.5em;
   });
   background: white;
   display: flex;
@@ -38,22 +38,38 @@
   });
 
   .mobile({
-    padding-top: 2.375em;
-    padding-bottom: 1.5625em;
+    padding-top: 4em;
+    padding-bottom: 2em;
     order: 1;
   });
+
+  .score_container {
+    .mobile({
+      width: 260px;
+    });
+    .score__image {
+      .mobile({
+        width: 100%;
+      });
+    }
+    .score__digit {
+      .mobile({
+        width: 80px;
+        font-size: 52px;
+      });
+    }
+  }
 }
 
 .intro_main_intro {
   margin: 0 auto;
+  text-align: center;
   .desktop({
     width: 70%;
-    text-align: center;
   });
   .mobile({
     order: 2;
     width: 90%;
-    text-align: left;
   });
 
   h1.intro_headline {
@@ -73,9 +89,10 @@
   .desktop({
     width: 66.66666666667%;
     overflow-y: auto;
+    padding-bottom: 3.5em;
   });
   .mobile({
     width: 100%;
+    border-top: 1px solid @border-gray;
   });
-  padding: 2.5em 0 3.5em 0;
 }

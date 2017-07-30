@@ -1,10 +1,8 @@
 @import '../../globals/constants.less';
 @import '../../globals/responsive.less';
 
-@question-bg: #f4f7ff;
-
 .question {
-  background: @question-bg;
+  background: @result-bg;
   border-radius: 4px;
   overflow-y: hidden;
   padding: 40px 30px;
@@ -14,21 +12,39 @@
   .desktop({
     display: flex;
     justify-content: center;
-    });
+  });
+
+  .mobile({
+    padding: 20px;
+    margin-bottom: 0;
+    border-bottom: 1px solid @border-gray;
+  });
 
   .question-meta {
-    width: 50%;
+    display: flex;
+    flex-direction: column;
+
     .desktop({
-      display: flex;
-      flex-direction: column;
       justify-content: space-between;
       padding-right: 20px;
+      width: 50%;
     });
 
     h2 {
       font-size: 1.25em;
       font-weight: 600;
       line-height: 1.2;
+      margin-bottom: 0.5em;
+      .mobile({
+        font-size: 1em;
+      });
+    }
+
+    > div:first-child {
+      .mobile({
+        order: 2;
+        padding: 1em 0;
+      });
     }
   }
 
@@ -42,10 +58,16 @@
     font-size: 12px;
     font-weight: 600;
     opacity: 0.5;
+    .mobile({
+      order: 1;
+      text-align: center;
+    });
   }
 
   .question-choices {
-    width: 50%;
+    .desktop({
+      width: 50%;
+    });
 
     .choice {
       border-radius: 4px;

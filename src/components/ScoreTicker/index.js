@@ -8,7 +8,7 @@ const ScoreTicker = () => {
   return (
     <div className="score_container">
       <Score />
-      <img className="intro_image" src={introImg}/>
+      <img className="score__image" src={introImg}/>
     </div>
   );
 };
