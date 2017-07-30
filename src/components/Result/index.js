@@ -6,22 +6,18 @@ const Result = (props) => {
   if (!props.choice || !props.choice.result) return <div></div>;
 
   let categorization = '';
-  let resultClassName = '';
 
   switch (props.choice.rank) {
     case 'good':
       categorization = 'Great job';
-      resultClassName = 'result--good';
       break;
 
     case 'ok':
       categorization = 'Needs Improvement';
-      resultClassName = 'result--ok';
       break;
 
     case 'bad':
       categorization = 'High Priority';
-      resultClassName = 'result--bad';
       break;
   }
 
@@ -37,7 +33,7 @@ const Result = (props) => {
   });
 
   return (
-    <div className={`result ${resultClassName}`}>
+    <div className={`result result--${props.choice.rank}`}>
       <div className="result-meta">
         <p>{categorization}</p>
         <h2>{props.choice.result.title}</h2>

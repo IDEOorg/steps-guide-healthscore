@@ -2,24 +2,67 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { push } from 'react-router-redux';
 import './index.less';
-import Link from '../../components/Link';
 import Result from '../../components/Result';
+import ResultsIntro from '../../components/ResultsIntro';
+import ResultTab from '../../components/ResultTab';
 import ScoreTicker from '../../components/ScoreTicker';
 
 class ResultsPage extends Component {
   constructor (props) {
     super(props);
+
+    this.state = {
+      selected: 0
+    };
   }
 
   componentWillMount () {
     window.scrollTo(0,0);
   }
 
-  // TODO: componentDidUpdate() {
-  //   this.scrollOnResultSelectMobile(this.props.currentResult);
-  // }
+  componentDidUpdate () {
+    this.scrollOnSelectMobile(this.state.selected);
+  }
 
-  // TODO: onScroll() { }
+  onScroll () {
+    let resultItems = this.resultsSection.children;
+    let height = Math.max(document.documentElement.clientHeight, window.innerHeight);
+    let currentOptionHeight = -1;
+    let currentOption = null;
+    for(let i = 0; i < resultItems.length; i++) {
+      let resultItemHeight = resultItems[i].getBoundingClientRect().top;
+      if(resultItemHeight >= 0 && resultItemHeight <= (height / 4) && resultItemHeight > currentOptionHeight) {
+        currentOptionHeight = resultItemHeight;
+        currentOption = i;
+      }
+    }
+    if(currentOption !== null && currentOption !== this.state.selected) {
+      this.toggleSelected(currentOption);
+    }
+  }
+
+  scrollOnSelect (id) {
+    if(id !== this.state.selected) {
+      let resultItems = this.resultsSection.children;
+      if(resultItems[id]) {
+        this.resultsSection.scrollTop += resultItems[id].getBoundingClientRect().top - 20 - 50;
+      }
+    }
+  }
+
+  scrollOnSelectMobile (id) {
+    let options = document.getElementsByClassName('option_box_mobile');
+    for(let i = 0; i < options.length; i++) {
+      if(options[i].dataset.option === id) {
+        window.scrollBy(0, options[i].getBoundingClientRect().top - 50); // 50 is header height
+        break;
+      }
+    }
+  }
+
+  toggleSelected (id) {
+    return this.setState({selected: id});
+  }
 
   computeResults () {
     const results = this.props.selectedAnswers.map(answer => {
@@ -53,7 +96,30 @@ class ResultsPage extends Component {
   }
 
   desktopResults (results) {
-    return results.map(result => {
+    // desktop
+    let resultTabs = results.map((result, i) => {
+      let id = i+1;
+      return (
+        <ResultTab
+          key={result.choiceId}
+          selected={id === this.state.selected}
+          order={id}
+          title={result.question.title}
+          score={`${result.choice.score} of ${result.question.maxScore}`}
+          rank={result.choice.rank}
+          onSelect={() => {this.scrollOnSelect(id); this.toggleSelected(id);}}
+        />
+      );
+    });
+
+    resultTabs.unshift(<ResultTab
+      selected={0 === this.state.selected}
+      title="Your Score"
+      rank="info"
+      onSelect={() => {this.scrollOnSelect(0); this.toggleSelected(0);}}
+    />);
+
+    let resultItems = results.map(result => {
       return (
         <Result
           key={result.choiceId}
@@ -62,6 +128,28 @@ class ResultsPage extends Component {
         />
       );
     });
+
+    return (
+      <div className="results_page">
+        <div className="results_sidebar">
+          <ResultsIntro
+            headlineText="What you should focus on"
+            goBackText="Back to questions"
+            goBack={this.props.goBack}
+          />
+          {resultTabs}
+        </div>
+        <div className="results_section"
+          ref={(resultsSection) => {this.resultsSection = resultsSection;}}
+          onScroll={() => this.onScroll()}
+        >
+          <div className="result result--intro">
+            <ScoreTicker />
+          </div>
+          {resultItems}
+        </div>
+      </div>
+    )
   }
 
   render () {
@@ -69,22 +157,7 @@ class ResultsPage extends Component {
     const desktopResults = this.desktopResults(results);
     return (
       <div className="results_container">
-        <div className="results_page">
-          <div className="results_sidebar">
-            <h1 className="intro_headline" onClick={this.props.startOver}>
-              What you should focus on
-            </h1>
-            <Link onClick={this.props.startOver} children="Back to questions" />
-          </div>
-          <div className="results_section">
-            <div className="result result--intro">
-              <ScoreTicker />
-            </div>
-            <div>
-              {desktopResults}
-            </div>
-          </div>
-        </div>
+        {desktopResults}
       </div>
     );
   }
@@ -100,7 +173,7 @@ function mapStateToProps({choices, questions, selectedAnswers}) {
 
 function mapDispatchToProps(dispatch) {
   return {
-    startOver: () => {
+    goBack: () => {
       // TODO: dispatch(reset)
       dispatch(push('/'));
     }

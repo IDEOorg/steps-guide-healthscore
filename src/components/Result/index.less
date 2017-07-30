@@ -1,8 +1,6 @@
 @import '../../globals/constants.less';
 @import '../../globals/responsive.less';
 
-@result-bg: #f4f7fe;
-
 .result {
   background-color: @result-bg;
   border-radius: 4px;
@@ -12,23 +10,23 @@
   text-align: center;
 
   &.result--bad {
-    background-color: #f9f1ef;
+    background-color: @result-bad-bg;
     h2 {
-      color: #f65b23;
+      color: @result-bad-text;
     }
   }
 
   &.result--ok {
-    background-color: #faf7f0;
+    background-color: @result-ok-bg;
     h2 {
-      color: #f6a623;
+      color: @result-ok-text;
     }
   }
 
   &.result--good {
-    background-color: #eef8f7;
+    background-color: @result-good-bg;
     h2 {
-      color: #18d789;
+      color: @result-good-text;
     }
   }
 
