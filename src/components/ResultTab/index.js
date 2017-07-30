@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import './index.less';
-import Link from '../Link';
 
 const ResultTab = (props) => {
   let orderBox = null;

@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { push } from 'react-router-redux';
+import classNames from 'classnames';
+import MediaQuery from 'react-responsive';
 import './index.less';
 import Result from '../../components/Result';
 import ResultsIntro from '../../components/ResultsIntro';
@@ -41,7 +43,25 @@ class ResultsPage extends Component {
     }
   }
 
-  scrollOnSelect (id) {
+  scrollOnSelect (e, id) {
+    if (this.parentNodeMatches(e.target, '.results_page--desktop')) {
+      this.scrollOnSelectDesktop(id);
+    } else {
+      this.scrollOnSelectMobile(id);
+    }
+  }
+
+  parentNodeMatches (node, selector) {
+    if (node && node.parentNode && typeof node.parentNode.matches === 'function') {
+      if (node.parentNode.matches(selector))
+        return true;
+      else
+        return this.parentNodeMatches(node.parentNode, selector);
+    }
+    return false;
+  }
+
+  scrollOnSelectDesktop (id) {
     if(id !== this.state.selected) {
       let resultItems = this.resultsSection.children;
       if(resultItems[id]) {
@@ -51,12 +71,9 @@ class ResultsPage extends Component {
   }
 
   scrollOnSelectMobile (id) {
-    let options = document.getElementsByClassName('option_box_mobile');
-    for(let i = 0; i < options.length; i++) {
-      if(options[i].dataset.option === id) {
-        window.scrollBy(0, options[i].getBoundingClientRect().top - 50); // 50 is header height
-        break;
-      }
+    let resultSets = document.getElementsByClassName('result-set--mobile');
+    if (resultSets[id]) {
+      window.scrollBy(0, resultSets[id].getBoundingClientRect().top - 50); // 50 is header height
     }
   }
 
@@ -95,9 +112,11 @@ class ResultsPage extends Component {
     return 0;
   }
 
-  renderScoreResultItem () {
+  resultItemScore () {
     return (
-      <div className="result result--intro">
+      <div className={classNames('result', 'result--intro', {
+        'result--unselected': this.state.selected !== 0
+      })}>
         <ScoreTicker />
         <h2>Your score</h2>
         <div className="result__subtext">Out of 100</div>
@@ -110,28 +129,83 @@ class ResultsPage extends Component {
     );
   }
 
-  desktopResults (results) {
+  desktopResults (tabs, items) {
     // desktop
+
+    return (
+      <div className="results_page results_page--desktop">
+        <div className="results_sidebar">
+          <ResultsIntro
+            headlineText="What you should focus on"
+            goBackText="Back to questions"
+            goBack={this.props.goBack}
+          />
+          {tabs}
+        </div>
+        <div className="results_section"
+          ref={(resultsSection) => {this.resultsSection = resultsSection;}}
+          onScroll={() => this.onScroll()}
+        >
+          {items}
+        </div>
+      </div>
+    )
+  }
+
+  mobileResults (tabs, items) {
+    let combined = tabs.map((tab, index) => {
+      return (
+        <div key={index} className="result-set--mobile">
+          {tabs[index]}
+          {items[index]}
+        </div>
+      );
+    })
+    return (
+      <div className="results_page results_page--mobile">
+        <ResultsIntro
+          headlineText="What you should focus on"
+          goBackText="Back to questions"
+          goBack={this.props.goBack}
+        />
+        {combined}
+      </div>
+    )
+  }
+
+  render () {
+    const results = this.computeResults();
+
     let resultTabs = [];
     let resultItems = [];
+
+    resultTabs.push(<ResultTab
+      selected={0 === this.state.selected}
+      title="Your score"
+      rank="info"
+      onSelect={(e) => {this.scrollOnSelect(e, 0); this.toggleSelected(0);}}
+    />);
+
+    resultItems.push(this.resultItemScore());
+
     results.forEach((result, index) => {
       let id = index+1;
 
       resultTabs.push(
         <ResultTab
-          key={result.choiceId}
+          key={`result-tab-${result.choiceId}`}
           selected={id === this.state.selected}
           order={id}
           title={result.question.title}
           score={`${result.choice.score} of ${result.question.maxScore}`}
           rank={result.choice.rank}
-          onSelect={() => {this.scrollOnSelect(id); this.toggleSelected(id);}}
+          onSelect={(e) => {this.scrollOnSelect(e, id); this.toggleSelected(id);}}
         />
       );
 
       resultItems.push(
         <Result
-          key={result.choiceId}
+          key={`result-${result.choiceId}`}
           selected={id === this.state.selected}
           choice={result.choice}
           question={result.question}
@@ -139,40 +213,17 @@ class ResultsPage extends Component {
       );
     });
 
-    resultTabs.unshift(<ResultTab
-      selected={0 === this.state.selected}
-      title="Your score"
-      rank="info"
-      onSelect={() => {this.scrollOnSelect(0); this.toggleSelected(0);}}
-    />);
+    const desktopResults = this.desktopResults(resultTabs, resultItems);
+    const mobileResults = this.mobileResults(resultTabs, resultItems);
 
-    return (
-      <div className="results_page">
-        <div className="results_sidebar">
-          <ResultsIntro
-            headlineText="What you should focus on"
-            goBackText="Back to questions"
-            goBack={this.props.goBack}
-          />
-          {resultTabs}
-        </div>
-        <div className="results_section"
-          ref={(resultsSection) => {this.resultsSection = resultsSection;}}
-          onScroll={() => this.onScroll()}
-        >
-          {this.renderScoreResultItem()}
-          {resultItems}
-        </div>
-      </div>
-    )
-  }
-
-  render () {
-    const results = this.computeResults();
-    const desktopResults = this.desktopResults(results);
     return (
       <div className="results_container">
-        {desktopResults}
+        <MediaQuery query="(min-width: 768px)">
+          {desktopResults}
+        </MediaQuery>
+        <MediaQuery query="(max-width: 767px)">
+          {mobileResults}
+        </MediaQuery>
       </div>
     );
   }
