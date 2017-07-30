@@ -26,16 +26,26 @@ const Result = (props) => {
   }
 
   const references = (props.choice.result.references || []).map(ref => {
-    let link = '';
-    if (ref.link) {
-      link = <Button
-        onClick={() => {window.open(ref.link)}}
-        textStyleClass="suggestion-btn__text"
-        className="suggestion-btn"
-      >
-        <UrlImage />
-        Button
-      </Button>
+    let links;
+    if (ref.links && ref.links.length > 0) {
+      links = ref.links.map(linkItem => {
+        return (
+          <Button
+            key={linkItem.link}
+            onClick={() => {window.open(linkItem.link)}}
+            textStyleClass="suggestion-btn__text"
+            className="suggestion-btn"
+          >
+            <UrlImage />
+            {linkItem.linkText}
+          </Button>
+        );
+      });
+    }
+
+    let icon;
+    if (ref.image) {
+      icon = <img src={require(`../../assets/${ref.image}`)} />;
     }
 
     return (
@@ -43,12 +53,12 @@ const Result = (props) => {
         <hr size="1" />
         <div key={ref.title} className="suggestion">
           <div className="suggestion__icon">
-            <img src={require("../../assets/utilities-icon.svg")} />
+            {icon}
           </div>
           <div className="suggestion__meta">
             <h3>{ref.title}</h3>
             <p>{ref.description}</p>
-            {link}
+            {links}
           </div>
         </div>
       </div>
