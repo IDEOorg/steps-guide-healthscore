@@ -1,6 +1,13 @@
 @import '../../globals/constants.less';
 @import '../../globals/responsive.less';
 
+.question-error-msg {
+  margin: 0.5em auto;
+  text-align: center;
+  font-size: 14px;
+  color: #f65b23;
+}
+
 .question {
   background: @result-bg;
   border-radius: 4px;
@@ -18,7 +25,16 @@
     padding: 20px;
     margin-bottom: 0;
     border-bottom: 1px solid @border-gray;
+    border-radius: 0px;
   });
+
+  &.question--error {
+    border: solid 1px #f65b23;
+    .question-position {
+      color: #f65b23;
+      opacity: 1;
+    }
+  }
 
   .question-meta {
     display: flex;

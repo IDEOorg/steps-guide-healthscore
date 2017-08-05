@@ -22,18 +22,23 @@ const Question = (props) => {
     );
   });
   return (
-    <div className="question">
-      <div className="question-meta">
-        <div>
-          <h2>{props.text}</h2>
-          <div className="question-hint">
-            {props.hint}
+    <div>
+      {props.error &&
+        <div className="question-error-msg">Answer this question to to get your score.</div>
+      }
+      <div className={`question ${props.error ? 'question--error' : ''}`}>
+        <div className="question-meta">
+          <div>
+            <h2>{props.text}</h2>
+            <div className="question-hint">
+              {props.hint}
+            </div>
           </div>
+          <span className="question-position">{props.position} of {props.total}</span>
         </div>
-        <span className="question-position">{props.position} of {props.total}</span>
-      </div>
-      <div className="question-choices">
-        {choices}
+        <div className="question-choices">
+          {choices}
+        </div>
       </div>
     </div>
   );
@@ -45,6 +50,7 @@ Question.propTypes = {
   id: PropTypes.string.isRequired,
   text: PropTypes.string.isRequired,
   hint: PropTypes.string,
+  error: PropTypes.bool,
   position: PropTypes.number.isRequired,
   total: PropTypes.number.isRequired,
   onAnswer: PropTypes.func,

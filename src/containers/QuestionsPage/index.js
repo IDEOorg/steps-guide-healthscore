@@ -55,7 +55,7 @@ class QuestionsPage extends Component {
       </div>
     );
   }
-};
+}
 
 export default QuestionsPage;
 
