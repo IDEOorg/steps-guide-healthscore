@@ -44,21 +44,11 @@ class ResultsPage extends Component {
   }
 
   scrollOnSelect (e, id) {
-    if (this.parentNodeMatches(e.target, '.results_page--desktop')) {
-      this.scrollOnSelectDesktop(id);
-    } else {
+    if (document.getElementById('app_display_mobile')) {
       this.scrollOnSelectMobile(id);
+    } else {
+      this.scrollOnSelectDesktop(id);
     }
-  }
-
-  parentNodeMatches (node, selector) {
-    if (node && node.parentNode && typeof node.parentNode.matches === 'function') {
-      if (node.parentNode.matches(selector))
-        return true;
-      else
-        return this.parentNodeMatches(node.parentNode, selector);
-    }
-    return false;
   }
 
   scrollOnSelectDesktop (id) {
