@@ -561,6 +561,17 @@
           ]
         },
         {
+          "title": "Visit a local credit union",
+          "description": "You may be able to refinance your mortgage to get a lower interest rate at a credit union. This could save you money on interest payments each month and make more room in your budget. Some credit unions also offer financial counseling.",
+          "image": "retirement-advice-icon.svg",
+          "links": [
+            {
+              "link": "https://www.mycreditunion.gov/Pages/mcu-map.aspx",
+              "linkText": "Find a local credit union"
+            }
+          ]
+        },
+        {
           "title": "Talk to a consumer debt attorney",
           "description": "Pro bono (free), affordable, or private attorneys may be available in your state to help validate collection debt, dispute debt, or discuss other relief options such as bankruptcy. Income and other eligibility restrictions may apply to qualify for pro bono or affordable attorneys. ",
           "image": "legal-icon.svg",
