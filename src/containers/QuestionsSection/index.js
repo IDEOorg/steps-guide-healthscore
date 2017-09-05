@@ -81,7 +81,9 @@ class QuestionsSection extends Component {
           >
             {questions}
           </div>
-          <Button onClick={this.handleSubmit} children="Show me my score" />
+          <Button onClick={this.handleSubmit} className={"show_options_button"}>
+            <h4 className="show_options_button_text">Show me my recommendations</h4>
+          </Button>
         </div>
       </div>
     );

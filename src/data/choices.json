@@ -126,7 +126,7 @@
           ]
         },
         {
-          "title": "Create a calendar of your income and expenses (see page 8) ",
+          "title": "Create a calendar of your income and expenses",
           "description": "Write down when your income comes in, and when your bills are due. Then contact the companies you send money to and see if you can change when your bills are due to align more closely to when your income comes in. ",
           "image": "bills-calendar-icon.svg",
           "links": [
@@ -196,7 +196,7 @@
     "rank": "bad",
     "result": {
       "title": "Sometimes you carry a credit card balance",
-      "subtitle": "Life happens, but there are steps you can take to pay your credit cards in full and save on expensive interest charges.",
+      "subtitle": "There are steps you can take to pay your credit cards in full and save on expensive interest charges.",
       "references": [
         {
           "title": "Strategies for paying off debt",
@@ -417,17 +417,6 @@
       "title": "You haven't started saving for retirement",
       "subtitle": "It's never too late to get started with saving for the long-term. Consider how you can cut expenses or increase income, if possible, to create more room to save. One rule of thumb for what is enough is having annual retirement income that is equal to 80% of your current annual income. This amount can come from multiple sources like personal savings, workplace retirement accounts, and Social Security.",
       "references": [
-        {
-          "title": "Set up a free retirement savings account",
-          "description": "If you have earned income, you can open a no-fee (IRA) Individual Retirement Account, and contribute as little as or as much as you want from your paycheck or checking savings or other accounts. If you change jobs, your account goes with you. You can also set up a retirement savings plan at work.",
-          "image": "retirement-myra-icon.png",
-          "links": [
-            {
-              "link": "https://myra.gov/",
-              "linkText": "Sign up at myra.gov"
-            }
-          ]
-        },
         {
           "title": "Estimate your Social Security retirement benefits",
           "description": "Create your personalized account to see if you have enough work credits to qualify for Social Security retirement benefits, and for an estimate of what your Social Security retirement benefit will be when you retire.",
@@ -745,7 +734,7 @@
       "references": [
         {
           "title": "Ways to save money on health insurance",
-          "description": "You can make changes to your health insurance policy during open enrollment periods, or special enrolment periods such as a job loss, marriage, or the birth of a child. Learn more about how to save money on health insurance above.",
+          "description": "You can make changes to your health insurance policy during open enrollment periods, or special enrolment periods such as a job loss, marriage, or the birth of a child. Learn more about how to save money on health insurance.",
           "image": "insurance-health-icon.svg",
           "links": [
             {
@@ -756,7 +745,7 @@
         },
         {
           "title": "Ways to save money on auto insurance",
-          "description": "There are strategies to lower the cost of your auto insurance. Learn more above.",
+          "description": "There are strategies to lower the cost of your auto insurance. Learn more.",
           "image": "insurance-auto-icon.svg",
           "links": [
             {
@@ -846,7 +835,7 @@
         },
         {
           "title": "Making the most of your renters insurance",
-          "description": "Renters insurance can protect your belongings and finances in the case of theft or property emergencies that cause you to no longer be able to live in your rental. The video above explains what renters insurance is and how to prepare yourself if you ever need to file a claim. ",
+          "description": "Renters insurance can protect your belongings and finances in the case of theft or property emergencies that cause you to no longer be able to live in your rental. The video in the link below explains what renters insurance is and how to prepare yourself if you ever need to file a claim. ",
           "image": "insurance-renters-icon.svg",
           "links": [
             {
@@ -857,7 +846,7 @@
         },
         {
           "title": "Steps for buying life insurance",
-          "description": "You may need life insurance if you have people who depend on you for financial support. Read more above for strategies for buying enough life insurance. If your employer provides life insurance, you may want to get a separate individual life insurance policy that provides more coverage for your dependents and that you can take with you when you leave.",
+          "description": "You may need life insurance if you have people who depend on you for financial support. Read more below for strategies for buying enough life insurance. If your employer provides life insurance, you may want to get a separate individual life insurance policy that provides more coverage for your dependents and that you can take with you when you leave.",
           "image": "insurance-life-icon.svg",
           "links": [
             {
@@ -914,7 +903,7 @@
         },
         {
           "title": "Find ways to save on auto insurance",
-          "description": "There are strategies to lower the cost of your auto insurance. Learn more above.",
+          "description": "There are strategies to lower the cost of your auto insurance. Learn more.",
           "image": "insurance-auto-icon.svg",
           "links": [
             {
@@ -936,7 +925,7 @@
         },
         {
           "title": "Making the most of your renters insurance",
-          "description": "Renters insurance can protect your belongings and finances in the case of theft or property emergencies that cause you to no longer be able to live in your rental. The video above explains what renters insurance is and how to prepare yourself if you ever need to file a claim.",
+          "description": "Renters insurance can protect your belongings and finances in the case of theft or property emergencies that cause you to no longer be able to live in your rental. The video in the link below explains what renters insurance is and how to prepare yourself if you ever need to file a claim.",
           "image": "insurance-renters-icon.svg",
           "links": [
             {
@@ -947,7 +936,7 @@
         },
         {
           "title": "Steps for buying life insurance",
-          "description": "You may need life insurance if you have people who depend on you for financial support. Read more above for strategies for buying enough life insurance. If your employer provides life insurance, you may want to get a separate individual life insurance policy that provides more coverage for your dependents and that you can take with you when you leave.",
+          "description": "You may need life insurance if you have people who depend on you for financial support. Read more in the link below for strategies for buying enough life insurance. If your employer provides life insurance, you may want to get a separate individual life insurance policy that provides more coverage for your dependents and that you can take with you when you leave.",
           "image": "insurance-life-icon.svg",
           "links": [
             {
