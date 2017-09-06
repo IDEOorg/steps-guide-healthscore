@@ -112,7 +112,7 @@ class ResultsPage extends Component {
         <div className="result__subtext">Out of 100</div>
         <div className="result__meta">
           <p>
-            <b>But it's what you do next that is more important.</b> Spending less than you earn and saving for emergencies and the future are the foundations of financial health. Good credit, less debt and financial security will follow.
+            <b>No matter what your score is, what you do next is most important.</b> Spending less than you earn, saving for emergencies and planning for the future are the foundations of financial health. Good credit, less debt and financial security will follow.
           </p>
         </div>
       </div>

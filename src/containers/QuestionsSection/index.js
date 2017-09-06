@@ -70,6 +70,12 @@ class QuestionsSection extends Component {
 
   render () {
     const questions = this.renderQuestions();
+    // let errorMessage = null;
+    // if(this.state.showErrors) {
+    //   errorMessage = (
+    //     <p className="question-error-msg">Answer all the questions above to get your score.</p>
+    //   );
+    // }
     return (
       <div>
         <div className="questions_section">
@@ -101,7 +107,6 @@ function mapStateToProps(state) {
 function mapDispatchToProps(dispatch) {
   return {
     onSubmit: () => {
-      // console.log("Go to results");
       // validate form
       // dispatch(generateResults(url));
       dispatch(push('/results'));
