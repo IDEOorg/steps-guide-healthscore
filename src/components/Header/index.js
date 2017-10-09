@@ -21,7 +21,7 @@ const Header = (props) =>  {
       <a className="header_feedback_link" href={props.feedbackUrl} target="_blank">
         <div className="header_back_box">
           <img className="feedback_icon" src={feedbackIcon} />
-          <p>
+          <p className="feedback_text">
             <FormattedMsg>
               {feedback}
             </FormattedMsg>
