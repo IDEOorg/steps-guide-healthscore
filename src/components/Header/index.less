@@ -1,19 +1,54 @@
 @import '../../globals/constants.less';
+@import '../../globals/responsive.less';
 
 .header {
-  height: 3em;
+  height: 3.5rem;
   width: 100%;
   position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 100;
-  background: white;
-  box-shadow: 0 1px 4px 0 fade(@base-blue, 20%);
   display: flex;
   justify-content: center;
   align-items: center;
-
-  img {
-    vertical-align: middle;
+  z-index: 100;
+  background: white;
+  box-shadow: 0 1px 4px 0 fade(@base-blue, 20%);
+  .header_title {
+    margin-left: 0.75rem;
   }
+}
+
+a.header_back_link {
+  text-decoration: none;
+  position: absolute;
+  .desktop({
+    left: 1.5rem;
+  });
+  .mobile({
+    left: 0.75rem;
+  });
+}
+.header_back_box {
+  display: flex;
+  align-items: center;
+  p {
+    color: @base-darker-blue !important;
+    font-weight: 600 !important;
+  }
+}
+
+.feedback_icon {
+  padding-right: 0.5rem;
+}
+
+a.header_feedback_link {
+  text-decoration: none;
+  position: absolute;
+  height: 3.5rem;
+  display: flex;
+  align-items: center;
+  .desktop({
+    right: 1.5rem;
+  });
+  .mobile({
+    right: 0.75rem;
+  });
 }

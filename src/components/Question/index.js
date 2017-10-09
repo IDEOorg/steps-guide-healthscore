@@ -1,6 +1,7 @@
 import React from 'react';
 import classNames from 'classnames';
 import PropTypes from 'prop-types';
+import FormattedMsg from '../../containers/FormattedMsg';
 import './index.less';
 
 const Question = (props) => {
@@ -17,10 +18,18 @@ const Question = (props) => {
           })
         }
       >
-        <span>{choice.text}</span>
+        <span>
+          <FormattedMsg>
+            {choice.text}
+          </FormattedMsg>
+        </span>
       </div>
     );
   });
+  let positions = {
+    "en": `${props.position} of ${props.total}`,
+    "es": `${props.position} de ${props.total}`
+  };
   return (
     <div>
       {props.error &&
@@ -29,12 +38,22 @@ const Question = (props) => {
       <div className={`question ${props.error ? 'question--error' : ''}`}>
         <div className="question-meta">
           <div>
-            <h2>{props.text}</h2>
+            <h2>
+              <FormattedMsg>
+                {props.text}
+              </FormattedMsg>
+            </h2>
             <div className="question-hint">
-              {props.hint}
+              <FormattedMsg>
+                {props.hint}
+              </FormattedMsg>
             </div>
           </div>
-          <span className="question-position">{props.position} of {props.total}</span>
+          <span className="question-position">
+            <FormattedMsg>
+              {positions}
+            </FormattedMsg>
+          </span>
         </div>
         <div className="question-choices">
           {choices}

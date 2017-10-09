@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import MediaQuery from 'react-responsive';
 import './index.less';
 import Header from '../../components/Header';
+import constants from '../../data/constants';
 
 const App = (props) => {
   window.scrollTo(0, 0);
@@ -17,7 +18,7 @@ const App = (props) => {
           }
         }}
       </MediaQuery>
-      <Header />
+      <Header feedbackUrl={constants.feedbackUrl} />
       <div className="app_content">
         { props.children }
       </div>

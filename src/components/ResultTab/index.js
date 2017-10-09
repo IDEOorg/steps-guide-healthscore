@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
+import FormattedMsg from '../../containers/FormattedMsg';
 import './index.less';
 
 const ResultTab = (props) => {
@@ -12,6 +13,14 @@ const ResultTab = (props) => {
       </div>
     );
   }
+  let scoreBox = null;
+  if(props.score) {
+    scoreBox = (
+      <FormattedMsg>
+        {props.score}
+      </FormattedMsg>
+    );
+  }
   return (
     <div className={
         classNames('result-tab', `result-tab--${props.rank}`, {
@@ -21,10 +30,12 @@ const ResultTab = (props) => {
       <div className="result-tab__container">
         {orderBox}
         <h2 className="result-tab__headline">
-          {props.title}
+          <FormattedMsg>
+            {props.title}
+          </FormattedMsg>
         </h2>
         <span className="result-tab__score">
-          {props.score}
+          {scoreBox}
         </span>
       </div>
     </div>

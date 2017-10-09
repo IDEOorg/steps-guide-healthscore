@@ -1,0 +1,1134 @@
+{
+  "5ba48cea-f0dc-4cea-9dab-e1ae9b92f1fb": {
+    "id": "5ba48cea-f0dc-4cea-9dab-e1ae9b92f1fb",
+    "questionId": "expenses",
+    "text": "Yes, with money remaining",
+    "score": 20,
+    "rank": "good",
+    "result": {
+      "title": {
+        "en": "Your monthly income meets your monthly expenses",
+        "es": ""
+      },
+      "subtitle": {
+        "en": "Now is a great time to get your other financial priorities in order.",
+        "es": ""
+      },
+      "references": [
+        {
+          "title": {
+            "en": "Set big financial goals",
+            "es": ""
+          },
+          "description": {
+            "en": "Make a plan for building an emergency fund, saving for retirement, or another big money goal. Setting your priorities, and breaking down savings goals by how much you'd need to save regularly, makes big money goals more achievable.",
+            "es": ""
+          },
+          "image": "expenses-big-goals-icon.svg",
+          "links": [
+            {
+              "link": "https://s3.amazonaws.com/files.consumerfinance.gov/f/documents/201705_cfpb_MAYG_My-New-Money-Goal.pdf",
+              "linkText": {
+                "en": "Download CFPB’s Money Goal PDF",
+                "es": ""
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "275a81b3-6d54-485e-8849-bf5fe1f078b2": {
+    "id": "275a81b3-6d54-485e-8849-bf5fe1f078b2",
+    "questionId": "expenses",
+    "text": {
+      "en": "Yes, but with no money remaining",
+      "es": ""
+    },
+    "score": 10,
+    "rank": "ok",
+    "result": {
+      "title": {
+        "en": "Your monthly income just covers your expenses",
+        "es": ""
+      },
+      "subtitle": {
+        "en": "You can pay your bills, but are living paycheck to paycheck. By tracking your expenses, you can identify where you can reduce expenses. Also see what you can do to increase your income, if possible.",
+        "es": ""
+      },
+      "references": [
+        {
+          "title": {
+            "en": "Track expenses to achieve your financial goals",
+            "es": ""
+          },
+          "description": {
+            "en": "Managing your spending can help you achieve your financial goals. Read more for tools and tips.",
+            "es": ""
+          },
+          "image": "expenses-track-icon.svg",
+          "links": [
+            {
+              "link": "https://www.consumerfinance.gov/about-us/blog/managing-your-spending-achieve-your-goals/",
+              "linkText": {
+                "en": "Learn more from CFPB",
+                "es": ""
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "en": "Find ways to increase income",
+            "es": ""
+          },
+          "description": {
+            "en": "Check out your local career center for employment opportunities, access career coaching, resources to start or grow a small business, or part-time work for extra income.",
+            "es": ""
+          },
+          "image": "expenses-stars-icon.png",
+          "links": [
+            {
+              "link": "https://www.careeronestop.org/",
+              "linkText": {
+                "en": "Check out www.careeronestop.org",
+                "es": ""
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "27ca2711-bdf6-456d-b76b-61022ba6d35c": {
+    "id": "27ca2711-bdf6-456d-b76b-61022ba6d35c",
+    "questionId": "expenses",
+    "text": {
+      "en": "No, my monthly expenses are usually more than my monthly income",
+      "es": ""
+    },
+    "score": 0,
+    "rank": "bad",
+    "result": {
+      "title": {
+        "en": "Your income doesn't cover your expenses",
+        "es": ""
+      },
+      "subtitle": {
+        "en": "By tracking your expenses, you can identify where you can reduce expenses. Also see what you can do to increase your income, if possible.",
+        "es": ""
+      },
+      "references": [
+        {
+          "title": {
+            "en": "Track expenses to achieve your financial goals",
+            "es": ""
+          },
+          "description": {
+            "en": "Managing your spending can help you achieve your financial goals. Read more for tools and tips.",
+            "es": ""
+          },
+          "image": "expenses-track-icon.svg",
+          "links": [
+            {
+              "link": "https://www.consumerfinance.gov/about-us/blog/managing-your-spending-achieve-your-goals/",
+              "linkText": {
+                "en": "Learn more from CFPB",
+                "es": ""
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "en": "Find ways to increase income",
+            "es": ""
+          },
+          "description": {
+            "en": "Check out your local career center for employment opportunities, access career coaching, resources to start or grow a small business, or part-time work for extra income.",
+            "es": ""
+          },
+          "image": "expenses-stars-icon.png",
+          "links": [
+            {
+              "link": "https://www.careeronestop.org/",
+              "linkText": {
+                "en": "Check out www.careeronestop.org",
+                "es": ""
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "en": "Learn about ways to lower expenses",
+            "es": ""
+          },
+          "description": {
+            "en": "Read tips on how to lower your spending on transportation, debt, utilities, entertainment, food, insurance, and other expenses.",
+            "es": ""
+          },
+          "image": "expenses-lower-icon.svg",
+          "links": [
+            {
+              "link": "http://www.thesimpledollar.com/trimming-the-fat-forty-ways-to-reduce-your-monthly-required-spending/",
+              "linkText": {
+                "en": "Read more at The Simple Dollar",
+                "es": ""
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "87782574-3915-46f2-81e3-28461bd2b471": {
+    "id": "87782574-3915-46f2-81e3-28461bd2b471",
+    "questionId": "bills",
+    "text": {
+      "en": "Some bills are paid late",
+      "es": ""
+    },
+    "score": 0,
+    "rank": "bad",
+    "result": {
+      "title": {
+        "en": "Some of your bills are paid on time, others are paid late",
+        "es": ""
+      },
+      "subtitle": {
+        "en": "Paying bills late can be stressful and companies may charge you extra fees for paying late. Below is information that might help.",
+        "es": ""
+      },
+      "references": [
+        {
+          "title": {
+            "en": "Learn about ways to pay your bills",
+            "es": ""
+          },
+          "description": {
+            "en": "Read about the pros and cons of different ways of paying bills. Automatic ways of paying your bills include automatic debit or online bill pay.",
+            "es": ""
+          },
+          "image": "bills-paper-icon.svg",
+          "links": [
+            {
+              "link": "http://files.consumerfinance.gov/f/201507_cfpb_ways-to-pay-your-bills.pdf",
+              "linkText": {
+                "en": "Learn more from CFPB",
+                "es": ""
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "en": "Create a calendar of your income and expenses",
+            "es": ""
+          },
+          "description": {
+            "en": "Write down when your income comes in, and when your bills are due. Then contact the companies you send money to and see if you can change when your bills are due to align more closely to when your income comes in.",
+            "es": ""
+          },
+          "image": "bills-calendar-icon.svg",
+          "links": [
+            {
+              "link": "https://csd.wustl.edu/OurWork/FinIncl/FinCap-AccessAbilities/Documents/cfpb_ymyg_bundle_final_%20091316.pdf",
+              "linkText": {
+                "en": "Look at Page 8 of this CFPB PDF",
+                "es": ""
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "c3b13ae9-6370-459d-acf2-40f26e2d941a": {
+    "id": "c3b13ae9-6370-459d-acf2-40f26e2d941a",
+    "questionId": "bills",
+    "text": {
+      "en": "All bills are paid on time",
+      "es": ""
+    },
+    "score": 10,
+    "rank": "good",
+    "result": {
+      "title": {
+        "en": "You pay your bills on time",
+        "es": ""
+      },
+      "subtitle": {
+        "en": "You're doing a great job paying your bills on time. In case you haven't already, consider automatic bill pay to save time and money.",
+        "es": ""
+      },
+      "references": [
+        {
+          "title": {
+            "en": "Learn about ways to pay your bills",
+            "es": ""
+          },
+          "description": {
+            "en": "Read more about the pros and cons of different ways of paying bills. Automatic ways of paying your bills include automatic debit or online bill pay.",
+            "es": ""
+          },
+          "image": "bills-paper-icon.svg",
+          "links": [
+            {
+              "link": "http://files.consumerfinance.gov/f/201507_cfpb_ways-to-pay-your-bills.pdf",
+              "linkText": {
+                "en": "Learn more from CFPB",
+                "es": ""
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "9f73a05a-0bb5-42cd-a87e-d381c2a7ce45": {
+    "id": "9f73a05a-0bb5-42cd-a87e-d381c2a7ce45",
+    "questionId": "bills",
+    "text": {
+      "en": "I don't have monthly bills",
+      "es": ""
+    },
+    "score": 10,
+    "rank": "good"
+  },
+  "51a5cfa4-7a9f-46d7-bae4-b8df60239da9": {
+    "id": "51a5cfa4-7a9f-46d7-bae4-b8df60239da9",
+    "questionId": "credit-cards",
+    "text": {
+      "en": "I always pay all of my credit card bills in full",
+      "es": ""
+    },
+    "score": 10,
+    "rank": "good",
+    "result": {
+      "title": {
+        "en": "You pay your credit card balances monthly",
+        "es": ""
+      },
+      "subtitle": {
+        "en": "You're avoiding paying late fees and expensive interest charges.",
+        "es": ""
+      },
+      "references": [
+        {
+          "title": {
+            "en": "Keep it up!",
+            "es": ""
+          },
+          "description": {
+            "en": "Staying on top of your payment history is an important component of building strong credit.",
+            "es": ""
+          },
+          "image": "credit-cards-icon.svg"
+        }
+      ]
+    }
+  },
+  "ea730daf-6ed0-4f1d-b84d-ad0fafd9b8bc": {
+    "id": "ea730daf-6ed0-4f1d-b84d-ad0fafd9b8bc",
+    "questionId": "credit-cards",
+    "text": {
+      "en": "I am unable to pay all of my credit card bills in full",
+      "es": ""
+    },
+    "score": 6,
+    "rank": "bad",
+    "result": {
+      "title": {
+        "en": "Sometimes you carry a credit card balance",
+        "es": ""
+      },
+      "subtitle": {
+        "en": "There are steps you can take to pay your credit cards in full and save on expensive interest charges.",
+        "es": ""
+      },
+      "references": [
+        {
+          "title": {
+            "en": "Strategies for paying off debt",
+            "es": ""
+          },
+          "description": {
+            "en": "Here are strategies for taking control over your debt and choosing a strategy to pay it off.",
+            "es": ""
+          },
+          "image": "credit-avalanche-icon.svg",
+          "links": [
+            {
+              "link": "https://www.nerdwallet.com/blog/how-to-handle-debt/",
+              "linkText": {
+                "en": "Learn how to handle debt",
+                "es": ""
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "054eb73f-c36b-4665-9353-7d8319245046": {
+    "id": "054eb73f-c36b-4665-9353-7d8319245046",
+    "questionId": "credit-cards",
+    "text": {
+      "en": "I don't use credit cards",
+    },
+    "score": 10,
+    "rank": "good"
+  },
+  "b3e2468e-76c7-4195-9aa0-2cd4c17255b0": {
+    "id": "b3e2468e-76c7-4195-9aa0-2cd4c17255b0",
+    "questionId": "emergencies",
+    "text": "I don't have an emergency fund.",
+    "score": 0,
+    "rank": "bad",
+    "result": {
+      "title": "You need money to cover emergencies",
+      "subtitle": "It's never too late to build savings. A great place to start is an emergency savings fund. An emergency fund helps us get through unexpected shocks. Emergencies will happen, even if we don't know when.",
+      "references": [
+        {
+          "title": "Here's a planning tool to help you build savings",
+          "description": "An emergency fund of three to six months of living expenses is recommended (because that's how long unemployment lasts on average). You can start with as much or as little as you'd like. Try saving enough to cover your minimum debt payments, your monthly housing costs, or choose a number (like $100 or $1000).",
+          "image": "emergencies-piggy-bank-icon.svg",
+          "links": [
+            {
+              "link": "http://files.consumerfinance.gov/f/201508_cfpb_savings-plan-tool.pdf",
+              "linkText": "Print out CFPB’s Savings Plan Tool"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "a3262523-6093-4d8b-9dbc-504110e1d293": {
+    "id": "a3262523-6093-4d8b-9dbc-504110e1d293",
+    "questionId": "emergencies",
+    "text": "Less than 1 month",
+    "score": 4,
+    "rank": "bad",
+    "result": {
+      "title": "You need more money to cover emergencies",
+      "subtitle": "Great job getting started with savings. Now keep it up and build up a bigger emergency fund! An adequate emergency fund helps us get through unexpected shocks. Emergencies will happen, even if we don't know when.",
+      "references": [
+        {
+          "title": "Here's a planning tool to help you build more savings",
+          "description": "An emergency fund of three to six months of living expenses is recommended (because that's how long unemployment lasts on average). You can start with as much or as little as you'd like. Try saving enough to cover your minimum debt payments, your monthly housing costs, or choose a number (like $100 or $1000).",
+          "image": "emergencies-piggy-bank-icon.svg",
+          "links": [
+            {
+              "link": "http://files.consumerfinance.gov/f/201508_cfpb_savings-plan-tool.pdf",
+              "linkText": "Print out CFPB’s Savings Plan Tool"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "9f6b37e0-a122-40ba-8b9a-68c6ec85026d": {
+    "id": "9f6b37e0-a122-40ba-8b9a-68c6ec85026d",
+    "questionId": "emergencies",
+    "text": "1-2 months",
+    "score": 9,
+    "rank": "ok",
+    "result": {
+      "title": "You might need more money to cover emergencies",
+      "subtitle": "Great job building up an emergency fund. An adequate emergency fund helps us get through unexpected shocks. Emergencies will happen, even if we don't know when.",
+      "references": [
+        {
+          "title": "Here's a planning tool to help you build even more savings",
+          "description": "An emergency fund of three to six months of living expenses is recommended (because that's how long unemployment lasts on average). If that feels too big, try saving enough for one month or pick a number (like $1000 or $2000).",
+          "image": "emergencies-piggy-bank-icon.svg",
+          "links": [
+            {
+              "link": "http://files.consumerfinance.gov/f/201508_cfpb_savings-plan-tool.pdf",
+              "linkText": "Print out CFPB’s Savings Plan Tool"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "1302a88f-d91a-4ce2-94d7-200555a0b86b": {
+    "id": "1302a88f-d91a-4ce2-94d7-200555a0b86b",
+    "questionId": "emergencies",
+    "text": "3 months or more",
+    "score": 15,
+    "rank": "good",
+    "result": {
+      "title": "You have a solid emergency fund",
+      "subtitle": "Great job building up an emergency fund. An adequate emergency fund helps us get through unexpected shocks. Emergencies will happen, even if we don't know when.",
+      "references": [
+        {
+          "title": "Here's a planning tool to help you build even more savings",
+          "description": "If you are able to save regularly each month, you can add to your emergency fund or plan for other big money goals like retirement.",
+          "image": "emergencies-piggy-bank-icon.svg",
+          "links": [
+            {
+              "link": "http://files.consumerfinance.gov/f/201508_cfpb_savings-plan-tool.pdf",
+              "linkText": "Print out CFPB’s Savings Plan Tool"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "89403ab8-0b1d-448c-ae3a-c507247739b2": {
+    "id": "89403ab8-0b1d-448c-ae3a-c507247739b2",
+    "questionId": "retirement",
+    "text": "Yes, I am saving enough to ensure a comfortable retirement.",
+    "score": 15,
+    "rank": "good",
+    "result": {
+      "title": "You're all set for retirement",
+      "subtitle": "Great job! One rule of thumb for what is enough is having annual retirement income that is equal to 80% of your current annual income. This amount can come from multiple sources like personal savings, workplace retirement accounts, and Social Security.",
+      "references": [
+        {
+          "title": "Make sure you're on track for retirement",
+          "description": "Enter your age, income, and current savings to make sure you're on track for retirement.",
+          "image": "retirement-cruising-icon.svg",
+          "links": [
+            {
+              "link": "https://www.nerdwallet.com/investing/retirement-calculator?trk=inv_hp",
+              "linkText": "Go to NerdWallet’s Retirement Calculator"
+            }
+          ]
+        },
+        {
+          "title": "Estimate your Social Security retirement benefits",
+          "description": "Create your personalized account to see if you have enough work credits to qualify for Social Security retirement benefits, and for an estimate of what your Social Security retirement benefit will be when you retire.",
+          "image": "retirement-ssa-icon.png",
+          "links": [
+            {
+              "link": "https://www.ssa.gov/myaccount",
+              "linkText": "Sign up at SSA.gov"
+            }
+          ]
+        },
+        {
+          "title": "Get personalized advice",
+          "description": "Consider hiring a financial planner to help you plan for when you need to start withdrawing your retirement savings. Make sure your financial planner is a \"fiduciary,\" meaning that they will always put your financial interests before their own.",
+          "image": "retirement-advice-icon.svg",
+          "links": [
+            {
+              "link": "https://www.napfa.org/find-an-advisor#tab=filters",
+              "linkText": "Use NAPFA to find a planner"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "67917261-975b-41e6-9b85-9cd8bb5b24e6": {
+    "id": "67917261-975b-41e6-9b85-9cd8bb5b24e6",
+    "questionId": "retirement",
+    "text": "Yes, but I am not sure it is enough for a comfortable retirement.",
+    "score": 10,
+    "rank": "ok",
+    "result": {
+      "title": "You've started saving for the long-term",
+      "subtitle": "Nice work! One rule of thumb for what is enough is having annual retirement income that is equal to 80% of your current annual income. This amount can come from multiple sources like personal savings, workplace retirement accounts, and Social Security.",
+      "references": [
+        {
+          "title": "See how you can get on track for retirement",
+          "description": "Enter your age, income, and current savings to see if you're on your way, getting close, or on track for retirement.",
+          "image": "retirement-track-icon.svg",
+          "links": [
+            {
+              "link": "https://www.nerdwallet.com/investing/retirement-calculator?trk=inv_hp",
+              "linkText": "Go to NerdWallet’s Retirement Calculator"
+            }
+          ]
+        },
+        {
+          "title": "Estimate your Social Security retirement benefits",
+          "description": "Create your personalized account to see if you have enough work credits to qualify for Social Security retirement benefits, and for an estimate of what your Social Security retirement benefit will be when you retire.",
+          "image": "retirement-ssa-icon.png",
+          "links": [
+            {
+              "link": "https://www.ssa.gov/myaccount",
+              "linkText": "Sign up at SSA.gov"
+            }
+          ]
+        },
+        {
+          "title": "Get personalized advice",
+          "description": "Consider hiring a financial planner to help you plan for when you need to start withdrawing your retirement savings. Make sure your financial planner is a \"fiduciary,\" meaning that they will always put your financial interests before their own.",
+          "image": "retirement-advice-icon.svg",
+          "links": [
+            {
+              "link": "https://www.napfa.org/find-an-advisor#tab=filters",
+              "linkText": "Use NAPFA to find a planner"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "819e05cf-fa44-484f-b9be-a21945480055": {
+    "id": "819e05cf-fa44-484f-b9be-a21945480055",
+    "questionId": "retirement",
+    "text": "No, I am not saving for retirement.",
+    "score": 0,
+    "rank": "bad",
+    "result": {
+      "title": "You haven't started saving for retirement",
+      "subtitle": "It's never too late to get started with saving for the long-term. Consider how you can cut expenses or increase income, if possible, to create more room to save. One rule of thumb for what is enough is having annual retirement income that is equal to 80% of your current annual income. This amount can come from multiple sources like personal savings, workplace retirement accounts, and Social Security.",
+      "references": [
+        {
+          "title": "Estimate your Social Security retirement benefits",
+          "description": "Create your personalized account to see if you have enough work credits to qualify for Social Security retirement benefits, and for an estimate of what your Social Security retirement benefit will be when you retire.",
+          "image": "retirement-ssa-icon.png",
+          "links": [
+            {
+              "link": "https://www.ssa.gov/myaccount",
+              "linkText": "Sign up at SSA.gov"
+            }
+          ]
+        },
+        {
+          "title": "See how you can get on track for retirement",
+          "description": "Enter your age, income, and current savings to see if you're on your way, getting close, or on track for retirement.",
+          "image": "retirement-track-icon.svg",
+          "links": [
+            {
+              "link": "https://www.nerdwallet.com/investing/retirement-calculator?trk=inv_hp",
+              "linkText": "Go to NerdWallet’s Retirement Calculator"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "c7be7f18-7ecc-4af7-8b1d-d4686dc0edb2": {
+    "id": "c7be7f18-7ecc-4af7-8b1d-d4686dc0edb2",
+    "questionId": "retirement",
+    "text": "I am currently retired.",
+    "score": 15,
+    "rank": "good"
+  },
+  "3d6bb1ee-a0f3-4af7-a7aa-cdfd1feaa897": {
+    "id": "3d6bb1ee-a0f3-4af7-a7aa-cdfd1feaa897",
+    "questionId": "debt",
+    "text": "My debt does not affect my financial decisions",
+    "score": 10,
+    "rank": "good",
+    "result": {
+      "title": "Debt doesn't control your life",
+      "subtitle": "You've done a great job of staying in control of your debt. Below are resources to check out if you want to lower your payments or create a plan for paying off debt.",
+      "references": [
+        {
+          "title": "Get answers to common debt questions",
+          "description": "Get free, unbiased guidance on how to deal with common debt issues, such as: credit cards, student loans, payday loans, and collections. ",
+          "image": "debt-cfpb-icon.png",
+          "links": [
+            {
+              "link": "https://www.consumerfinance.gov/ask-cfpb/ ",
+              "linkText": "Ask CFPB"
+            }
+          ]
+        },
+        {
+          "title": "Create a long-term plan",
+          "description": "Creating a long-term plan may help you pay off your debt even faster. Start by using this free calculator to create a personalized debt payoff plan.",
+          "image": "debt-calendar-icon.svg",
+          "links": [
+            {
+              "link": "https://powerpay.org/",
+              "linkText": "Create a plan on powerpay.org"
+            }
+          ]
+        },
+        {
+          "title": "Calculate if refinancing is right for you",
+          "description": "If your credit score has improved since you first got into debt (credit cards, personal loans, auto debt, mortgage, private student loans) try negotiating for a lower interest rate with your lenders or refinancing your loans. This could reduce your monthly payments and the total amount of interest you will pay for the debt. Use a refinancing calculator, specific to the type of debt you're interested in refinancing, to determine how much you can lower your monthly payment or save over the life of the loan with a lower interest rate. There may be an upfront cost to refinance. ",
+          "image": "debt-calc-icon.svg",
+          "links": [
+            {
+              "link": "http://www.bankrate.com/",
+              "linkText": "Use Bankrate’s calculators"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "f0c6236b-bafb-482c-afe6-ec7f8ba3cc27": {
+    "id": "f0c6236b-bafb-482c-afe6-ec7f8ba3cc27",
+    "questionId": "debt",
+    "text": "My debt affects some or all of my financial decisions",
+    "score": 0,
+    "rank": "bad",
+    "result": {
+      "title": "Your debt gets in the way",
+      "subtitle": "Debt affects some or all of your financial decisions, and it might control your life. It's never too late to take control of your debt. You can create a plan for paying off your debt, take steps to lower your payments, or get free or low-cost help.",
+      "references": [
+        {
+          "title": "Get answers to common debt questions",
+          "description": "Get free, unbiased guidance on how to deal with common debt issues, such as: credit cards, student loans, payday loans, and collections. ",
+          "image": "debt-cfpb-icon.png",
+          "links": [
+            {
+              "link": "https://www.consumerfinance.gov/ask-cfpb/ ",
+              "linkText": "Ask CFPB"
+            }
+          ]
+        },
+        {
+          "title": "Create a long-term plan",
+          "description": "Creating a long-term plan may help you pay off your debt even faster. Start by using this free calculator to create a personalized debt payoff plan.",
+          "image": "debt-calendar-icon.svg",
+          "links": [
+            {
+              "link": "https://powerpay.org/",
+              "linkText": "Create a plan on powerpay.org"
+            }
+          ]
+        },
+        {
+          "title": "Calculate if refinancing is right for you",
+          "description": "If your credit score has improved since you first got into debt (credit cards, personal loans, auto debt, mortgage, private student loans) try negotiating for a lower interest rate with your lenders or refinancing your loans. This could reduce your monthly payments and the total amount of interest you will pay for the debt. Use a refinancing calculator, specific to the type of debt you're interested in refinancing, to determine how much you can lower your monthly payment or save over the life of the loan with a lower interest rate. There may be an upfront cost to refinance. ",
+          "image": "debt-calc-icon.svg",
+          "links": [
+            {
+              "link": "http://www.bankrate.com/",
+              "linkText": "Use Bankrate’s calculators"
+            }
+          ]
+        },
+        {
+          "title": "Find a credit counseling agency near you",
+          "description": "The National Federation of Credit Counselors (NFCC) agency assists borrowers who are having difficulty paying their debt. If you are having trouble managing your debt, you may want to get personalized advice from a counselor. Talk to a counselor to understand what your options are. There may be a fee for these services.",
+          "image": "retirement-advice-icon.svg",
+          "links": [
+            {
+              "link": "https://www.nfcc.org/locator/",
+              "linkText": "Find a credit counselor"
+            }
+          ]
+        },
+        {
+          "title": "Visit a local credit union",
+          "description": "You may be able to refinance your mortgage to get a lower interest rate at a credit union. This could save you money on interest payments each month and make more room in your budget. Some credit unions also offer financial counseling.",
+          "image": "retirement-advice-icon.svg",
+          "links": [
+            {
+              "link": "https://www.mycreditunion.gov/Pages/mcu-map.aspx",
+              "linkText": "Find a local credit union"
+            }
+          ]
+        },
+        {
+          "title": "Talk to a consumer debt attorney",
+          "description": "Pro bono (free), affordable, or private attorneys may be available in your state to help validate collection debt, dispute debt, or discuss other relief options such as bankruptcy. Income and other eligibility restrictions may apply to qualify for pro bono or affordable attorneys. ",
+          "image": "legal-icon.svg",
+          "links": [
+            {
+              "link": "http://www.lawhelp.org/find-help/",
+              "linkText": "Find pro bono legal aid attorneys"
+            },
+            {
+              "link": "https://www.americanbar.org/groups/delivery_legal_services/initiatives_awards/program_main/program_profiles.html",
+              "linkText": "Find affordable attorneys"
+            },
+            {
+              "link": "http://www.consumeradvocates.org/find-an-attorney",
+              "linkText": "Find private attorneys"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "89bf8275-3730-48fb-9f7f-d790e1853e2c": {
+    "id": "89bf8275-3730-48fb-9f7f-d790e1853e2c",
+    "questionId": "debt",
+    "text": "I do not have any debt.",
+    "score": 10,
+    "rank": "good"
+  },
+  "078f9171-0a16-46fa-9058-b7025bc04bee": {
+    "id": "078f9171-0a16-46fa-9058-b7025bc04bee",
+    "questionId": "credit-score",
+    "text": "Below Average: 629 and below",
+    "score": 0,
+    "rank": "bad",
+    "result": {
+      "title": "Your credit is below average",
+      "subtitle": "Many lenders use credit scores and credit histories to make lending decisions. A good credit score helps you save money on interest rates and possibly insurance.",
+      "references": [
+        {
+          "title": "Here are tips for building and keeping a good credit score",
+          "description": "There is no secret formula to building a strong credit score, but there are steps you can take to help improve your score.",
+          "image": "credit-score-icon.svg",
+          "links": [
+            {
+              "link": "https://www.consumerfinance.gov/consumer-tools/credit-reports-and-scores/build-good-credit-score/",
+              "linkText": "Learn more tips from CFPB"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "539b01a0-1746-4ca5-b8c9-bb3a2917a95f": {
+    "id": "539b01a0-1746-4ca5-b8c9-bb3a2917a95f",
+    "questionId": "credit-score",
+    "text": "Average: 630 to 689",
+    "score": 7,
+    "rank": "ok",
+    "result": {
+      "title": "You have an average credit score",
+      "subtitle": "Many lenders use credit scores and credit histories to make lending decisions. A good credit score helps you save money on interest rates and possibly insurance.",
+      "references": [
+        {
+          "title": "Here are tips for building and keeping a good credit score",
+          "description": "There is no secret formula to building a strong credit score, but there are steps you can take to help improve your score.",
+          "image": "credit-score-icon.svg",
+          "links": [
+            {
+              "link": "https://www.consumerfinance.gov/consumer-tools/credit-reports-and-scores/build-good-credit-score/",
+              "linkText": "Learn more tips from CFPB"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "b88a04c1-eef5-4303-8086-6b42a544b055": {
+    "id": "b88a04c1-eef5-4303-8086-6b42a544b055",
+    "questionId": "credit-score",
+    "text": "Good or excellent: 690 and above",
+    "score": 10,
+    "rank": "good",
+    "result": {
+      "title": "You have a great credit score",
+      "subtitle": "Many lenders use credit scores and credit histories to make lending decisions. A good credit score helps you save money on interest rates and possibly insurance.",
+      "references": [
+        {
+          "title": "Here are tips for keeping a good credit score",
+          "description": "There is no secret formula to building a strong credit score, but there are steps you can take to help improve your score.",
+          "image": "credit-score-icon.svg",
+          "links": [
+            {
+              "link": "https://www.consumerfinance.gov/consumer-tools/credit-reports-and-scores/build-good-credit-score/",
+              "linkText": "Learn more tips from CFPB"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "5b8e85b8-81db-4e64-af6f-63803c54c608": {
+    "id": "5b8e85b8-81db-4e64-af6f-63803c54c608",
+    "questionId": "credit-score",
+    "text": "I do not know my credit score",
+    "score": 0,
+    "rank": "bad",
+    "result": {
+      "title": "You don't know your credit score",
+      "subtitle": "Many lenders use credit scores and credit histories to make lending decisions. A good credit score helps you save money on interest rates and possibly insurance.",
+      "references": [
+        {
+          "title": "Check your credit score online for free",
+          "description": "Many credit cards or companies will show you your credit score for free online if you have an account.",
+          "image": "credit-score-check-icon.svg",
+          "links": [
+            {
+              "link": "https://www.nerdwallet.com/home/dashboard/credit-score",
+              "linkText": "Go to Nerdwallet.com"
+            },
+            {
+              "link": "https://www.creditkarma.com/",
+              "linkText": "Go to creditkarma.com"
+            },
+            {
+              "link": "https://creditcards.chase.com/free-credit-score",
+              "linkText": "Go to Chase.com"
+            }
+          ]
+        },
+        {
+          "title": "Building credit from scratch",
+          "description": "If you don't have a credit score and would like to build one, here's how to start.",
+          "image": "credit-blocks-icon.svg",
+          "links": [
+            {
+              "link": "https://s3.amazonaws.com/files.consumerfinance.gov/f/documents/201612_cfpb_credit_invisible_checklist.PDF",
+              "linkText": "Read more at CFPB"
+            }
+          ]
+        },
+        {
+          "title": "Building and keeping a good credit score",
+          "description": "Once you have a credit score, here are tips for how to improve it.",
+          "image": "credit-score-icon.svg",
+          "links": [
+            {
+              "link": "https://www.consumerfinance.gov/consumer-tools/credit-reports-and-scores/build-good-credit-score/",
+              "linkText": "Learn more tips from CFPB"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "5a9b66fb-1acd-44c9-80b3-e2f548e38e4b": {
+    "id": "5a9b66fb-1acd-44c9-80b3-e2f548e38e4b",
+    "questionId": "credit-score",
+    "text": "I prefer not to share",
+    "score": 0,
+    "rank": "bad"
+  },
+  "7bf057bd-df04-45a0-a6ed-734029ee2ccb": {
+    "id": "7bf057bd-df04-45a0-a6ed-734029ee2ccb",
+    "questionId": "insurance",
+    "text": "Yes, I am fully protected.",
+    "score": 10,
+    "rank": "good",
+    "result": {
+      "title": "You've done a great job of protecting yourself in case of emergencies",
+      "subtitle": "Review your insurance policies at least once a year to make sure they are up to date and provide enough coverage. There may be room to save on your current insurance premiums without lowering your coverage. Also, you may want to consider an umbrella insurance policy if you need more coverage. Which types of insurance policies below would you like to learn more about?",
+      "references": [
+        {
+          "title": "Ways to save money on health insurance",
+          "description": "You can make changes to your health insurance policy during open enrollment periods, or special enrolment periods such as a job loss, marriage, or the birth of a child. Learn more about how to save money on health insurance.",
+          "image": "insurance-health-icon.svg",
+          "links": [
+            {
+              "link": "http://www.consumerreports.org/health-insurance/what-to-do-if-your-insurance-premium-is-going-up/",
+              "linkText": "Read more at Consumer Reports"
+            }
+          ]
+        },
+        {
+          "title": "Ways to save money on auto insurance",
+          "description": "There are strategies to lower the cost of your auto insurance. Learn more.",
+          "image": "insurance-auto-icon.svg",
+          "links": [
+            {
+              "link": "http://www.iii.org/article/how-can-i-save-money-auto-insurance",
+              "linkText": "Learn more"
+            }
+          ]
+        },
+        {
+          "title": "How to review your homeowners and renters insurance policy",
+          "description": "Whenever your policy comes up for renewal, major changes to your home, or changes to who is living in your home should trigger a review.",
+          "image": "insurance-homeowners-review-icon.svg",
+          "links": [
+            {
+              "link": "http://www.iii.org/article/how-often-should-i-review-my-policy",
+              "linkText": "Learn more"
+            }
+          ]
+        },
+        {
+          "title": "When to review your life insurance policy",
+          "description": "When you have major life changes, contact your insurance company. Your needs for life insurance coverage may have changed as well.",
+          "image": "insurance-life-review-icon.svg",
+          "links": [
+            {
+              "link": "http://www.iii.org/article/how-often-should-i-review-my-policy-0",
+              "linkText": "Learn more"
+            }
+          ]
+        },
+        {
+          "title": "How to save money on disability insurance",
+          "description": "Two ways to keep costs down for disability insurance include ",
+          "image": "insurance-disability-icon.svg",
+          "links": [
+            {
+              "link": "http://www.iii.org/article/how-can-i-save-money",
+              "linkText": "Learn more"
+            }
+          ]
+        },
+        {
+          "title": "How to decide if you should buy umbrella insurance",
+          "description": "Personal umbrella insurance provides you extra liability coverage above your other insurance policies. It takes effect when you reach the limit on the underlying liability coverage of other insurance such as homeowners, renters, or auto policies.",
+          "image": "insurance-umbrella-icon.svg",
+          "links": [
+            {
+              "link": "http://www.iii.org/article/should-i-purchase-umbrella-liability-policy-0",
+              "linkText": "Learn more"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "fa28bbb3-8f68-44c6-a2e3-8115911b2eb2": {
+    "id": "fa28bbb3-8f68-44c6-a2e3-8115911b2eb2",
+    "questionId": "insurance",
+    "text": "No, I am not protected.",
+    "score": 0,
+    "rank": "bad",
+    "result": {
+      "title": "You do not have insurance against emergencies",
+      "subtitle": "It is important to insure against different emergencies that might happen. Learn more below about whether or not the following insurance policies would be important for you, and how to go about choosing a policy.",
+      "references": [
+        {
+          "title": "Auto insurance basics",
+          "description": "Auto insurance provides property, liability, and medical coverage if you are ever in an auto accident.",
+          "image": "car-icon.svg",
+          "links": [
+            {
+              "link": "http://www.iii.org/article/what-auto-insurance",
+              "linkText": "Learn more"
+            }
+          ]
+        },
+        {
+          "title": "How to decide how much homeowners insurance you need",
+          "description": "When buying homeowners insurance, consider how much it would cost to rebuild your home, the value of your personal possessions, costs of living expenses if you need to leave your home during repairs, and your potential liability.",
+          "image": "insurance-calculator-icon.svg",
+          "links": [
+            {
+              "link": "http://www.iii.org/article/how-much-homeowners-insurance-do-i-need",
+              "linkText": "Learn more"
+            }
+          ]
+        },
+        {
+          "title": "Making the most of your renters insurance",
+          "description": "Renters insurance can protect your belongings and finances in the case of theft or property emergencies that cause you to no longer be able to live in your rental. The video in the link below explains what renters insurance is and how to prepare yourself if you ever need to file a claim. ",
+          "image": "insurance-renters-icon.svg",
+          "links": [
+            {
+              "link": "http://www.iii.org/video/renters-insurance",
+              "linkText": "Learn more"
+            }
+          ]
+        },
+        {
+          "title": "Steps for buying life insurance",
+          "description": "You may need life insurance if you have people who depend on you for financial support. Read more below for strategies for buying enough life insurance. If your employer provides life insurance, you may want to get a separate individual life insurance policy that provides more coverage for your dependents and that you can take with you when you leave.",
+          "image": "insurance-life-icon.svg",
+          "links": [
+            {
+              "link": "http://www.iii.org/article/eight-smart-steps-for-buying-life-insurance",
+              "linkText": "Learn more"
+            }
+          ]
+        },
+        {
+          "title": "What to know about buying disability insurance",
+          "description": "Your employer may offer disability insurance. You may also want to get an individual disability insurance policy that you can take with you if you leave your employer. The insurance agent who helped you buy other insurance may be able to help you get disability insurance, or refer you to an agent who can sell you a policy.",
+          "image": "insurance-disability-icon.svg",
+          "links": [
+            {
+              "link": "http://www.iii.org/article/what-you-need-to-know-about-buying-disability-insurance",
+              "linkText": "Learn more"
+            }
+          ]
+        },
+        {
+          "title": "How to decide if you should buy umbrella insurance",
+          "description": "Personal umbrella insurance provides you extra liability coverage above your other insurance policies. It takes effect when you reach the limit on the underlying liability coverage of other insurance such as homeowners, renters, or auto policies.",
+          "image": "insurance-umbrella-icon.svg",
+          "links": [
+            {
+              "link": "http://www.iii.org/article/should-i-purchase-umbrella-liability-policy-0",
+              "linkText": "Learn more"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "90c5a987-d8e5-4c3c-a5b8-1e723be2058d": {
+    "id": "90c5a987-d8e5-4c3c-a5b8-1e723be2058d",
+    "questionId": "insurance",
+    "text": "I am protected against some financial emergencies",
+    "score": 5,
+    "rank": "ok",
+    "result": {
+      "title": "You've done a good job of protecting yourself against some emergencies",
+      "subtitle": "Great job getting insurance. There may be room to save on your current insurance premiums without lowering your coverage. There may also be other types of insurance that would be important for you to get. Which types of insurance policies below would you like to get or learn more about?",
+      "references": [
+        {
+          "title": "Find a local healthcare navigator",
+          "description": "Healthcare Navigators are trained and unbiased individuals or organizations that can help you look for affordable health coverage options. They also also help you apply for insurance from your state health insurance marketplace if you are self-employed, unemployed, or if your employer does not offer health insurance.",
+          "image": "insurance-direction-icon.svg",
+          "links": [
+            {
+              "link": "https://localhelp.healthcare.gov/",
+              "linkText": "Go to healthcare.gov"
+            }
+          ]
+        },
+        {
+          "title": "Find ways to save on auto insurance",
+          "description": "There are strategies to lower the cost of your auto insurance. Learn more.",
+          "image": "insurance-auto-icon.svg",
+          "links": [
+            {
+              "link": "http://www.iii.org/article/how-can-i-save-money-auto-insurance",
+              "linkText": "Learn more"
+            }
+          ]
+        },
+        {
+          "title": "How to decide how much homeowners insurance you need",
+          "description": "When buying homeowners insurance, consider how much it would cost to rebuild your home, the value of your personal possessions, costs of living expenses if you need to leave your home during repairs, and your potential liability.",
+          "image": "insurance-calculator-icon.svg",
+          "links": [
+            {
+              "link": "http://www.iii.org/article/how-much-homeowners-insurance-do-i-need",
+              "linkText": "Learn more"
+            }
+          ]
+        },
+        {
+          "title": "Making the most of your renters insurance",
+          "description": "Renters insurance can protect your belongings and finances in the case of theft or property emergencies that cause you to no longer be able to live in your rental. The video in the link below explains what renters insurance is and how to prepare yourself if you ever need to file a claim.",
+          "image": "insurance-renters-icon.svg",
+          "links": [
+            {
+              "link": "http://www.iii.org/video/renters-insurance",
+              "linkText": "Learn more"
+            }
+          ]
+        },
+        {
+          "title": "Steps for buying life insurance",
+          "description": "You may need life insurance if you have people who depend on you for financial support. Read more in the link below for strategies for buying enough life insurance. If your employer provides life insurance, you may want to get a separate individual life insurance policy that provides more coverage for your dependents and that you can take with you when you leave.",
+          "image": "insurance-life-icon.svg",
+          "links": [
+            {
+              "link": "http://www.iii.org/article/eight-smart-steps-for-buying-life-insurance",
+              "linkText": "Learn more"
+            }
+          ]
+        },
+        {
+          "title": "What to know about buying disability insurance",
+          "description": "Your employer may offer disability insurance. You may also want to get an individual disability insurance policy that you can take with you if you leave your employer. The insurance agent who helped you buy other insurance may be able to help you get disability insurance, or refer you to an agent who can sell you a policy.",
+          "image": "insurance-disability-icon.svg",
+          "links": [
+            {
+              "link": "http://www.iii.org/article/what-you-need-to-know-about-buying-disability-insurance",
+              "linkText": "Learn more"
+            }
+          ]
+        },
+        {
+          "title": "How to decide if you should buy umbrella insurance ",
+          "description": "Personal umbrella insurance provides you extra liability coverage above your other insurance policies. It takes effect when you reach the limit on the underlying liability coverage of other insurance such as homeowners, renters, or auto policies.",
+          "image": "insurance-umbrella-icon.svg",
+          "links": [
+            {
+              "link": "http://www.iii.org/article/should-i-purchase-umbrella-liability-policy-0",
+              "linkText": "Learn more"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

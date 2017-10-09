@@ -4,7 +4,8 @@ import questionsData from '../data/questions';
 const initialState = {
   choices: choicesData,
   questions: questionsData,
-  selectedAnswers: []
+  selectedAnswers: [],
+  language: 'es'
 };
 
 export default initialState;

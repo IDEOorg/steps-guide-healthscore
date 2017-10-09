@@ -3,9 +3,18 @@
     "id": "expenses",
     "position": 1,
     "maxScore": 20,
-    "title": "Expenses",
-    "text": "Does your monthly income cover your monthly expenses?",
-    "description": "Your monthly expenses include living expenses such as housing costs, utilities, phone bills, groceries, insurance premiums, and health care, and discretionary expenses like entertainment, eating out, and anything else.",
+    "title": {
+      "en": "Expenses",
+      "es": "Gastos"
+    },
+    "text": {
+      "en": "Does your monthly income cover your monthly expenses?",
+      "es": "Su ingreso mensual cubre sus gastos mensuales?"
+    },
+    "description": {
+      "en": "Your monthly expenses include living expenses such as housing costs, utilities, phone bills, groceries, insurance premiums, and health care, and discretionary expenses like entertainment, eating out, and anything else.",
+      "es": "Sus gastos mensuales incluyen gastos como costos de vivienda, utilidades, cobros de telefono, mandado primas de seguro y atencion medica, y gastos discrecionales como entretenimiento, salir a comer y algunos mas."
+    },
     "choices": [
       "5ba48cea-f0dc-4cea-9dab-e1ae9b92f1fb",
       "275a81b3-6d54-485e-8849-bf5fe1f078b2",
@@ -14,11 +23,20 @@
   },
   "bills": {
     "id": "bills",
-    "title": "Bills",
+    "title": {
+      "en": "Bills",
+      "es": "Cobros"
+    },
     "position": 2,
     "maxScore": 10,
-    "text": "How often do you pay your monthly bills on time?",
-    "description": "Bills include utilities, cell phone, insurance premiums, rent or mortgage payments, and anything else you get billed for regularly. Bills are considered late once 30 days past the due date.",
+    "text": {
+      "en": "How often do you pay your monthly bills on time?",
+      "es": "Con que frecuencia paga sus cobros mensuales a tiempo?"
+    },
+    "description": {
+      "en": "Bills include utilities, cell phone, insurance premiums, rent or mortgage payments, and anything else you get billed for regularly. Bills are considered late once 30 days past the due date.",
+      "es": "Cobros incluyen utilidades, celular, primas de seguros, renta o pago de casa, y cualquier otro cobro que reciba regularmente. Cobros estan tarde 30 dias despues de la fecha de vencimiento."
+    },
     "choices": [
       "9f73a05a-0bb5-42cd-a87e-d381c2a7ce45",
       "87782574-3915-46f2-81e3-28461bd2b471",
@@ -27,11 +45,20 @@
   },
   "credit-cards": {
     "id": "credit-cards",
-    "title": "Credit Cards",
+    "title": {
+      "en": "Credit Cards",
+      "es": "Tarjetas de credito"
+    },
     "position": 3,
     "maxScore": 10,
-    "text": "How often do you pay your monthly credit card bill in full?",
-    "description": "Although most credit card companies let borrowers pay a minimum monthly payment, paying your monthly credit card bill in full helps you avoid expensive interest charges.",
+    "text": {
+      "en": "How often do you pay your monthly credit card bill in full?",
+      "es": ""
+    },
+    "description": {
+      "en": "Although most credit card companies let borrowers pay a minimum monthly payment, paying your monthly credit card bill in full helps you avoid expensive interest charges.",
+      "es": ""
+    },
     "choices": [
       "51a5cfa4-7a9f-46d7-bae4-b8df60239da9",
       "ea730daf-6ed0-4f1d-b84d-ad0fafd9b8bc",
@@ -40,11 +67,20 @@
   },
   "emergencies": {
     "id": "emergencies",
-    "title": "Emergencies",
+    "title": {
+      "en": "Emergencies",
+      "es": "Emergencias"
+    },
     "position": 4,
     "maxScore": 15,
-    "text": "How long will your emergency savings cover your living expenses?",
-    "description": "Living expenses include housing costs, utilities, phone bills, groceries, insurance premiums, and health care.",
+    "text": {
+      "en": "How long will your emergency savings cover your living expenses?",
+      "es": "Cuanto tiempo sus ahorros de emergencia cubren sus gastos para vivir?"
+    },
+    "description": {
+      "en": "Living expenses include housing costs, utilities, phone bills, groceries, insurance premiums, and health care.",
+      "es": "Gastos para vivir incluyen costos de casa, utilidades telefono, mandado, primas de seguro y cuidado medico."
+    },
     "choices": [
       "b3e2468e-76c7-4195-9aa0-2cd4c17255b0",
       "a3262523-6093-4d8b-9dbc-504110e1d293",
@@ -54,11 +90,20 @@
   },
   "retirement": {
     "id": "retirement",
-    "title": "Retirement",
+    "title": {
+      "en": "Retirement",
+      "es": "Retiro"
+    },
     "position": 5,
     "maxScore": 15,
-    "text": "Are you saving for retirement?",
-    "description": "Retirement is a long-term goal for most people.",
+    "text": {
+      "en": "Are you saving for retirement?",
+      "es": "Esta usted ahorrando para su retiro?"
+    },
+    "description": {
+      "en": "Retirement is a long-term goal for most people.",
+      "es": "Retiro es una meta a largo plazo para la mayoria de la gente."
+    },
     "choices": [
       "89403ab8-0b1d-448c-ae3a-c507247739b2",
       "67917261-975b-41e6-9b85-9cd8bb5b24e6",
@@ -68,11 +113,20 @@
   },
   "debt": {
     "id": "debt",
-    "title": "Debt",
+    "title": {
+      "en": "Debt",
+      "es": "Deuda"
+    },
     "position": 6,
     "maxScore": 10,
-    "text": "What role does your debt play in making financial decisions?",
-    "description": "Financial decisions can range from big ones like renting an apartment or buying a house, to choosing to eat out or cook at home.",
+    "text": {
+      "en": "What role does your debt play in making financial decisions?",
+      "es": "Que papel tiene tu deuda en las decisiones financieras?"
+    },
+    "description": {
+      "en": "Financial decisions can range from big ones like renting an apartment or buying a house, to choosing to eat out or cook at home.",
+      "es": "Las decisiones financieras pueden variar desde grandes como rentar un apartamento or comprar casa, a elegir comer fuera o cocinar en casa."
+    },
     "choices": [
       "3d6bb1ee-a0f3-4af7-a7aa-cdfd1feaa897",
       "f0c6236b-bafb-482c-afe6-ec7f8ba3cc27",
@@ -81,11 +135,20 @@
   },
   "credit-score": {
     "id": "credit-score",
-    "title": "Credit Score",
+    "title": {
+      "en": "Credit Score",
+      "es": "Puntuacion de credito"
+    },
     "position": 7,
     "maxScore": 10,
-    "text": "What is your credit score?",
-    "description": "Based on the 300 to 850 FICO or VantageScore scale.",
+    "text": {
+      "en": "What is your credit score?",
+      "es": "Cual es su puntuacion de credito?"
+    },
+    "description": {
+      "en": "Based on the 300 to 850 FICO or VantageScore scale.",
+      "es": "Basada en la escala FICO o VantageScore de 300 a 850."
+    },
     "choices": [
       "078f9171-0a16-46fa-9058-b7025bc04bee",
       "539b01a0-1746-4ca5-b8c9-bb3a2917a95f",
@@ -96,11 +159,20 @@
   },
   "insurance": {
     "id": "insurance",
-    "title": "Insurance",
+    "title": {
+      "en": "Insurance",
+      "es": "Seguro"
+    },
     "position": 8,
     "maxScore": 10,
-    "text": "Do you have insurance to protect you in case of emergency?",
-    "description": "Insurance includes health, homeowners or renters, life, disability, automotive, and other policies.",
+    "text": {
+      "en": "Do you have insurance to protect you in case of emergency?",
+      "es": "Tiene seguro para protegerle en caso de emergencia?"
+    },
+    "description": {
+      "en": "Insurance includes health, homeowners or renters, life, disability, automotive, and other policies.",
+      "es": "Seguro incluye de salud, propietario o inquilinos, vida, discapacidad, auto y otros tipos de polizas."
+    },
     "choices": [
       "7bf057bd-df04-45a0-a6ed-734029ee2ccb",
       "fa28bbb3-8f68-44c6-a2e3-8115911b2eb2",

@@ -2,9 +2,10 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './index.less';
 import classNames from 'classnames';
-
 import Button from '../Button';
 import UrlImage from '../UrlImage';
+import FormattedMsg from '../../containers/FormattedMsg';
+import constants from '../../data/constants';
 
 const Result = (props) => {
   if (!props.choice || !props.choice.result) return <div></div>;
@@ -13,15 +14,15 @@ const Result = (props) => {
 
   switch (props.choice.rank) {
     case 'good':
-      categorization = 'Great job';
+      categorization = constants.categorization.good;
       break;
 
     case 'ok':
-      categorization = 'Needs Improvement';
+      categorization = constants.categorization.ok;
       break;
 
     case 'bad':
-      categorization = 'High Priority';
+      categorization = constants.categorization.bad;
       break;
   }
 
@@ -33,11 +34,14 @@ const Result = (props) => {
           <Button
             key={linkItem.link}
             onClick={() => {window.open(linkItem.link)}}
+            url={linkItem.link}
             textStyleClass="suggestion-btn__text"
             className="suggestion-btn"
           >
             <UrlImage />
-            {linkItem.linkText}
+            <FormattedMsg>
+              {linkItem.linkText}
+            </FormattedMsg>
           </Button>
         );
       });
@@ -56,8 +60,16 @@ const Result = (props) => {
             {icon}
           </div>
           <div className="suggestion__meta">
-            <h3>{ref.title}</h3>
-            <p>{ref.description}</p>
+            <h3>
+              <FormattedMsg>
+                {ref.title}
+              </FormattedMsg>
+            </h3>
+            <p>
+              <FormattedMsg>
+                {ref.description}
+              </FormattedMsg>
+            </p>
             {links}
           </div>
         </div>
@@ -73,10 +85,22 @@ const Result = (props) => {
       }
     )}>
       <div className="result__meta">
-        <div className="result__subtext">{categorization}</div>
-        <h2>{props.choice.result.title}</h2>
+        <div className="result__subtext">
+          <FormattedMsg>
+            {categorization}
+          </FormattedMsg>
+        </div>
+        <h2>
+          <FormattedMsg>
+            {props.choice.result.title}
+          </FormattedMsg>
+        </h2>
         <hr size="1" />
-        <p>{props.choice.result.subtitle}</p>
+        <p>
+          <FormattedMsg>
+            {props.choice.result.subtitle}
+          </FormattedMsg>
+        </p>
       </div>
       <div className="result-suggestions">
         {references}

@@ -8,6 +8,8 @@ import Result from '../../components/Result';
 import ResultsIntro from '../../components/ResultsIntro';
 import ResultTab from '../../components/ResultTab';
 import ScoreTicker from '../../components/ScoreTicker';
+import FormattedMsg from '../FormattedMsg';
+import constants from '../../data/constants';
 
 class ResultsPage extends Component {
   constructor (props) {
@@ -85,7 +87,7 @@ class ResultsPage extends Component {
       if (aValue < bValue) return -1;
       if (aValue > bValue) return 1;
       return a.question.position - b.question.position
-    })
+    });
     return results;
   }
 
@@ -108,11 +110,21 @@ class ResultsPage extends Component {
         'result--unselected': this.state.selected !== 0
       })}>
         <ScoreTicker />
-        <h2>Your score</h2>
-        <div className="result__subtext">Out of 100</div>
+        <h2>
+          <FormattedMsg>
+            {constants.options.score}
+          </FormattedMsg>
+        </h2>
+        <div className="result__subtext">
+          <FormattedMsg>
+            {constants.options.outof}
+          </FormattedMsg>
+        </div>
         <div className="result__meta">
           <p>
-            <b>No matter what your score is, what you do next is most important.</b> Spending less than you earn, saving for emergencies and planning for the future are the foundations of financial health. Good credit, less debt and financial security will follow.
+            <FormattedMsg>
+              {constants.options.tagline}
+            </FormattedMsg>
           </p>
         </div>
       </div>
@@ -126,8 +138,8 @@ class ResultsPage extends Component {
       <div className="results_page results_page--desktop">
         <div className="results_sidebar">
           <ResultsIntro
-            headlineText="What you should focus on"
-            goBackText="Back to questions"
+            headlineText={constants.options.navigationTag}
+            goBackText={constants.options.navigationBack}
             goBack={this.props.goBack}
           />
           {tabs}
@@ -139,7 +151,7 @@ class ResultsPage extends Component {
           {items}
         </div>
       </div>
-    )
+    );
   }
 
   mobileResults (tabs, items) {
@@ -150,7 +162,7 @@ class ResultsPage extends Component {
           {items[index]}
         </div>
       );
-    })
+    });
     return (
       <div className="results_page results_page--mobile">
         <ResultsIntro
@@ -160,7 +172,7 @@ class ResultsPage extends Component {
         />
         {combined}
       </div>
-    )
+    );
   }
 
   render () {
@@ -171,7 +183,7 @@ class ResultsPage extends Component {
 
     resultTabs.push(<ResultTab
       selected={0 === this.state.selected}
-      title="Your score"
+      title={constants.options.score}
       rank="info"
       onSelect={(e) => {this.scrollOnSelect(e, 0); this.toggleSelected(0);}}
     />);
@@ -180,14 +192,17 @@ class ResultsPage extends Component {
 
     results.forEach((result, index) => {
       let id = index+1;
-
+      let score = {
+        "en": `${result.choice.score} of ${result.question.maxScore}`,
+        "es": `${result.choice.score} de ${result.question.maxScore}`
+      };
       resultTabs.push(
         <ResultTab
           key={`result-tab-${result.choiceId}`}
           selected={id === this.state.selected}
           order={id}
           title={result.question.title}
-          score={`${result.choice.score} of ${result.question.maxScore}`}
+          score={score}
           rank={result.choice.rank}
           onSelect={(e) => {this.scrollOnSelect(e, id); this.toggleSelected(id);}}
         />
@@ -223,7 +238,8 @@ function mapStateToProps({choices, questions, selectedAnswers}) {
   return {
     choices,
     questions,
-    selectedAnswers
+    selectedAnswers,
+
   };
 }
 

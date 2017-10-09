@@ -5,7 +5,9 @@ import { push } from 'react-router-redux';
 import './index.less';
 import Button from '../../components/Button';
 import Question from '../../components/Question';
+import FormattedMsg from '../FormattedMsg';
 import { selectAnswer } from '../../store/selectedAnswers/selectedAnswers';
+import constants from '../../data/constants';
 
 class QuestionsSection extends Component {
   constructor (props) {
@@ -80,7 +82,9 @@ class QuestionsSection extends Component {
       <div>
         <div className="questions_section">
           <div className="prompt">
-            Answer these {this.props.questions.length} questions to get advice on how to improve your financial health.
+            <FormattedMsg>
+              {constants.mainIntro}
+            </FormattedMsg>
           </div>
           <div className="questions"
             ref={(element) => { this.questionsContainer = element; }}
@@ -88,7 +92,11 @@ class QuestionsSection extends Component {
             {questions}
           </div>
           <Button onClick={this.handleSubmit} className={"show_options_button"}>
-            <h4 className="show_options_button_text">Show me my recommendations</h4>
+            <h4 className="show_options_button_text">
+              <FormattedMsg>
+                {constants.recButton}
+              </FormattedMsg>
+            </h4>
           </Button>
         </div>
       </div>

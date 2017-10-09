@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import './index.less';
 import QuestionsSection from '../QuestionsSection';
 import ScoreTicker from '../../components/ScoreTicker';
+import FormattedMsg from '../FormattedMsg';
+import TranslateToggle from '../TranslateToggle';
+import constants from '../../data/constants';
 
 class QuestionsPage extends Component {
   constructor (props) {
@@ -38,12 +41,17 @@ class QuestionsPage extends Component {
           </div>
           <div className="intro_main_intro">
             <h1 className="intro_headline">
-              How do I improve my financial health?
+              <FormattedMsg>
+                {constants.title}
+              </FormattedMsg>
             </h1>
             <p className="intro_tagline">
-              The financial health calculator examines your money habits (spending, saving, borrowing, planning) to help you identify and prioritize the best steps to improve your financial well-being.
+              <FormattedMsg>
+                {constants.sidebar}
+              </FormattedMsg>
             </p>
           </div>
+          <TranslateToggle />
         </div>
         <div className="questions_page"
           ref={(questionsSection) => {this.questionsSection = questionsSection;}}
