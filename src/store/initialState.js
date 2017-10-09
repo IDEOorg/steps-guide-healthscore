@@ -5,7 +5,7 @@ const initialState = {
   choices: choicesData,
   questions: questionsData,
   selectedAnswers: [],
-  language: 'es'
+  language: 'en'
 };
 
 export default initialState;
