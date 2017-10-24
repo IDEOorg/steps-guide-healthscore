@@ -7,7 +7,9 @@ const Button = (props) => {
   return (
     <div className={classNames("button", props.className)} onClick={props.onClick}>
       <h4 className={classNames("button_text", props.textStyleClass)} data-url={props.url}>
-        {props.children}
+        <div className="button-children-wrapper">
+          {props.children}
+        </div>
       </h4>
     </div>
   );
