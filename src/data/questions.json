@@ -53,11 +53,11 @@
     "maxScore": 10,
     "text": {
       "en": "How often do you pay your monthly credit card bill in full?",
-      "es": ""
+      "es": "¿Con qué frecuencia paga su factura mensual de tarjeta de crédito en su totalidad?"
     },
     "description": {
       "en": "Although most credit card companies let borrowers pay a minimum monthly payment, paying your monthly credit card bill in full helps you avoid expensive interest charges.",
-      "es": ""
+      "es": "Aunque la mayoría de las compañías de tarjetas de crédito permiten un pago mensual mínimo, pagar su factura mensual de la tarjeta de crédito le ayuda a evitar cargos costosos de intereses."
     },
     "choices": [
       "51a5cfa4-7a9f-46d7-bae4-b8df60239da9",
