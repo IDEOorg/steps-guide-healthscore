@@ -6,11 +6,11 @@
   },
   "title": {
     "en": "How do I improve my financial health?",
-    "es": "Como mejoro mi salud financiera?"
+    "es": "¿Cómo mejoro mi salud financiera?"
   },
   "sidebar": {
     "en": "The financial health calculator examines your money habits (spending, saving, borrowing, planning) to help you identify and prioritize the best steps to improve your financial well-being.",
-    "es": "La calculadora de salud financiera examina sus habitos de dinero (gastando, ahorrando, prestando, planeando) para ayudarle a identificar y dar prioridad a los mejores pasos para mejorar su bienestar financiero"
+    "es": "La calculadora de salud financiera examina sus habitos de dinero (gastando, ahorrando, prestando, planeando) para ayudarle a identificar y dar prioridad a los mejores pasos para mejorar su bienestar financiero."
   },
   "categorization": {
     "good": {
@@ -29,7 +29,7 @@
   "options": {
     "score": {
       "en": "Your score",
-      "es": "Su puntuacion"
+      "es": "Su puntuación"
     },
     "outof": {
       "en": "Out of 100",
@@ -37,7 +37,7 @@
     },
     "tagline": {
       "en": "No matter what your score is, what you do next is most important. Spending less than you earn, saving for emergencies and planning for the future are the foundations of financial health. Good credit, less debt and financial security will follow.",
-      "es": "No importa cual sea su puntuacion, lo que haga a continuacion es muy importante. Gastar menos de lo que gana, ahorrar para emergencias y planear para el futuro son fundamentales para la salud financiera. Buen credito, menos deuda y la seguridad financiera le seguira."
+      "es": "No importa cual sea su puntuación, lo que haga a continuación es muy importante. Gastar menos de lo que gana, ahorrar para emergencias y planear para el futuro son fundamentales para la salud financiera. Buen crédito, menos deuda y la seguridad financiera seguirá."
     },
     "navigationBack": {
       "en": "Back to questions",
