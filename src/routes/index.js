@@ -4,11 +4,12 @@ import { Router, Route } from 'react-router';
 import App from '../containers/App';
 import QuestionsPage from '../containers/QuestionsPage';
 import ResultsPage from '../containers/ResultsPage';
+import { withTracker } from '../keen';
 
 const Routes = (props) => {
   return (
     <Router history={props.history}>
-      <Route component={App}>
+      <Route component={withTracker(App)}>
         <Route path="/" component={QuestionsPage} />
         <Route path="/results" component={ResultsPage} />
       </Route>

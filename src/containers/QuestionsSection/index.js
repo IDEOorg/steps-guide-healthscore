@@ -8,6 +8,7 @@ import Question from '../../components/Question';
 import FormattedMsg from '../FormattedMsg';
 import { selectAnswer } from '../../store/selectedAnswers/selectedAnswers';
 import constants from '../../data/constants';
+import { keenClient } from '../../keen';
 
 class QuestionsSection extends Component {
   constructor (props) {
@@ -65,9 +66,42 @@ class QuestionsSection extends Component {
       this.setState({showErrors: true});
       this.props.scrollToQuestion(event, this.questionsContainer.children[error]);
     } else {
+      this.trackSubmit();      
       this.setState({showErrors: false});
       this.props.onSubmit();
     }
+  }
+
+  calcScore () {
+    const answers = [];
+    const questions = this.getQuestionsWithMeta();
+    questions.forEach(question => {
+      answers.push(question.answers[0]);
+    });
+    const score = answers.reduce((sum, val) => {
+      return sum + val.score;
+    }, 0).toString().padStart(3, '0');
+  }
+
+  trackSelectedCards () {
+    this.getQuestionsWithMeta().forEach(question => {
+      keenClient.recordEvent('clicks', {
+        type: 'select',
+        action: 'selectFHSQuestion',
+        id: question.id || 'none',
+        text: question.text || 'none'
+      });
+    });
+  }
+
+  trackSubmit () {
+    const score = this.calcScore();
+    keenClient.recordEvent('submits', {
+      type: 'custom',
+      action: 'submitFHSQuestions',
+      score: score || 'none'
+    });
+    this.trackSelectedCards();
   }
 
   render () {
