@@ -4,8 +4,8 @@ import { Router, Route } from 'react-router';
 import App from '../containers/App';
 import QuestionsPage from '../containers/QuestionsPage';
 import ResultsPage from '../containers/ResultsPage';
+import { withTracker } from '../globals/tracker';
 import "babel-polyfill";
-import { withTracker } from '../keen';
 
 const Routes = (props) => {
   return (
