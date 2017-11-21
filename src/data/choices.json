@@ -46,7 +46,7 @@
     "questionId": "expenses",
     "text": {
       "en": "Yes, but with no money remaining",
-      "es": "Si, pero no con dinero que me queda"
+      "es": "Si, pero no me queda dinero"
     },
     "score": 10,
     "rank": "ok",
@@ -804,7 +804,7 @@
       },
       "subtitle": {
         "en": "You've done a great job of staying in control of your debt. Below are resources to check out if you want to lower your payments or create a plan for paying off debt.",
-        "es": "Ha hecho un buen trabajo de permancer en control de su deuda. A continuación le presentan recursos si usted quiere bajar sus pagos o crear un paln para pagar deudas."
+        "es": "Ha hecho un buen trabajo de permancer en control de su deuda. A continuación le presentan recursos si usted quiere bajar sus pagos o crear un plan para pagar deudas."
       },
       "references": [
         {
