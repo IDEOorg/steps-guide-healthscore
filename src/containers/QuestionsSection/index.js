@@ -8,7 +8,8 @@ import Question from '../../components/Question';
 import FormattedMsg from '../FormattedMsg';
 import { selectAnswer } from '../../store/selectedAnswers/selectedAnswers';
 import constants from '../../data/constants';
-import { keenClient } from '../../keen';
+import { keenClient } from '../../globals/tracker';
+import GoogleAnalytics from 'react-ga';
 
 class QuestionsSection extends Component {
   constructor (props) {
@@ -81,7 +82,7 @@ class QuestionsSection extends Component {
     const score = answers.reduce((sum, val) => {
       return sum + val.score;
     }, 0).toString().padStart(3, '0');
-		return score
+		return score;
   }
 
   trackSelectedCards () {
@@ -92,6 +93,12 @@ class QuestionsSection extends Component {
         id: question.id || 'none',
         text: question.text || 'none'
       });
+
+      GoogleAnalytics.event({
+        category: 'Statements',
+        action: 'select',
+        label: question.text || 'none'
+      });
     });
   }
 
@@ -101,6 +108,11 @@ class QuestionsSection extends Component {
       type: 'custom',
       action: 'submitFHSQuestions',
       score: score || 'none'
+    });
+    GoogleAnalytics.event({
+      category: 'Statements',
+      action: 'submit',
+      label: score || 'none'
     });
     this.trackSelectedCards();
   }

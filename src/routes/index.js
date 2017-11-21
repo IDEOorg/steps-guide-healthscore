@@ -4,7 +4,7 @@ import { Router, Route } from 'react-router';
 import App from '../containers/App';
 import QuestionsPage from '../containers/QuestionsPage';
 import ResultsPage from '../containers/ResultsPage';
-import { withTracker } from '../keen';
+import { withTracker } from '../globals/tracker';
 
 const Routes = (props) => {
   return (
