@@ -1,6 +1,8 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { selectLanguage } from '../../store/language/language';
+import { keenClient } from '../../globals/tracker';
+import GoogleAnalytics from 'react-ga';
 import './index.less';
 
 const TranslateToggle = (props) => {
@@ -17,6 +19,18 @@ const TranslateToggle = (props) => {
   return (
     <div className="toggle_box">
       <a onClick={() => {
+        keenClient.recordEvent('clicks', {
+          type: 'ui',
+          action: 'toggleLanguage',
+          text: switchTo || 'none',
+          switchToCode: switchToCode || 'none'
+        });
+
+        GoogleAnalytics.event({
+          category: 'UIActions',
+          action: 'click',
+          label: `toggle language to ${switchTo || 'none'}`
+        });
         props.translate(switchToCode);
       }}>
         <p className="toggle_text">
