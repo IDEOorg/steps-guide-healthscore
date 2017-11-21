@@ -25,7 +25,7 @@
           },
           "description": {
             "en": "Make a plan for building an emergency fund, saving for retirement, or another big money goal. Setting your priorities, and breaking down savings goals by how much you'd need to save regularly, makes big money goals more achievable.",
-            "es": "Hacer un plan para fondo de emergencia, ahorrar para la jubilacion o para otro objetivo al cual requiera una cantidad fuerte de dinero. Establecer sus prioridades y dividir sus metas de ahorro por cuanto necesita ahorrar regularmente, hace sus objetivos de dinero mas alcanzables."
+            "es": "Hacer un plan para fondo de emergencia, ahorrar para la jubilación o para otro objetivo al cual requiera una cantidad fuerte de dinero. Establecer sus prioridades y dividir sus metas de ahorro por cuanto necesita ahorrar regularmente, hace sus objetivos de dinero más alcanzables."
           },
           "image": "expenses-big-goals-icon.svg",
           "links": [
@@ -46,7 +46,7 @@
     "questionId": "expenses",
     "text": {
       "en": "Yes, but with no money remaining",
-      "es": "Si, pero no con dinero que me queda"
+      "es": "Si, pero no me queda dinero"
     },
     "score": 10,
     "rank": "ok",
@@ -57,7 +57,7 @@
       },
       "subtitle": {
         "en": "You can pay your bills, but are living paycheck to paycheck. By tracking your expenses, you can identify where you can reduce expenses. Also see what you can do to increase your income, if possible.",
-        "es": "Puedo pagar mis cobros, pero estoy viviendo de cheque a cheque. Llevando cuenta de nuestros gastos, usted puede identificar donde puede reducir gastos. Tambien puede ver lo que puede hacer para aumentar su ingresos, si es posible."
+        "es": "Puedo pagar mis cobros, pero estoy viviendo de cheque a cheque. Llevando cuenta de nuestros gastos, usted puede identificar donde puede reducir gastos. También puede ver lo que puede hacer para aumentar su ingresos, si es posible."
       },
       "references": [
         {
@@ -67,7 +67,7 @@
           },
           "description": {
             "en": "Managing your spending can help you achieve your financial goals. Read more for tools and tips.",
-            "es": "Administrar sus gastos puede ayudarle a alcanzar sus metas financieras. Leer mas sugerencias y herramientas."
+            "es": "Administrar sus gastos puede ayudarle a alcanzar sus metas financieras. Leer más sugerencias y herramientas."
           },
           "image": "expenses-track-icon.svg",
           "links": [
@@ -75,7 +75,7 @@
               "link": "https://www.consumerfinance.gov/about-us/blog/managing-your-spending-achieve-your-goals/",
               "linkText": {
                 "en": "Learn more from CFPB",
-                "es": "Aprenda mas en CFPB"
+                "es": "Aprenda más en CFPB"
               }
             }
           ]
@@ -87,7 +87,7 @@
           },
           "description": {
             "en": "Check out your local career center for employment opportunities, access career coaching, resources to start or grow a small business, or part-time work for extra income.",
-            "es": "Consulta su centro local para oportunidades de trabajo, carrera de acceso coaching, recursos para iniciar o hacer crecer pequenos negocios o trabajar tiempo medio para ingreso extra."
+            "es": "Consulta su centro local para oportunidades de trabajo, carrera de acceso coaching, recursos para iniciar o hacer crecer pequeños negocios o trabajar tiempo medio para ingreso extra."
           },
           "image": "expenses-stars-icon.png",
           "links": [
@@ -108,7 +108,7 @@
     "questionId": "expenses",
     "text": {
       "en": "No, my monthly expenses are usually more than my monthly income",
-      "es": "No, mis gastos mensuales son mas que mi ingreso mensual"
+      "es": "No, mis gastos mensuales son más que mi ingreso mensual"
     },
     "score": 0,
     "rank": "bad",
@@ -119,7 +119,7 @@
       },
       "subtitle": {
         "en": "By tracking your expenses, you can identify where you can reduce expenses. Also see what you can do to increase your income, if possible.",
-        "es": "Llevando control de sus gastos, puede identificar donde se puede reducir gastos. Tambien puede ver como puede aumentar su ingreso, si le es posible."
+        "es": "Llevando control de sus gastos, puede identificar donde se puede reducir gastos. También puede ver como puede aumentar su ingreso, si le es posible."
       },
       "references": [
         {
@@ -129,7 +129,7 @@
           },
           "description": {
             "en": "Managing your spending can help you achieve your financial goals. Read more for tools and tips.",
-            "es": "Administrar sus gastos puede ayudarle a alcanzar sus metas financieras. Leer mas sugerencias y herramientas."
+            "es": "Administrar sus gastos puede ayudarle a alcanzar sus metas financieras. Leer más sugerencias y herramientas."
           },
           "image": "expenses-track-icon.svg",
           "links": [
@@ -137,7 +137,7 @@
               "link": "https://www.consumerfinance.gov/about-us/blog/managing-your-spending-achieve-your-goals/",
               "linkText": {
                 "en": "Learn more from CFPB",
-                "es": "Aprenda mas en CFPB"
+                "es": "Aprenda más en CFPB"
               }
             }
           ]
@@ -149,7 +149,7 @@
           },
           "description": {
             "en": "Check out your local career center for employment opportunities, access career coaching, resources to start or grow a small business, or part-time work for extra income.",
-            "es": "Consulta su centro local para oportunidades de trabajo, carrera de acceso coaching, recursos para iniciar o hacer crecer pequenos negocios o trabajar tiempo medio para ingreso extra."
+            "es": "Consulta su centro local para oportunidades de trabajo, carrera de acceso coaching, recursos para iniciar o hacer crecer pequeños negocios o trabajar tiempo medio para ingreso extra."
           },
           "image": "expenses-stars-icon.png",
           "links": [
@@ -177,7 +177,7 @@
               "link": "http://www.thesimpledollar.com/trimming-the-fat-forty-ways-to-reduce-your-monthly-required-spending/",
               "linkText": {
                 "en": "Read more at The Simple Dollar",
-                "es": "Lea mas en The Simple Dollar"
+                "es": "Lea más en The Simple Dollar"
               }
             }
           ]
@@ -201,7 +201,7 @@
       },
       "subtitle": {
         "en": "Paying bills late can be stressful and companies may charge you extra fees for paying late. Below is information that might help.",
-        "es": "Pagar cuentas tardes puede ser estresante y las companias pueden cobrar cargos adicionales por pagar tarde. Abajo hay informacion que podria ayudarle."
+        "es": "Pagar cuentas tardes puede ser estresante y las compañias pueden cobrar cargos adicionales por pagar tarde. Abajo hay información que podria ayudarle."
       },
       "references": [
         {
@@ -211,7 +211,7 @@
           },
           "description": {
             "en": "Read about the pros and cons of different ways of paying bills. Automatic ways of paying your bills include automatic debit or online bill pay.",
-            "es": "Lea acerca de los pros y contras de las diferentes formas de pagar sus cuentas. Formas automaticas de pago de sus cuentas incluyen debito automatico o pagar en linea."
+            "es": "Lea acerca de los pros y contras de las diferentes formas de pagar sus cuentas. Formas automáticas de pago de sus cuentas incluyen débito automático o pagar en línea."
           },
           "image": "bills-paper-icon.svg",
           "links": [
@@ -219,7 +219,7 @@
               "link": "http://files.consumerfinance.gov/f/201507_cfpb_ways-to-pay-your-bills.pdf",
               "linkText": {
                 "en": "Learn more from CFPB",
-                "es": "Aprenda mas en CFPB"
+                "es": "Aprenda más en CFPB"
               }
             }
           ]
@@ -231,7 +231,7 @@
           },
           "description": {
             "en": "Write down when your income comes in, and when your bills are due. Then contact the companies you send money to and see if you can change when your bills are due to align more closely to when your income comes in. ",
-            "es": "Escriba cuando entra su ingreso y cuando vencen sus cuentas. Pongase en contacto con las empresas que les debe dinero para ver si puede cambiar las fechas de sus cuentas y asi que esten mas cercanas a cuando recibe su ingreso."
+            "es": "Escriba cuando entra su ingreso y cuando vencen sus cuentas. Pongase en contacto con las empresas que les debe dinero para ver si puede cambiar las fechas de sus cuentas y así que esten más cercanas a cuando recibe su ingreso."
           },
           "image": "bills-calendar-icon.svg",
           "links": [
@@ -239,7 +239,7 @@
               "link": "https://csd.wustl.edu/OurWork/FinIncl/FinCap-AccessAbilities/Documents/cfpb_ymyg_bundle_final_%20091316.pdf",
               "linkText": {
                 "en": "Look at Page 8 of this CFPB PDF",
-                "es": "Vea pagina 8 de este CFPB PDF"
+                "es": "Vea página 8 de este CFPB PDF"
               }
             }
           ]
@@ -263,7 +263,7 @@
       },
       "subtitle": {
         "en": "You're doing a great job paying your bills on time. In case you haven't already, consider automatic bill pay to save time and money.",
-        "es": "Usted esta haciendo un gran trabajo pagando sus cuentas a tiempo. En caso de que no los ha hecho ya, considere la posibilidad de pago de cuentas automaticas para ahorrar tiempo y dinero."
+        "es": "Usted está haciendo un gran trabajo pagando sus cuentas a tiempo. En caso de que no los ha hecho ya, considere la posibilidad de pago de cuentas automáticas para ahorrar tiempo y dinero."
       },
       "references": [
         {
@@ -273,7 +273,7 @@
           },
           "description": {
             "en": "Read more about the pros and cons of different ways of paying bills. Automatic ways of paying your bills include automatic debit or online bill pay. ",
-            "es": "Aprenda mas sobre los pros y contras de diferentes formas de pago de las cuentas. Formas automaticas de pago de sus cobros incluyen debito automatico o pagar en linea."
+            "es": "Aprenda más sobre los pros y contras de diferentes formas de pago de las cuentas. Formas automáticas de pago de sus cobros incluyen débito automático o pagar en línea."
           },
           "image": "bills-paper-icon.svg",
           "links": [
@@ -281,7 +281,7 @@
               "link": "http://files.consumerfinance.gov/f/201507_cfpb_ways-to-pay-your-bills.pdf",
               "linkText": {
                 "en": "Learn more from CFPB",
-                "es": "Aprenda mas de CFPB"
+                "es": "Aprenda más de CFPB"
               }
             }
           ]
@@ -311,21 +311,21 @@
     "result": {
       "title": {
         "en": "You pay your credit card balances monthly",
-        "es": "Usted paga los saldos de las tarjetas de credito mensualmente"
+        "es": "Usted paga los saldos de las tarjetas de crédito mensualmente"
       },
       "subtitle": {
         "en": "You're avoiding paying late fees and expensive interest charges.",
-        "es": "Esta evitando pagar cargos por pago tarde y cargos de interes alto."
+        "es": "Esta evitando pagar cargos por pago tarde y cargos de interés alto."
       },
       "references": [
         {
           "title": {
             "en": "Keep it up!",
-            "es": "Siga asi!"
+            "es": "Siga así!"
           },
           "description": {
             "en": "Staying on top of your payment history is an important component of building strong credit.",
-            "es": "Estando al pendiente de su historial de pago es un componente importante de tener buen credito"
+            "es": "Estando al pendiente de su historial de pago es un componente importante de tener buen crédito"
           },
           "image": "credit-cards-icon.svg"
         }
@@ -344,11 +344,11 @@
     "result": {
       "title": {
         "en": "Sometimes you carry a credit card balance",
-        "es": "A veces me queda saldo en la tarjeta de credito"
+        "es": "A veces me queda saldo en la tarjeta de crédito"
       },
       "subtitle": {
         "en": "There are steps you can take to pay your credit cards in full and save on expensive interest charges.",
-        "es": "Hay pasos que puede tomar para pagar sus tarjetas de credito por completo y ahorrar en cargos por intereses caros."
+        "es": "Hay pasos que puede tomar para pagar sus tarjetas de crédito por completo y ahorrar en cargos por intereses caros."
       },
       "references": [
         {
@@ -379,7 +379,7 @@
     "questionId": "credit-cards",
     "text": {
       "en": "I don't use credit cards",
-      "es": "No uso tarjeta de credito"
+      "es": "No uso tarjeta de crédito"
     },
     "score": 10,
     "rank": "good"
@@ -406,7 +406,7 @@
         {
           "title": {
             "en": "Here's a planning tool to help you build savings",
-            "es": "Aqui hay una herramienta de planificacion para ayudarle a crear ahorros"
+            "es": "Aquí hay una herramienta de planificación para ayudarle a crear ahorros"
           },
           "description": {
             "en": "An emergency fund of three to six months of living expenses is recommended (because that's how long unemployment lasts on average). You can start with as much or as little as you'd like. Try saving enough to cover your minimum debt payments, your monthly housing costs, or choose a number (like $100 or $1000).",
@@ -438,17 +438,17 @@
     "result": {
       "title": {
         "en": "You need more money to cover emergencies",
-        "es": "Necesita mas dinero para cubrir sus emergencias"
+        "es": "Necesita más dinero para cubrir sus emergencias"
       },
       "subtitle": {
         "en": "Great job getting started with savings. Now keep it up and build up a bigger emergency fund! An adequate emergency fund helps us get through unexpected shocks. Emergencies will happen, even if we don't know when.",
-        "es": "Buen trabajo empezando a ahorrar. Ahora mantenerlo y crear un fondo de emergencia mas grande! Un fondo de emergencia adecuado nos ayuda en situaciones inesperadas. Situaciones de emergencia van a pasar sin que sepamos cuando."
+        "es": "Buen trabajo empezando a ahorrar. ¡Ahora mantenerlo y crear un fondo de emergencia más grande! Un fondo de emergencia adecuado nos ayuda en situaciones inesperadas. Situaciones de emergencia van a pasar sin que sepamos cuando."
       },
       "references": [
         {
           "title": {
             "en": "Here's a planning tool to help you build more savings",
-            "es": "Aqui hay una herramienta de planificacion para ayudarle a que ahorre mas"
+            "es": "Aquí hay una herramienta de planificación para ayudarle a que ahorre más"
           },
           "description": {
             "en": "An emergency fund of three to six months of living expenses is recommended (because that's how long unemployment lasts on average). You can start with as much or as little as you'd like. Try saving enough to cover your minimum debt payments, your monthly housing costs, or choose a number (like $100 or $1000).",
@@ -480,7 +480,7 @@
     "result": {
       "title": {
         "en": "You might need more money to cover emergencies",
-        "es": "Podria necesitar mas dinero para cubrir sus emergencias"
+        "es": "Podría necesitar más dinero para cubrir sus emergencias"
       },
       "subtitle": {
         "en": "Great job building up an emergency fund. An adequate emergency fund helps us get through unexpected shocks. Emergencies will happen, even if we don't know when.",
@@ -490,7 +490,7 @@
         {
           "title": {
             "en": "Here's a planning tool to help you build even more savings",
-            "es": "Aqui hay una herramienta de planificacion para que ahorre mas."
+            "es": "Aquí hay una herramienta de planificación para que ahorre más."
           },
           "description": {
             "en": "An emergency fund of three to six months of living expenses is recommended (because that's how long unemployment lasts on average). If that feels too big, try saving enough for one month or pick a number (like $1000 or $2000).",
@@ -515,14 +515,14 @@
     "questionId": "emergencies",
     "text": {
       "en": "3 months or more",
-      "es": "3 meses o mas"
+      "es": "3 meses o más"
     },
     "score": 15,
     "rank": "good",
     "result": {
       "title": {
         "en": "You have a solid emergency fund",
-        "es": "Tengo un fondo de emergencia solido"
+        "es": "Tengo un fondo de emergencia sólido"
       },
       "subtitle": {
         "en": "Great job building up an emergency fund. An adequate emergency fund helps us get through unexpected shocks. Emergencies will happen, even if we don't know when.",
@@ -532,7 +532,7 @@
         {
           "title": {
             "en": "Here's a planning tool to help you build even more savings",
-            "es": "Aqui hay una herramienta de planificacion para que ahorre mas"
+            "es": "Aquí hay una herramienta de planificación para que ahorre más"
           },
           "description": {
             "en": "If you are able to save regularly each month, you can add to your emergency fund or plan for other big money goals like retirement.",
@@ -564,21 +564,21 @@
     "result": {
       "title": {
         "en": "You're all set for retirement",
-        "es": "Ya esta listo para jubilarse"
+        "es": "Ya está listo para jubilarse"
       },
       "subtitle": {
         "en": "Great job! One rule of thumb for what is enough is having annual retirement income that is equal to 80% of your current annual income. This amount can come from multiple sources like personal savings, workplace retirement accounts, and Social Security.",
-        "es": "Buen trabajo! Una regla para lo que es suficiente de tener es ingresos de jubilacion anual igual al 80% de sus ingreso anual actual. Esta cantidad puede provenir de varias fuentes como ahorro personal, cuentas de retiro de su trabajo y Seguro Social."
+        "es": "¡Buen trabajo! Una regla para lo que es suficiente de tener es ingresos de jubilacion anual igual al 80% de sus ingreso anual actual. Esta cantidad puede provenir de varias fuentes como ahorro personal, cuentas de retiro de su trabajo y Seguro Social."
       },
       "references": [
         {
           "title": {
             "en": "Make sure you're on track for retirement",
-            "es": "Asegurese que esta en el camino hacia su jubilacion"
+            "es": "Asegurese que está en el camino hacia su jubilacion"
           },
           "description": {
             "en": "Enter your age, income, and current savings to make sure you're on track for retirement.",
-            "es": "Ponga su edad, ingreso y sus ahorros para asegurarnos que esta en el camino adecuado a su jubilacion."
+            "es": "Ponga su edad, ingreso y sus ahorros para asegurarnos que está en el camino adecuado a su jubilacion."
           },
           "image": "retirement-cruising-icon.svg",
           "links": [
@@ -594,11 +594,11 @@
         {
           "title": {
             "en": "Estimate your Social Security retirement benefits",
-            "es": "Estimar sus beneficios de jubilacion del Seguro Social"
+            "es": "Estimación sus beneficios de jubilacion del Seguro Social"
           },
           "description": {
             "en": "Create your personalized account to see if you have enough work credits to qualify for Social Security retirement benefits, and for an estimate of what your Social Security retirement benefit will be when you retire.",
-            "es": "Crear una cuenta personalizada para ver si tiene suficientes creditos de trabajo para tener derecho a beneficios de jubilacion del Seguro Social y para una estimacion de lo que sus beneficios del Seguro Social seran cuando se jubile."
+            "es": "Crear una cuenta personalizada para ver si tiene suficientes creditos de trabajo para tener derecho a beneficios de jubilacion del Seguro Social y para una estimación de lo que sus beneficios del Seguro Social serán cuando se jubile."
           },
           "image": "retirement-ssa-icon.png",
           "links": [
@@ -650,7 +650,7 @@
       },
       "subtitle": {
         "en": "Nice work! One rule of thumb for what is enough is having annual retirement income that is equal to 80% of your current annual income. This amount can come from multiple sources like personal savings, workplace retirement accounts, and Social Security.",
-        "es": "Buen trabajo! Una regla para lo que es suficiente de tener es ingresos de jubilacion anual igual al 80% de sus ingreso anual actual. Esta cantidad puede provenir de varias fuentes como ahorro personal, cuentas de retiro de su trabajo y Seguro Social."
+        "es": "¡Buen trabajo! Una regla para lo que es suficiente de tener es ingresos de jubilacion anual igual al 80% de sus ingreso anual actual. Esta cantidad puede provenir de varias fuentes como ahorro personal, cuentas de retiro de su trabajo y Seguro Social."
       },
       "references": [
         {
@@ -660,7 +660,7 @@
           },
           "description": {
             "en": "Enter your age, income, and current savings to see if you're on your way, getting close, or on track for retirement.",
-            "es": "Ponga su edad, ingresos y sus ahorros para asegurarnos que esta en el camino adecuado a su jubilacion"
+            "es": "Ponga su edad, ingresos y sus ahorros para asegurarnos que está en el camino adecuado a su jubilacion"
           },
           "image": "retirement-track-icon.svg",
           "links": [
@@ -676,11 +676,11 @@
         {
           "title": {
             "en": "Estimate your Social Security retirement benefits",
-            "es": "Estimar sus beneficios de jubilacion del Seguro Social"
+            "es": "Estimación sus beneficios de jubilacion del Seguro Social"
           },
           "description": {
             "en": "Create your personalized account to see if you have enough work credits to qualify for Social Security retirement benefits, and for an estimate of what your Social Security retirement benefit will be when you retire.",
-            "es": "Crear una cuenta personalizada para ver si tiene suficientes creditos de trabajo para tener derecho a beneficios de jubilacion del Seguro Social y para una estimacion de lo que sus beneficios del Seguro Social seran cuando se jubile."
+            "es": "Crear una cuenta personalizada para ver si tiene suficientes creditos de trabajo para tener derecho a beneficios de jubilacion del Seguro Social y para una estimación de lo que sus beneficios del Seguro Social serán cuando se jubile."
           },
           "image": "retirement-ssa-icon.png",
           "links": [
@@ -738,11 +738,11 @@
         {
           "title": {
             "en": "Estimate your Social Security retirement benefits",
-            "es": "Estimar sus beneficios de jubilacion del Seguro Social"
+            "es": "Estimación sus beneficios de jubilacion del Seguro Social"
           },
           "description": {
             "en": "Create your personalized account to see if you have enough work credits to qualify for Social Security retirement benefits, and for an estimate of what your Social Security retirement benefit will be when you retire.",
-            "es": "Crear una cuenta personalizada para ver si tiene suficientes creditos de trabajo para tener derecho a beneficios de jubilacion del Seguro Social y para una estimacion de lo que sus beneficios del Seguro Social seran cuando se jubile."
+            "es": "Crear una cuenta personalizada para ver si tiene suficientes creditos de trabajo para tener derecho a beneficios de jubilacion del Seguro Social y para una estimación de lo que sus beneficios del Seguro Social serán cuando se jubile."
           },
           "image": "retirement-ssa-icon.png",
           "links": [
@@ -762,7 +762,7 @@
           },
           "description": {
             "en": "Enter your age, income, and current savings to see if you're on your way, getting close, or on track for retirement.",
-            "es": "Ponga su edad, ingresos y sus ahorros para asegurarnos que esta en el camino adecuado a su jubilacion."
+            "es": "Ponga su edad, ingresos y sus ahorros para asegurarnos que está en el camino adecuado a su jubilacion."
           },
           "image": "retirement-track-icon.svg",
           "links": [
@@ -804,7 +804,7 @@
       },
       "subtitle": {
         "en": "You've done a great job of staying in control of your debt. Below are resources to check out if you want to lower your payments or create a plan for paying off debt.",
-        "es": "Ha hecho un buen trabajo de permancer en control de su deuda. A continuacion le presentan recursos si usted quiere bajar sus pagos o crear un paln para pagar deudas."
+        "es": "Ha hecho un buen trabajo de permancer en control de su deuda. A continuación le presentan recursos si usted quiere bajar sus pagos o crear un plan para pagar deudas."
       },
       "references": [
         {
@@ -814,7 +814,7 @@
           },
           "description": {
             "en": "Get free, unbiased guidance on how to deal with common debt issues, such as: credit cards, student loans, payday loans, and collections.",
-            "es": "Obtener orientacion gratuita, imparcial sobre como tratar con problemas comunes de deuda tales como: tarjetas de credito, prestamos de estudiante, prestamos de dia de pago y colecciones."
+            "es": "Obtener orientacion gratuita, imparcial sobre como tratar con problemas comunes de deuda tales como: tarjetas de crédito, préstamos de estudiante, préstamos de día de pago y colecciónes."
           },
           "image": "debt-cfpb-icon.png",
           "links": [
@@ -834,7 +834,7 @@
           },
           "description": {
             "en": "Creating a long-term plan may help you pay off your debt even faster. Start by using this free calculator to create a personalized debt payoff plan.",
-            "es": "Crear un plan a largo plazo puede ayudar a pagar su deuda mas rapido. Comenzando a utilizar esta calculadora gratuita para crear un plan de pago de deuda personalizada."
+            "es": "Crear un plan a largo plazo puede ayudar a pagar su deuda más rapido. Comenzando a utilizar está calculadora gratuita para crear un plan de pago de deuda personalizada."
           },
           "image": "debt-calendar-icon.svg",
           "links": [
@@ -854,7 +854,7 @@
           },
           "description": {
             "en": "If your credit score has improved since you first got into debt (credit cards, personal loans, auto debt, mortgage, private student loans) try negotiating for a lower interest rate with your lenders or refinancing your loans. This could reduce your monthly payments and the total amount of interest you will pay for the debt. Use a refinancing calculator, specific to the type of debt you're interested in refinancing, to determine how much you can lower your monthly payment or save over the life of the loan with a lower interest rate. There may be an upfront cost to refinance.",
-            "es": "Si su puntaje de credito ha mejorado desde que usted obtuvo deuda (tarjetas de credito, prestamos personales, deuda de auto, hipotecas, prestamos de estudiantes privado) intente negociar una tasa de interes mas baja con sus prestamistas o refinanciar sus prestamos. Esto podria reducir sus pagos mensuales y la cantidad total de interes que tendra que pagar por la deuda. utilizar una calculadora para refinanciar, especifica con el tipo de deuda que le interesa refinanciar, para determinar cuanto puede bajar su pago mensual o ahorrar durante la vida del prestamo con una tasa de interes mas baja. Puede haber un costo inicial para refinanciar."
+            "es": "Si su puntaje de crédito ha mejorado desde que usted obtuvo deuda (tarjetas de crédito, préstamos personales, deuda de auto, hipotecas, préstamos de estudiantes privado) intente negociar una tasa de interés más baja con sus prestamistas o refinanciar sus préstamos. Esto podria reducir sus pagos mensuales y la cantidad total de interés que tendrá que pagar por la deuda. Utilizar una calculadora para refinanciar, especifica con el tipo de deuda que le interesa refinanciar, para determinar cuanto puede bajar su pago mensual o ahorrar durante la vida del préstamo con una tasa de interés más baja. Puede haber un costo inicial para refinanciar."
           },
           "image": "debt-calc-icon.svg",
           "links": [
@@ -896,7 +896,7 @@
           },
           "description": {
             "en": "Get free, unbiased guidance on how to deal with common debt issues, such as: credit cards, student loans, payday loans, and collections.",
-            "es": "Obtener orientacion gratuita, imparcial sobre como tratar con problemas comunes de deuda tales como: tarjetas de credito, prestamos de estudiante, prestamos de dia de pago y colecciones."
+            "es": "Obtener orientacion gratuita, imparcial sobre como tratar con problemas comunes de deuda tales como: tarjetas de crédito, préstamos de estudiante, préstamos de día de pago y colecciónes."
           },
           "image": "debt-cfpb-icon.png",
           "links": [
@@ -916,7 +916,7 @@
           },
           "description": {
             "en": "Creating a long-term plan may help you pay off your debt even faster. Start by using this free calculator to create a personalized debt payoff plan.",
-            "es": "Crear un plan a largo plazo puede ayudar a pagar su deuda mas rapido. Comenzando a utilizar esta calculadora gratuita para crear un plan de pago de deuda personalizada."
+            "es": "Crear un plan a largo plazo puede ayudar a pagar su deuda más rapido. Comenzando a utilizar está calculadora gratuita para crear un plan de pago de deuda personalizada."
           },
           "image": "debt-calendar-icon.svg",
           "links": [
@@ -936,7 +936,7 @@
           },
           "description": {
             "en": "If your credit score has improved since you first got into debt (credit cards, personal loans, auto debt, mortgage, private student loans) try negotiating for a lower interest rate with your lenders or refinancing your loans. This could reduce your monthly payments and the total amount of interest you will pay for the debt. Use a refinancing calculator, specific to the type of debt you're interested in refinancing, to determine how much you can lower your monthly payment or save over the life of the loan with a lower interest rate. There may be an upfront cost to refinance.",
-            "es": "Si su puntaje de credito ha mejorado desde que usted obtuvo deuda (tarjetas de credito, prestamos personales, deuda de auto, hipotecas, prestamos de estudiantes privado) intente negociar una tasa de interes mas baja con sus prestamistas o refinanciar sus prestamos. Esto podria reducir sus pagos mensuales y la cantidad total de interes que tendra que pagar por la deuda. utilizar una calculadora para refinanciar, especifica con el tipo de deuda que le interesa refinanciar, para determinar cuanto puede bajar su pago mensual o ahorrar durante la vida del prestamo con una tasa de interes mas baja. Puede haber un costo inicial para refinanciar."
+            "es": "Si su puntaje de crédito ha mejorado desde que usted obtuvo deuda (tarjetas de crédito, préstamos personales, deuda de auto, hipotecas, préstamos de estudiantes privado) intente negociar una tasa de interés más baja con sus prestamistas o refinanciar sus préstamos. Esto podria reducir sus pagos mensuales y la cantidad total de interés que tendrá que pagar por la deuda. Utilizar una calculadora para refinanciar, especifica con el tipo de deuda que le interesa refinanciar, para determinar cuanto puede bajar su pago mensual o ahorrar durante la vida del préstamo con una tasa de interés más baja. Puede haber un costo inicial para refinanciar."
           },
           "image": "debt-calc-icon.svg",
           "links": [
@@ -952,11 +952,11 @@
         {
           "title": {
             "en": "Find a credit counseling agency near you",
-            "es": "Encuentre un agencia de consejeria de credito cerca de usted"
+            "es": "Encuentre un agencia de consejeria de crédito cerca de usted"
           },
           "description": {
             "en": "The National Federation of Credit Counselors (NFCC) agency assists borrowers who are having difficulty paying their debt. If you are having trouble managing your debt, you may want to get personalized advice from a counselor. Talk to a counselor to understand what your options are. There may be a fee for these services.",
-            "es": "La Agencia de la Federacion Nacional de consejeros de credito (NFCC) ayuda a los prestatarios que tienen dificultades para pagar su deuda. Si usted tiene problemas para pagar su deuda, puede que desee obtener asesoramiento personalizado de un consejero. Hablar con un consejero para entender cuales son sus opciones. Puede haber un cargo por estos servicios."
+            "es": "La Agencia de la Federación Nacional de consejeros de crédito (NFCC) ayuda a los prestatarios que tienen dificultades para pagar su deuda. Si usted tiene problemas para pagar su deuda, puede que desee obtener asesoramiento personalizado de un consejero. Hablar con un consejero para entender cuales son sus opciones. Puede haber un cargo por estos servicios."
           },
           "image": "retirement-advice-icon.svg",
           "links": [
@@ -964,7 +964,7 @@
               "link": "https://www.nfcc.org/locator/",
               "linkText": {
                 "en": "Find a credit counselor",
-                "es": "Busque un Consejero de Credito"
+                "es": "Busque un Consejero de Crédito"
               }
             }
           ]
@@ -972,11 +972,11 @@
         {
           "title": {
             "en": "Visit a local credit union",
-            "es": "Visite una cooperativa de credito (Credit Union) local"
+            "es": "Visite una cooperativa de crédito (Credit Union) local"
           },
           "description": {
             "en": "You may be able to refinance your mortgage to get a lower interest rate at a credit union. This could save you money on interest payments each month and make more room in your budget. Some credit unions also offer financial counseling.",
-            "es": "Usted puede refinanciar su hipoteca para conseguir una tasa de interes mas baja en una cooperativa de credito (Credit Union). Esto podria ahorrar dinero en pagos de intereses cada mes y quitarse de pagos en su presupuesto. Algunas cooperativas de credito (Credit Union) tambien ofrecen asesoramiento financiero."
+            "es": "Usted puede refinanciar su hipoteca para conseguir una tasa de interés más baja en una cooperativa de crédito (Credit Union). Esto podria ahorrar dinero en pagos de intereses cada mes y quitarse de pagos en su presupuesto. Algunas cooperativas de crédito (Credit Union) también ofrecen asesoramiento financiero."
           },
           "image": "retirement-advice-icon.svg",
           "links": [
@@ -984,7 +984,7 @@
               "link": "https://www.mycreditunion.gov/Pages/mcu-map.aspx",
               "linkText": {
                 "en": "Find a local credit union",
-                "es": "Busque una cooperativa de credito (Credit Union) local."
+                "es": "Busque una cooperativa de crédito (Credit Union) local."
               }
             }
           ]
@@ -996,7 +996,7 @@
           },
           "description": {
             "en": "Pro bono (free), affordable, or private attorneys may be available in your state to help validate collection debt, dispute debt, or discuss other relief options such as bankruptcy. Income and other eligibility restrictions may apply to qualify for pro bono or affordable attorneys.",
-            "es": "Abogados Pro bono (gratis), economicos o privados pueden estar disponibles en su estado para ayudar a validar la deuda de la coleccion, cuestionar la deuda o discutir otras opciones de alivio como la bancarrota. Ingresos y otras restricciones de elegibilidad pueden aplicar para tener derecho a abogados pro bono o economicos."
+            "es": "Abogados Pro bono (gratis), económicos o privados pueden estar disponibles en su estado para ayudar a validar la deuda de la colección, cuestionar la deuda o discutir otras opciones de alivio como la bancarrota. Ingresos y otras restricciones de elegibilidad pueden aplicar para tener derecho a abogados pro bono o económicos."
           },
           "image": "legal-icon.svg",
           "links": [
@@ -1011,7 +1011,7 @@
               "link": "https://www.americanbar.org/groups/delivery_legal_services/initiatives_awards/program_main/program_profiles.html",
               "linkText": {
                 "en": "Find affordable attorneys",
-                "es": "Encuentre abogados economicos"
+                "es": "Encuentre abogados económicos"
               }
             },
             {
@@ -1048,21 +1048,21 @@
     "result": {
       "title": {
         "en": "Your credit is below average",
-        "es": "Su credito es menos que promedio"
+        "es": "Su crédito es menos que promedio"
       },
       "subtitle": {
         "en": "Many lenders use credit scores and credit histories to make lending decisions. A good credit score helps you save money on interest rates and possibly insurance.",
-        "es": "Muchos prestamistas utilizan las puntuaciones de credito y el historial de credito para tomar decisiones de prestamos. una buena puntuacion de credito te ayuda a ahorrar dinero en la tasa de interes y posiblemente el seguro."
+        "es": "Muchos prestamistas utilizan las puntuaciones de crédito y el historial de crédito para tomar decisiones de préstamos. una buena puntuación de crédito te ayuda a ahorrar dinero en la tasa de interés y posiblemente el seguro."
       },
       "references": [
         {
           "title": {
             "en": "Here are tips for building and keeping a good credit score",
-            "es": "Aqui algunos consejos para hacer y mantener una buena puntuacion de credito"
+            "es": "Aquí algunos consejos para hacer y mantener una buena puntuación de crédito"
           },
           "description": {
-            "en": "There is no secret formula to building a strong credit score, but there are steps you can take to help improve your score.",
-            "es": "No hay ninguna formula secreta para construir un puntaje de credito alto, pero hay pasos que puede tomar para ayudar a mejorar su puntuacion."
+            "en": "There is no secret fórmula to building a strong credit score, but there are steps you can take to help improve your score.",
+            "es": "No hay ninguna fórmula secreta para construir un puntaje de crédito alto, pero hay pasos que puede tomar para ayudar a mejorar su puntuación."
           },
           "image": "credit-score-icon.svg",
           "links": [
@@ -1070,7 +1070,7 @@
               "link": "https://www.consumerfinance.gov/consumer-tools/credit-reports-and-scores/build-good-credit-score/",
               "linkText": {
                 "en": "Learn more tips from CFPB",
-                "es": "Aprenda mas consejos de CFPB"
+                "es": "Aprenda más consejos de CFPB"
               }
             }
           ]
@@ -1090,21 +1090,21 @@
     "result": {
       "title": {
         "en": "You have an average credit score",
-        "es": "Tiene un puntaje de credito medio"
+        "es": "Tiene un puntaje de crédito medio"
       },
       "subtitle": {
         "en": "Many lenders use credit scores and credit histories to make lending decisions. A good credit score helps you save money on interest rates and possibly insurance.",
-        "es": "Muchos prestamistas utilizan las puntuaciones de credito y el historial de credito para tomar decisiones de prestamos. una buena puntuacion de credito te ayuda a ahorrar dinero en la tasa de interes y posiblemente el seguro."
+        "es": "Muchos prestamistas utilizan las puntuaciones de crédito y el historial de crédito para tomar decisiones de préstamos. una buena puntuación de crédito te ayuda a ahorrar dinero en la tasa de interés y posiblemente el seguro."
       },
       "references": [
         {
           "title": {
             "en": "Here are tips for building and keeping a good credit score",
-            "es": "Aqui algunos consejos para hacer y mantener una buena puntuacion de credito"
+            "es": "Aquí algunos consejos para hacer y mantener una buena puntuación de crédito"
           },
           "description": {
-            "en": "There is no secret formula to building a strong credit score, but there are steps you can take to help improve your score.",
-            "es": "No hay ninguna formula secreta para construir un puntaje de credito alto, pero hay pasos que puede tomar para ayudar a mejorar su puntuacion."
+            "en": "There is no secret fórmula to building a strong credit score, but there are steps you can take to help improve your score.",
+            "es": "No hay ninguna fórmula secreta para construir un puntaje de crédito alto, pero hay pasos que puede tomar para ayudar a mejorar su puntuación."
           },
           "image": "credit-score-icon.svg",
           "links": [
@@ -1112,7 +1112,7 @@
               "link": "https://www.consumerfinance.gov/consumer-tools/credit-reports-and-scores/build-good-credit-score/",
               "linkText": {
                 "en": "Learn more tips from CFPB",
-                "es": "Aprenda mas consejos de CFPB"
+                "es": "Aprenda más consejos de CFPB"
               }
             }
           ]
@@ -1125,28 +1125,28 @@
     "questionId": "credit-score",
     "text": {
       "en": "Good or excellent: 690 and above ",
-      "es": "Bueno o excelente: 690 o mas alto"
+      "es": "Bueno o excelente: 690 o más alto"
     },
     "score": 10,
     "rank": "good",
     "result": {
       "title": {
         "en": "You have a great credit score",
-        "es": "Tiene un puntaje de credito bueno"
+        "es": "Tiene un puntaje de crédito bueno"
       },
       "subtitle": {
         "en": "Many lenders use credit scores and credit histories to make lending decisions. A good credit score helps you save money on interest rates and possibly insurance.",
-        "es": "Muchos prestamistas utilizan las puntuaciones de credito y el historial de credito para tomar decisiones de prestamos. una buena puntuacion de credito te ayuda a ahorrar dinero en la tasa de interes y posiblemente el seguro."
+        "es": "Muchos prestamistas utilizan las puntuaciones de crédito y el historial de crédito para tomar decisiones de préstamos. una buena puntuación de crédito te ayuda a ahorrar dinero en la tasa de interés y posiblemente el seguro."
       },
       "references": [
         {
           "title": {
             "en": "Here are tips for keeping a good credit score",
-            "es": "Aqui algunos consejos para mantener una buena puntuacion de credito"
+            "es": "Aquí algunos consejos para mantener una buena puntuación de crédito"
           },
           "description": {
-            "en": "There is no secret formula to building a strong credit score, but there are steps you can take to help improve your score.",
-            "es": "No hay ninguna formula secreta para construir un puntaje de credito alto, pero hay pasos que puede tomar para ayudar a mejorar su puntuacion."
+            "en": "There is no secret fórmula to building a strong credit score, but there are steps you can take to help improve your score.",
+            "es": "No hay ninguna fórmula secreta para construir un puntaje de crédito alto, pero hay pasos que puede tomar para ayudar a mejorar su puntuación."
           },
           "image": "credit-score-icon.svg",
           "links": [
@@ -1154,7 +1154,7 @@
               "link": "https://www.consumerfinance.gov/consumer-tools/credit-reports-and-scores/build-good-credit-score/",
               "linkText": {
                 "en": "Learn more tips from CFPB",
-                "es": "Aprenda mas consejos de CFPB"
+                "es": "Aprenda más consejos de CFPB"
               }
             }
           ]
@@ -1167,28 +1167,28 @@
     "questionId": "credit-score",
     "text": {
       "en": "I do not know my credit score",
-      "es": "No se mi puntuacion de credito"
+      "es": "No se mi puntuación de crédito"
     },
     "score": 0,
     "rank": "bad",
     "result": {
       "title": {
         "en": "You don't know your credit score",
-        "es": "No sabe su puntaje de credito"
+        "es": "No sabe su puntaje de crédito"
       },
       "subtitle": {
         "en": "Many lenders use credit scores and credit histories to make lending decisions. A good credit score helps you save money on interest rates and possibly insurance.",
-        "es": "Muchos prestamistas utilizan las puntuaciones de credito y el historial de credito para tomar decisiones de prestamos. una buena puntuacion de credito te ayuda a ahorrar dinero en la tasa de interes y posiblemente el seguro."
+        "es": "Muchos prestamistas utilizan las puntuaciones de crédito y el historial de crédito para tomar decisiones de préstamos. una buena puntuación de crédito te ayuda a ahorrar dinero en la tasa de interés y posiblemente el seguro."
       },
       "references": [
         {
           "title": {
             "en": "Check your credit score online for free",
-            "es": "Revise su puntaje de credito gratis electronicamente"
+            "es": "Revise su puntaje de crédito gratis electronicamente"
           },
           "description": {
             "en": "Many credit cards or companies will show you your credit score for free online if you have an account.",
-            "es": "Muchas tarjetas de credito o companias le mostraran su puntaje de credito gratuitamente por internet si tiene una cuenta."
+            "es": "Muchas tarjetas de crédito o compañias le mostraran su puntaje de crédito gratuitamente por internet si tiene una cuenta."
           },
           "image": "credit-score-check-icon.svg",
           "links": [
@@ -1218,11 +1218,11 @@
         {
           "title": {
             "en": "Building credit from scratch",
-            "es": "Construya su credito desde cero"
+            "es": "Construya su crédito desde cero"
           },
           "description": {
             "en": "If you don't have a credit score and would like to build one, here's how to start.",
-            "es": "Si no tiene puntuacion de credito y le gustaria tener uno, aqui es como empezar"
+            "es": "Si no tiene puntuación de crédito y le gustaría tener uno, aqui es como empezar"
           },
           "image": "credit-blocks-icon.svg",
           "links": [
@@ -1230,7 +1230,7 @@
               "link": "https://s3.amazonaws.com/files.consumerfinance.gov/f/documents/201612_cfpb_credit_invisible_checklist.PDF",
               "linkText": {
                 "en": "Read more at CFPB",
-                "es": "Lea mas en CFPB"
+                "es": "Lea más en CFPB"
               }
             }
           ]
@@ -1238,11 +1238,11 @@
         {
           "title": {
             "en": "Building and keeping a good credit score",
-            "es": "Construyendo y manteniendo un buen puntaje de credito"
+            "es": "Construyendo y manteniendo un buen puntaje de crédito"
           },
           "description": {
             "en": "Once you have a credit score, here are tips for how to improve it.",
-            "es": "Una vez que tiene puntuacion de credito, aqui le tenemos consejos para mejorarlo"
+            "es": "Una vez que tiene puntuación de crédito, aqui le tenemos consejos para mejorarlo"
           },
           "image": "credit-score-icon.svg",
           "links": [
@@ -1250,7 +1250,7 @@
               "link": "https://www.consumerfinance.gov/consumer-tools/credit-reports-and-scores/build-good-credit-score/",
               "linkText": {
                 "en": "Learn more tips from CFPB",
-                "es": "Aprenda mas consejos de CFPB"
+                "es": "Aprenda más consejos de CFPB"
               }
             }
           ]
@@ -1284,7 +1284,7 @@
       },
       "subtitle": {
         "en": "Review your insurance policies at least once a year to make sure they are up to date and provide enough coverage. There may be room to save on your current insurance premiums without lowering your coverage. Also, you may want to consider an umbrella insurance policy if you need more coverage. Which types of insurance policies below would you like to learn more about?",
-        "es": "Revise sus polizas de seguro por lo menos una vez al ano para asegurarse de que estan al dia y tienen suficiente cobertura. Puede hacer cambios para ahorrar en sus primas de seguros actuales sin bajar su cobertura. Tambien puede que desee considerar una poliza de ampliacion de cobertura si lo necesita. Cual tipo de polizas de seguro que estan a continuacion le gustaria aprender mas?"
+        "es": "Revise sus polizas de seguro por lo menos una vez al año para asegurarse de que estan al día y tienen suficiente cobertura. Puede hacer cambios para ahorrar en sus primas de seguros actuales sin bajar su cobertura. También puede que desee considerar una poliza de ampliación de cobertura si lo necesita. ¿Cual tipo de polizas de seguro que estan a continuación le gustaría aprender más?"
       },
       "references": [
         {
@@ -1294,7 +1294,7 @@
           },
           "description": {
             "en": "You can make changes to your health insurance policy during open enrollment periods, or special enrolment periods such as a job loss, marriage, or the birth of a child. Learn more about how to save money on health insurance.",
-            "es": "Puede realizar cambios en su poliza de seguro de salud durante periodos de inscripcion abierta, o los periodos de inscripcion especial como una perdida de trabajo, matrimonio o el nacimiento de un nino. mas informacion sobre como ahorrar dinero en seguro de salud."
+            "es": "Puede realizar cambios en su poliza de seguro de salud durante periodos de inscripción abierta, o los periodos de inscripción especial como una pérdida de trabajo, matrimonio o el nacimiento de un niño. más información sobre como ahorrar dinero en seguro de salud."
           },
           "image": "insurance-health-icon.svg",
           "links": [
@@ -1302,7 +1302,7 @@
               "link": "http://www.consumerreports.org/health-insurance/what-to-do-if-your-insurance-premium-is-going-up/",
               "linkText": {
                 "en": "Read more at Consumer Reports",
-                "es": "Lea mas en Reportes del Consumidor"
+                "es": "Lea más en Reportes del Consumidor"
               }
             }
           ]
@@ -1314,7 +1314,7 @@
           },
           "description": {
             "en": "There are strategies to lower the cost of your auto insurance. Learn more.",
-            "es": "Existen estrategias para disminuir el costo de su seguro de auto. Aprende mas."
+            "es": "Existen estrategias para disminuir el costo de su seguro de auto. Aprende más."
           },
           "image": "insurance-auto-icon.svg",
           "links": [
@@ -1322,7 +1322,7 @@
               "link": "http://www.iii.org/article/how-can-i-save-money-auto-insurance",
               "linkText": {
                 "en": "Learn more",
-                "es": "Aprende mas"
+                "es": "Aprende más"
               }
             }
           ]
@@ -1334,7 +1334,7 @@
           },
           "description": {
             "en": "Whenever your policy comes up for renewal, major changes to your home, or changes to who is living in your home should trigger a review.",
-            "es": "Cada vez que su poliza se vaya a renovar, cambios importantes en su casa o cambios de los que viven en su casa debe desencadenar una revision."
+            "es": "Cada vez que su poliza se vaya a renovar, cambios importantes en su casa o cambios de los que viven en su casa debe desencadenar una revisión."
           },
           "image": "insurance-homeowners-review-icon.svg",
           "links": [
@@ -1342,7 +1342,7 @@
               "link": "http://www.iii.org/article/how-often-should-i-review-my-policy",
               "linkText": {
                 "en": "Learn more",
-                "es": "Aprende mas"
+                "es": "Aprende más"
               }
             }
           ]
@@ -1354,7 +1354,7 @@
           },
           "description": {
             "en": "When you have major life changes, contact your insurance company. Your needs for life insurance coverage may have changed as well.",
-            "es": "Cuando tenga cambios de vida importantes, pongase en contacto con su compania de seguros. Sus necesidades de seguro de vida pueden haber cambiado tambien."
+            "es": "Cuando tenga cambios de vida importantes, pongase en contacto con su compania de seguros. Sus necesidades de seguro de vida pueden haber cambiado también."
           },
           "image": "insurance-life-review-icon.svg",
           "links": [
@@ -1362,7 +1362,7 @@
               "link": "http://www.iii.org/article/how-often-should-i-review-my-policy-0",
               "linkText": {
                 "en": "Learn more",
-                "es": "Aprende mas"
+                "es": "Aprende más"
               }
             }
           ]
@@ -1382,7 +1382,7 @@
               "link": "http://www.iii.org/article/how-can-i-save-money",
               "linkText": {
                 "en": "Learn more",
-                "es": "Aprende mas"
+                "es": "Aprende más"
               }
             }
           ]
@@ -1390,11 +1390,11 @@
         {
           "title": {
             "en": "How to decide if you should buy umbrella insurance",
-            "es": "Como decidir si usted debe comprar poliza de ampliacion de cobertura"
+            "es": "Como decidir si usted debe comprar poliza de ampliación de cobertura"
           },
           "description": {
             "en": "Personal umbrella insurance provides you extra liability coverage above your other insurance policies. It takes effect when you reach the limit on the underlying liability coverage of other insurance such as homeowners, renters, or auto policies.",
-            "es": "La poliza de apliacion de cobertura le ofrece cobertura de responsabilidad civil extra por encima de sus otras polizas de seguro. Toma efecto cuando usted alcanza el limite de la cobertura de responsabilidad subyacente de otros seguros como los de propietarios, inquilinos o polizas de auto."
+            "es": "La poliza de apliación de cobertura le ofrece cobertura de responsabilidad civil extra por encima de sus otras polizas de seguro. Toma efecto cuando usted alcanza el limite de la cobertura de responsabilidad subyacente de otros seguros como los de propietarios, inquilinos o polizas de auto."
           },
           "image": "insurance-umbrella-icon.svg",
           "links": [
@@ -1402,7 +1402,7 @@
               "link": "http://www.iii.org/article/should-i-purchase-umbrella-liability-policy-0",
               "linkText": {
                 "en": "Learn more",
-                "es": "Aprende mas"
+                "es": "Aprende más"
               }
             }
           ]
@@ -1426,7 +1426,7 @@
       },
       "subtitle": {
         "en": "It is important to insure against different emergencies that might happen. Learn more below about whether or not the following insurance policies would be important for you, and how to go about choosing a policy.",
-        "es": "Es importante asegurarse contra diferentes emergencias que podrian suceder. Conozca mas aqui abajo si o no las siguientes polizas de seguro seria importantes para usted y como escoger una poliza."
+        "es": "Es importante asegurarse contra diferentes emergencias que podrian suceder. Conozca más aqui abajo si o no las siguientes polizas de seguro seria importantes para usted y como escoger una poliza."
       },
       "references": [
         {
@@ -1436,7 +1436,7 @@
           },
           "description": {
             "en": "Auto insurance provides property, liability, and medical coverage if you are ever in an auto accident.",
-            "es": "Seguro de auto proporciona cobertura medica, la responsabilidad y la cobertura medica si usted esta en un accidente automovilistico."
+            "es": "Seguro de auto proporciona cobertura médica, la responsabilidad y la cobertura médica si usted está en un accidente automovilistico."
           },
           "image": "car-icon.svg",
           "links": [
@@ -1444,7 +1444,7 @@
               "link": "http://www.iii.org/article/what-auto-insurance",
               "linkText": {
                 "en": "Learn more",
-                "es": "Aprende mas"
+                "es": "Aprende más"
               }
             }
           ]
@@ -1464,7 +1464,7 @@
               "link": "http://www.iii.org/article/how-much-homeowners-insurance-do-i-need",
               "linkText": {
                 "en": "Learn more",
-                "es": "Aprende mas"
+                "es": "Aprende más"
               }
             }
           ]
@@ -1472,11 +1472,11 @@
         {
           "title": {
             "en": "Making the most of your renters insurance",
-            "es": "Aproveche al maximo su seguro de inquilinos"
+            "es": "Aproveche al máximo su seguro de inquilinos"
           },
           "description": {
             "en": "Renters insurance can protect your belongings and finances in the case of theft or property emergencies that cause you to no longer be able to live in your rental. The video in the link below explains what renters insurance is and how to prepare yourself if you ever need to file a claim. ",
-            "es": "Seguro para inquilinos puede proteger sus cosas y su dinero en el caso de robo o emergencias en la porpiedad que le puede ocasionar no poder vivir ahi..El video que tenemos aqui abajo explica que es el seguro de inquilinos y como prepararse si alguna vez necesita hacer un reclamo."
+            "es": "Seguro para inquilinos puede proteger sus cosas y su dinero en el caso de robo o emergencias en la porpiedad que le puede ocasionar no poder vivir ahí..El video que tenemos aqui abajo explica que es el seguro de inquilinos y como prepararse si alguna vez necesita hacer un reclamo."
           },
           "image": "insurance-renters-icon.svg",
           "links": [
@@ -1484,7 +1484,7 @@
               "link": "http://www.iii.org/video/renters-insurance",
               "linkText": {
                 "en": "Learn more",
-                "es": "Aprende mas"
+                "es": "Aprende más"
               }
             }
           ]
@@ -1496,7 +1496,7 @@
           },
           "description": {
             "en": "You may need life insurance if you have people who depend on you for financial support. Read more below for strategies for buying enough life insurance. If your employer provides life insurance, you may want to get a separate individual life insurance policy that provides more coverage for your dependents and that you can take with you when you leave.",
-            "es": "Puede que necesite seguro de vida si usted tiene personas que dependen de usted para apoyo financiero. Lea mas abajo para estrategias para comprar suficiente seguro de vida. Si su empleador ofrece seguro de vida, puede que desee obtener una poliza de seguro de vida individual separada que proporciona mayor cobertura para sus dependientes y que se puede llevar con usted cuando se vaya."
+            "es": "Puede que necesite seguro de vida si usted tiene personas que dependen de usted para apoyo financiero. Lea más abajo para estrategias para comprar suficiente seguro de vida. Si su empleador ofrece seguro de vida, puede que desee obtener una poliza de seguro de vida individual separada que proporciona mayor cobertura para sus dependientes y que se puede llevar con usted cuando se vaya."
           },
           "image": "insurance-life-icon.svg",
           "links": [
@@ -1504,7 +1504,7 @@
               "link": "http://www.iii.org/article/eight-smart-steps-for-buying-life-insurance",
               "linkText": {
                 "en": "Learn more",
-                "es": "Aprende mas"
+                "es": "Aprende más"
               }
             }
           ]
@@ -1516,7 +1516,7 @@
           },
           "description": {
             "en": "Your employer may offer disability insurance. You may also want to get an individual disability insurance policy that you can take with you if you leave your employer. The insurance agent who helped you buy other insurance may be able to help you get disability insurance, or refer you to an agent who can sell you a policy.",
-            "es": "Su empleador puede ofrecer seguro de incapacidad. Tambien puede obtener una poliza de seguro de discapacidad individual que se puede llevar con usted si usted deja su trabajo. El agente de seguro que le ayudo a comprar otro seguro puede ayudarle a tener un seguro de incapacidad o referirlo a un agente que puede vendar una poliza."
+            "es": "Su empleador puede ofrecer seguro de incapacidad. También puede obtener una poliza de seguro de discapacidad individual que se puede llevar con usted si usted deja su trabajo. El agente de seguro que le ayudo a comprar otro seguro puede ayudarle a tener un seguro de incapacidad o referirlo a un agente que puede vendar una poliza."
           },
           "image": "insurance-disability-icon.svg",
           "links": [
@@ -1524,7 +1524,7 @@
               "link": "http://www.iii.org/article/what-you-need-to-know-about-buying-disability-insurance",
               "linkText": {
                 "en": "Learn more",
-                "es": "Aprende mas"
+                "es": "Aprende más"
               }
             }
           ]
@@ -1544,7 +1544,7 @@
               "link": "http://www.iii.org/article/should-i-purchase-umbrella-liability-policy-0",
               "linkText": {
                 "en": "Learn more",
-                "es": "Aprende mas"
+                "es": "Aprende más"
               }
             }
           ]
@@ -1568,7 +1568,7 @@
       },
       "subtitle": {
         "en": "Great job getting insurance. There may be room to save on your current insurance premiums without lowering your coverage. There may also be other types of insurance that would be important for you to get. Which types of insurance policies below would you like to get or learn more about?",
-        "es": "Gran trabajo consiguiendo seguro. Puede haber oportunidad de ahorrar en sus primas de seguro actuales sin bajar su cobertura. Tambien puede haber otros tipos de seguros que seria importante para que usted pueda conseguir. Cual tipo de poliza de seguro a continuacion quiere obtener o conocer mas?"
+        "es": "Gran trabajo consiguiendo seguro. Puede haber oportunidad de ahorrar en sus primas de seguro actuales sin bajar su cobertura. También puede haber otros tipos de seguros que seria importante para que usted pueda conseguir. ¿Cual tipo de poliza de seguro a continuación quiere obtener o conocer más?"
       },
       "references": [
         {
@@ -1578,7 +1578,7 @@
           },
           "description": {
             "en": "Healthcare Navigators are trained and unbiased individuals or organizations that can help you look for affordable health coverage options. They also also help you apply for insurance from your state health insurance marketplace if you are self-employed, unemployed, or if your employer does not offer health insurance.",
-            "es": "Navegantes de salud son individuos capacitados e imparciales u organizaciones que pueden ayudar a buscar opciones de cobertura de salud accesible. Ellos tambien pueden ayudarle a aplicar para el seguro de su mercado de seguro de salud del estado. Si trabaja por cuenta propia, desempleados o si su empleador no ofrece seguro de salud."
+            "es": "Navegantes de salud son individuos capacitados e imparciales u organizaciones que pueden ayudar a buscar opciones de cobertura de salud accesible. Ellos también pueden ayudarle a aplicar para el seguro de su mercado de seguro de salud del estado. Si trabaja por cuenta propia, desempleados o si su empleador no ofrece seguro de salud."
           },
           "image": "insurance-direction-icon.svg",
           "links": [
@@ -1598,7 +1598,7 @@
           },
           "description": {
             "en": "There are strategies to lower the cost of your auto insurance. Learn more.",
-            "es": "Hay estrategias para bajar el costo de sus seguro de auto. Aprenda mas."
+            "es": "Hay estrategias para bajar el costo de sus seguro de auto. Aprenda más."
           },
           "image": "insurance-auto-icon.svg",
           "links": [
@@ -1606,7 +1606,7 @@
               "link": "http://www.iii.org/article/how-can-i-save-money-auto-insurance",
               "linkText": {
                 "en": "Learn more",
-                "es": "Aprenda mas"
+                "es": "Aprenda más"
               }
             }
           ]
@@ -1626,7 +1626,7 @@
               "link": "http://www.iii.org/article/how-much-homeowners-insurance-do-i-need",
               "linkText": {
                 "en": "Learn more",
-                "es": "Aprenda mas"
+                "es": "Aprenda más"
               }
             }
           ]
@@ -1634,11 +1634,11 @@
         {
           "title": {
             "en": "Making the most of your renters insurance",
-            "es": "Aproveche al maximo su seguro de inquilinos"
+            "es": "Aproveche al máximo su seguro de inquilinos"
           },
           "description": {
             "en": "Renters insurance can protect your belongings and finances in the case of theft or property emergencies that cause you to no longer be able to live in your rental. The video in the link below explains what renters insurance is and how to prepare yourself if you ever need to file a claim.",
-            "es": "Seguro para inquilinos puede proteger sus cosas y su dinero en el caso de robo o emergencias en la porpiedad que le puede ocasionar no poder vivir ahi..El video que tenemos aqui abajo explica que es el seguro de inquilinos y como prepararse si alguna vez necesita hacer un reclamo."
+            "es": "Seguro para inquilinos puede proteger sus cosas y su dinero en el caso de robo o emergencias en la porpiedad que le puede ocasionar no poder vivir ahí..El video que tenemos aqui abajo explica que es el seguro de inquilinos y como prepararse si alguna vez necesita hacer un reclamo."
           },
           "image": "insurance-renters-icon.svg",
           "links": [
@@ -1646,7 +1646,7 @@
               "link": "http://www.iii.org/video/renters-insurance",
               "linkText": {
                 "en": "Learn more",
-                "es": "Aprenda mas"
+                "es": "Aprenda más"
               }
             }
           ]
@@ -1658,7 +1658,7 @@
           },
           "description": {
             "en": "You may need life insurance if you have people who depend on you for financial support. Read more in the link below for strategies for buying enough life insurance. If your employer provides life insurance, you may want to get a separate individual life insurance policy that provides more coverage for your dependents and that you can take with you when you leave.",
-            "es": "Puede que necesite seguro de vida si usted tiene personas que dependen de usted para apoyo financiero. Lea mas abajo para estrategias para comprar suficiente seguro de vida. Si su empleador ofrece seguro de vida, puede que desee obtener una poliza de seguro de vida individual separada que proporciona mayor cobertura para sus dependientes y que se puede llevar con usted cuando se vaya."
+            "es": "Puede que necesite seguro de vida si usted tiene personas que dependen de usted para apoyo financiero. Lea más abajo para estrategias para comprar suficiente seguro de vida. Si su empleador ofrece seguro de vida, puede que desee obtener una poliza de seguro de vida individual separada que proporciona mayor cobertura para sus dependientes y que se puede llevar con usted cuando se vaya."
           },
           "image": "insurance-life-icon.svg",
           "links": [
@@ -1666,7 +1666,7 @@
               "link": "http://www.iii.org/article/eight-smart-steps-for-buying-life-insurance",
               "linkText": {
                 "en": "Learn more",
-                "es": "Aprenda mas"
+                "es": "Aprenda más"
               }
             }
           ]
@@ -1678,7 +1678,7 @@
           },
           "description": {
             "en": "Your employer may offer disability insurance. You may also want to get an individual disability insurance policy that you can take with you if you leave your employer. The insurance agent who helped you buy other insurance may be able to help you get disability insurance, or refer you to an agent who can sell you a policy.",
-            "es": "Su empleador puede ofrecer seguro de incapacidad. Tambien puede obtener una poliza de seguro de discapacidad individual que se puede llevar con usted si usted deja su trabajo. El agente de seguro que le ayudo a comprar otro seguro puede ayudarle a tener un seguro de incapacidad o referirlo a un agente que puede vendar una poliza."
+            "es": "Su empleador puede ofrecer seguro de incapacidad. También puede obtener una poliza de seguro de discapacidad individual que se puede llevar con usted si usted deja su trabajo. El agente de seguro que le ayudo a comprar otro seguro puede ayudarle a tener un seguro de incapacidad o referirlo a un agente que puede vendar una poliza."
           },
           "image": "insurance-disability-icon.svg",
           "links": [
@@ -1686,7 +1686,7 @@
               "link": "http://www.iii.org/article/what-you-need-to-know-about-buying-disability-insurance",
               "linkText": {
                 "en": "Learn more",
-                "es": "Aprenda mas"
+                "es": "Aprenda más"
               }
             }
           ]
@@ -1706,7 +1706,7 @@
               "link": "http://www.iii.org/article/should-i-purchase-umbrella-liability-policy-0",
               "linkText": {
                 "en": "Learn more",
-                "es": "Aprenda mas"
+                "es": "Aprenda más"
               }
             }
           ]

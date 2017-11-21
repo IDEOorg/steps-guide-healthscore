@@ -5,6 +5,7 @@ import App from '../containers/App';
 import QuestionsPage from '../containers/QuestionsPage';
 import ResultsPage from '../containers/ResultsPage';
 import { withTracker } from '../globals/tracker';
+import "babel-polyfill";
 
 const Routes = (props) => {
   return (
