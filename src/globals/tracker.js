@@ -9,7 +9,7 @@ UA-88223011-2 = production
 UA-88223011-3 = "dev testing"
 */
 GoogleAnalytics.initialize(
-  `${debug ? 'UA-88223011-3' : 'UA-88223011-2'}`, {debug});
+  `${debug ? 'UA-88223011-3' : 'UA-88223011-2'}`, {debug, titleCase: false});
 
 function initKeen() {
   const md = new MobileDetect();

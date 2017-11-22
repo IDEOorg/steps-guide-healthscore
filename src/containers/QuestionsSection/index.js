@@ -87,17 +87,19 @@ class QuestionsSection extends Component {
 
   trackSelectedCards () {
     this.getQuestionsWithMeta().forEach(question => {
+      const text = question.question.text.en;
+
       keenClient.recordEvent('clicks', {
         type: 'select',
         action: 'selectFHSQuestion',
         id: question.id || 'none',
-        text: question.text || 'none'
+        text: text || 'none'
       });
 
       GoogleAnalytics.event({
         category: 'Statements',
         action: 'select',
-        label: question.text || 'none'
+        label: text || 'none'
       });
     });
   }
