@@ -6,9 +6,11 @@ import Button from '../Button';
 import UrlImage from '../UrlImage';
 import FormattedMsg from '../../containers/FormattedMsg';
 import constants from '../../data/constants';
+import { keenClient } from '../../globals/tracker';
+import GoogleAnalytics from 'react-ga';
 
 const Result = (props) => {
-  if (!props.choice || !props.choice.result) return <div></div>;
+  if (!props.choice || !props.choice.result) return <div />;
 
   let categorization = '';
 
@@ -33,7 +35,26 @@ const Result = (props) => {
         return (
           <Button
             key={linkItem.link}
-            onClick={() => {window.open(linkItem.link)}}
+            onClick={() => {
+              keenClient.recordEvent('clicks', {
+                type: 'linkOut',
+                action: 'clickResource',
+                text: linkItem.linkText.en || 'none',
+                url: linkItem.link || 'none'
+              });
+              GoogleAnalytics.event({
+                category: 'ResourcesByText',
+                action: 'click',
+                label: linkItem.linkText.en || 'none'
+              });
+              GoogleAnalytics.event({
+                category: 'ResourcesByURL',
+                action: 'click',
+                label: linkItem.link || 'none'
+              });
+
+              window.open(linkItem.link);
+            }}
             url={linkItem.link}
             textStyleClass="suggestion-btn__text"
             className="suggestion-btn"

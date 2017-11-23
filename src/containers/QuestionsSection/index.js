@@ -86,13 +86,18 @@ class QuestionsSection extends Component {
   }
 
   trackSelectedCards () {
-    this.getQuestionsWithMeta().forEach(question => {
-      const text = question.question.text.en;
+    console.clear();
+    console.log('PROPS', this.props);
+    this.props.selectedAnswers.forEach(answer => {
+      // console.log(answer.choiceId);
+      const matchingChoice = this.props.choices[answer.choiceId];
+      // console.log(matchingChoice);
+      const text = matchingChoice.text.en;
 
       keenClient.recordEvent('clicks', {
         type: 'select',
         action: 'selectFHSQuestion',
-        id: question.id || 'none',
+        id: answer.choiceId || 'none',
         text: text || 'none'
       });
 
@@ -109,12 +114,12 @@ class QuestionsSection extends Component {
     keenClient.recordEvent('submits', {
       type: 'custom',
       action: 'submitFHSQuestions',
-      score: score || 'none'
+      score: `score: ${score ? score : 'none'}`
     });
     GoogleAnalytics.event({
       category: 'Statements',
       action: 'submit',
-      label: score || 'none'
+      label: `score: ${score ? score : 'none'}`
     });
     this.trackSelectedCards();
   }
